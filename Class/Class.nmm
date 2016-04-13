@@ -1,0 +1,517 @@
+#Fire Emblem Fates Character Editor
+
+1
+Fire Emblem Fates Class Editor by RainThunder
+0xEA10
+129
+128
+Class.txt
+NULL
+
+Flag 1 - 8
+0
+1
+NDHU
+Flag1-8.txt
+
+Flag 9 - 16
+1
+1
+NDHU
+Flag9-16.txt
+
+Flag 17 - 24
+2
+1
+NDHU
+Flag17-24.txt
+
+Flag 25 - 32
+3
+1
+NDHU
+Flag25-32.txt
+
+Flag 33 - 40
+4
+1
+NDHU
+Flag33-40.txt
+
+Flag 41 - 48
+5
+1
+NDHU
+Flag41-48.txt
+
+Flag 49 - 56
+6
+1
+NDHU
+Flag49-56.txt
+
+Flag 57 - 64
+7
+1
+NDHU
+Flag57-64.txt
+
+Class Pointer
+8
+4
+NEHU
+NULL
+
+Face Pointer
+12
+4
+NEHU
+NULL
+
+Class Name Pointer
+16
+4
+NEHU
+NULL
+
+Class Label Pointer
+20
+4
+NEHU
+NULL
+
+Class ID
+24
+2
+NEHU
+NULL
+
+Special flag 1 - 8
+26
+1
+NDHU
+SpecialFlag1-8.txt
+
+Special flag 9 - 12
+27
+1
+NDHU
+SpecialFlag9-12.txt
+
+#Base Stats
+Base HP
+28
+1
+NEDS
+NULL
+
+Base Strength
+29
+1
+NEDS
+NULL
+
+Base Magic
+30
+1
+NEDS
+NULL
+
+Base Skill
+31
+1
+NEDS
+NULL
+
+Base Speed
+32
+1
+NEDS
+NULL
+
+Base Luck
+33
+1
+NEDS
+NULL
+
+Base Defense
+34
+1
+NEDS
+NULL
+
+Base Resistance
+35
+1
+NEDS
+NULL
+
+#Growth Rate
+HP Growth
+36
+1
+NEDU
+NULL
+
+Strength Growth
+37
+1
+NEDU
+NULL
+
+Magic Growth
+38
+1
+NEDU
+NULL
+
+Skill Growth
+39
+1
+NEDU
+NULL
+
+Speed Growth
+40
+1
+NEDU
+NULL
+
+Luck Growth
+41
+1
+NEDU
+NULL
+
+Defense Growth
+42
+1
+NEDU
+NULL
+
+Resistance Growth
+43
+1
+NEDU
+NULL
+
+HP ?
+44
+1
+NEDU
+NULL
+
+Strength ?
+45
+1
+NEDU
+NULL
+
+Magic ?
+46
+1
+NEDU
+NULL
+
+Skill ?
+47
+1
+NEDU
+NULL
+
+Speed ?
+48
+1
+NEDU
+NULL
+
+Luck ?
+49
+1
+NEDU
+NULL
+
+Defense ?
+50
+1
+NEDU
+NULL
+
+Resistance ?
+51
+1
+NEDU
+NULL
+
+#Maximum stats
+Maximum HP
+52
+1
+NEDU
+NULL
+
+Maximum Strength
+53
+1
+NEDU
+NULL
+
+Maximum Magic
+54
+1
+NEDU
+NULL
+
+Maximum Skill
+55
+1
+NEDU
+NULL
+
+Maximum Speed
+56
+1
+NEDU
+NULL
+
+Maximum Luck
+57
+1
+NEDU
+NULL
+
+Maximum Defense
+58
+1
+NEDU
+NULL
+
+Maximum Resistance
+59
+1
+NEDU
+NULL
+
+#Pair Up bonuses
+HP Pair Up Bonus
+60
+1
+NEDU
+NULL
+
+Strength Pair Up Bonus
+61
+1
+NEDU
+NULL
+
+Magic Pair Up Bonus
+62
+1
+NEDU
+NULL
+
+Skill Pair Up Bonus
+63
+1
+NEDU
+NULL
+
+Speed Pair Up Bonus
+64
+1
+NEDU
+NULL
+
+Luck Pair Up Bonus
+65
+1
+NEDU
+NULL
+
+Defense Pair Up Bonus
+66
+1
+NEDU
+NULL
+
+Resistance Pair Up Bonus
+67
+1
+NEDU
+NULL
+
+Maximum Sword Rank
+68
+1
+NDDU
+WeaponRank.txt
+
+Maximum Lance Rank
+69
+1
+NDDU
+WeaponRank.txt
+
+Maximum Axe Rank
+70
+1
+NDDU
+WeaponRank.txt
+
+Maximum Kunai Rank
+71
+1
+NDDU
+WeaponRank.txt
+
+Maximum Bow Rank
+72
+1
+NDDU
+WeaponRank.txt
+
+Maximum Tome Rank
+73
+1
+NDDU
+WeaponRank.txt
+
+Maximum Staff Rank
+74
+1
+NDDU
+WeaponRank.txt
+
+Maximum Stone Rank
+75
+1
+NDDU
+WeaponRank.txt
+
+Hit
+76
+2
+NEDU
+NULL
+
+Crit
+78
+2
+NEDU
+NULL
+
+Avoid
+80
+2
+NEDU
+NULL
+
+Dodge
+82
+2
+NEDU
+NULL
+
+Skill 1
+84
+2
+NDHU
+Skill.txt
+
+Skill 2
+86
+2
+NDHU
+Skill.txt
+
+Skill 3
+88
+2
+NDHU
+Skill.txt
+
+Skill 4
+90
+2
+NDHU
+Skill.txt
+
+Unknown
+92
+1
+NEHU
+NULL
+
+Movement
+93
+1
+NEDU
+NULL
+
+Unknown
+94
+1
+NEHU
+NULL
+
+Unknown
+95
+1
+NEHU
+NULL
+
+Movement pointer
+96
+4
+NEHU
+NULL
+
+Advanced Class 1
+100
+2
+NDHU
+Class2.txt
+
+Advanced Class 2
+102
+2
+NDHU
+Class2.txt
+
+Base class 1
+104
+2
+NDHU
+Class2.txt
+
+Base class 2
+106
+2
+NDHU
+Class2.txt
+
+Gender equivalent class
+112
+2
+NDHU
+Class2.txt
+
+Parallel class
+114
+2
+NDHU
+Class2.txt
+
+Origin
+116
+1
+NDHU
+Origin.txt
+
+DLC skill index
+123
+1
+NEHU
+NULL

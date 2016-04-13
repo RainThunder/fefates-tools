@@ -1,0 +1,93 @@
+#Fire Emblem Fates Character Editor
+
+1
+Fire Emblem Fates Chapter Editor by RainThunder
+0x84
+122
+28
+Chapter.txt
+NULL
+
+Chapter pointer
+0
+4
+NEHU
+NULL
+
+Battlefield pointer
+4
+4
+NEHU
+NULL
+
+Chapter ID
+8
+1
+NEHU
+NULL
+
+Chapter Type
+9
+1
+NDHU
+ChapterType.txt
+
+Birthright Index
+10
+1
+NEDU
+NULL
+
+Conquest Index
+11
+1
+NEDU
+NULL
+
+Revelation Index
+12
+1
+NEDU
+NULL
+
+Birthright condition
+13
+1
+NDHU
+Chapter2.txt
+
+Conquest condition
+14
+1
+NDHU
+Chapter2.txt
+
+Revelation condition
+15
+1
+NDHU
+Chapter2.txt
+
+Married character
+16
+2
+NDHU
+Character.txt
+
+Offspring Seal Level
+18
+1
+NEHU
+NULL
+
+Offspring Seal Level (2)
+19
+1
+NEHU
+NULL
+
+Route
+20
+1
+NDHU
+Route.txt

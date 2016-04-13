@@ -1,0 +1,123 @@
+122
+0x0 None
+0x1 Confirmation: To the Deciding Moment
+0x2 Prologue: Ties That Bind
+0x3 Chapter 1: Nohr
+0x4 Chapter 2: Gift of Ganglari
+0x5 Chapter 3: Journey Begins
+0x6 Chapter 4: Hoshido
+0x7 Chapter 5: Mother
+0x8 Chapter 6: In the White Light
+0x9 Chapter 7: A Vow Upheld
+0xA Chapter 8: Fierce Winds
+0xB Chapter 9: Land of Gods
+0xC Chapter 10: Ninja Village
+0xD Chapter 11: To the Sea
+0xE Chapter 12: Dark Reunion
+0xF Chapter 13: Another Hope
+0x10 Chapter 14: Light Scatters
+0x11 Chapter 15: Wolfskin Peak
+0x12 Chapter 16: Pleasure Palace
+0x13 Chapter 17: Lost in the Ice
+0x14 Chapter 18: Leo
+0x15 Chapter 19: Rainbow Sage
+0x16 Chapter 20: Fort Dragonfall
+0x17 Chapter 21: Burning Falls
+0x18 Chapter 22: Hidden Capital
+0x19 Chapter 23: Camilla
+0x1A Chapter 24: Tears of a Dragon
+0x1B Chapter 25: Traitor Revealed
+0x1C Chapter 26: Xander
+0x1D Chapter 27: King Garon
+0x1E Endgame: Dawn Breaks
+0x1F Chapter 6: Embrace the Dark
+0x20 Chapter 7: A Dragon's Decree
+0x21 Chapter 8: Cold Reception
+0x22 Chapter 9: Another Trial
+0x23 Chapter 10: Unhappy Reunion
+0x24 Chapter 11: Rainbow Sage
+0x25 Chapter 12: Bitter Intrigue
+0x26 Chapter 13: Uprising
+0x27 Chapter 14: Voice of Paradise
+0x28 Chapter 15: The Black Pillar
+0x29 Chapter 16: Invasion
+0x2A Chapter 17: Den of Betrayal
+0x2B Chapter 18: Black & White
+0x2C Chapter 19: Kitsune Lair
+0x2D Chapter 20: Winds of Change
+0x2E Chapter 21: Eternal Stairway
+0x2F Chapter 22: Sakura
+0x30 Chapter 23: Possessed
+0x31 Chapter 24: Hinoka
+0x32 Chapter 25: Ryoma
+0x33 Chapter 26: Treason
+0x34 Chapter 27: The Empty King
+0x35 Endgame: Night Breaks Through
+0x36 Chapter 6: Into the Ground
+0x37 Chapter 7: Unspeakable World
+0x38 Chapter 8: Traitor's Brand
+0x39 Chapter 9: Wanderer
+0x3A Chapter 10: Voice of a God
+0x3B Chapter 11: Mutual Enemies
+0x3C Chapter 12: Frozen Sea
+0x3D Chapter 13: A Lost Peace
+0x3E Chapter 14: Orders
+0x3F Chapter 15: Rainbow Sage
+0x40 Chapter 16: White Flames
+0x41 Chapter 17: Black Flames
+0x42 Chapter 18: Veiled Kingdom
+0x43 Chapter 19: Hidden Strings
+0x44 Chapter 20: Seeds of Doubt
+0x45 Chapter 21: Going Forward
+0x46 Chapter 22: Memories
+0x47 Chapter 23: Arete Undone
+0x48 Chapter 24: Days Lost
+0x49 Chapter 25: Blades Drawn
+0x4A Chapter 26: The Vallite King
+0x4B Chapter 27: Hear My Cry
+0x4C Endgame: Anankos
+0x4D Paralogue 1: Tragic Start
+0x4E Paralogue 2: Dragon Blood
+0x4F Paralogue 3: Surprise Duet
+0x50 Paralogue 4: Fight or Flight
+0x51 Paralogue 5: Bold Approach
+0x52 Paralogue 6: Herbal Remedy
+0x53 Paralogue 7: Father & Liege
+0x54 Paralogue 8: A Great Hunt
+0x55 Paralogue 9: Saizo vs. Saizo
+0x56 Paralogue 10: Hunter & Prey
+0x57 Paralogue 11: A Long Grudge
+0x58 Paralogue 12: Sweet Dreams
+0x59 Paralogue 13: Truly Talented
+0x5A Paralogue 14: After the End
+0x5B Paralogue 15: Hidden Bravery
+0x5C Paralogue 16: Abducted
+0x5D Paralogue 17: Two Defenders
+0x5E Paralogue 18: Nutty Family
+0x5F Paralogue 19: Great Heroism
+0x60 Paralogue 20: Ultimate Power
+0x61 Paralogue 21: Bright Smile
+0x62 Paralogue 22: Abrupt Clash
+0x63 Invasion 1: Castle
+0x64 Invasion 2: Castle
+0x65 Invasion 3: Castle
+0x66 Invasion 1: Castle
+0x67 Invasion 2: Castle
+0x68 Invasion 3: Castle
+0x69 Invasion 1: Castle
+0x6A Invasion 2: Castle
+0x6B Invasion 3: Castle
+0x6C Chapter 6: The Path Is Yours
+0x6D Dragon's Gate
+0x6E Ending
+0x6F
+0x70
+0x71
+0x72
+0x73
+0x74
+0x75 Hero Battle: Hero-King Marth
+0x76 Hero Battle: Radiant Hero Ike
+0x77 Hero Battle: Princess Lucina
+0x78 Hero Battle: Grandmaster Robin
+0x79

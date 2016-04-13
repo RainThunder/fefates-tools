@@ -1,0 +1,129 @@
+None
+Nohr Noble (M)
+Nohr Noble (F)
+Nohr Prince (M)
+Nohr Princess (F)
+Hoshido Noble (M)
+Hoshido Noble (F)
+Paladin (M)
+Paladin (F)
+Cavalier (M)
+Cavalier (F)
+Great Knight (M)
+Great Knight (F)
+Knight (M)
+Knight (F)
+General (M)
+General (F)
+Berserker (M)
+Berserker (F)
+Fighter (M)
+Fighter (F)
+Hero (M)
+Hero (F)
+Mercenary (M)
+Mercenary (F)
+Bow Knight (M)
+Bow Knight (F)
+Outlaw (M)
+Outlaw (F)
+Adventurer (M)
+Adventurer (F)
+Swordmaster (M)
+Swordmaster (F)
+Samurai (M)
+Samurai (F)
+Master of Arms (M)
+Master of Arms (F)
+Oni Chieftain (M)
+Oni Chieftain (F)
+Oni Savage (M)
+Oni Savage (F)
+Blacksmith (M)
+Blacksmith (F)
+Spear Master (M)
+Spear Master (F)
+Spear Fighter (M)
+Spear Fighter (F)
+Basara (M)
+Basara (F)
+Diviner (M)
+Diviner (F)
+Onmyoji (M)
+Onmyoji (F)
+Monk
+Shrine Maiden
+Great Master
+Priestess
+Falcon Knight (M)
+Falcon Knight (F)
+Sky Knight (M)
+Sky Knight (F)
+Kinshi Knight (M)
+Kinshi Knight (F)
+Archer (M)
+Archer (F)
+Sniper (M)
+Sniper (F)
+Wyvern Lord (M)
+Wyvern Lord (F)
+Wyvern Rider (M)
+Wyvern Rider (F)
+Malig Knight (M)
+Malig Knight (F)
+Master Ninja (M)
+Master Ninja (F)
+Ninja (M)
+Ninja (F)
+Mechanist (M)
+Mechanist (F)
+Apothecary (M)
+Apothecary (F)
+Merchant (M)
+Merchant (F)
+Sorcerer (M)
+Sorcerer (F)
+Dark Mage (M)
+Dark Mage (F)
+Dark Knight (M)
+Dark Knight (F)
+Strategist (M)
+Strategist (F)
+Troubadour (M)
+Troubadour (F)
+Butler
+Maid
+Wolfskin (M)
+Wolfskin (F)
+Wolfssegner (M)
+Wolfssegner (F)
+Kitsune (M)
+Kitsune (F)
+Nine-Tails (M)
+Nine-Tails (F)
+Songstress
+Villager (M)
+Villager (F)
+Lancer
+Faceless
+Stoneborn
+Automaton
+Astral Dragon
+Feral Dragon (M)
+Feral Dragon (F)
+Blight Dragon
+Silent Dragon
+Silent Dragon
+Nohrian King
+Empty Vessel
+Dread Fighter (M)
+Dread Fighter (F)
+Dark Falcon (M)
+Dark Falcon (F)
+Ballistician
+Witch
+Lodestar
+Vanguard
+Great Lord
+Grandmaster
+Outrealm Class
