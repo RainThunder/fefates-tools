@@ -1,0 +1,255 @@
+None
+Corrin (M)
+Corrin (F)
+Gunter
+Felicia
+Jakob
+Rinkah
+Kaze
+Sakura
+Azura
+Hana
+Subaki
+Silas
+Saizo
+Orochi
+Hinoka
+Azama
+Setsuna
+Hayato
+Oboro
+Hinata
+Takumi
+Kagero
+Reina
+Kaden
+Ryoma
+Scarlet
+Shura
+Elise
+Arthur
+Effie
+Odin
+Niles
+Nyx
+Camilla
+Selena
+Beruka
+Laslow
+Peri
+Benny
+Charlotte
+Leo
+Keaton
+Xander
+Izana
+Fuga
+Yukimura
+Flora
+Mozu
+Kana (M)
+Kana (F)
+Shigure
+Dwyer
+Sophie
+Midori
+Shiro
+Kiragi
+Asugi
+Selkie
+Hisame
+Mitama
+Caeldori
+Rhajat
+Siegbert
+Forrest
+Ignatius
+Velouria
+Percy
+Ophelia
+Soleil
+Nina
+Anna
+Daniela
+Haitaka
+Kumagera
+Lloyd
+Llewelyn
+Nichol
+Candace
+Tarba
+Funke
+Daichi
+Gazak
+Senno
+Zhara
+Captured Paladin
+Captured Cavalier
+Captured Great Knight
+Captured Knight
+Captured General
+Captured Berserker
+Captured Fighter
+Captured Hero
+Captured Mercenary
+Captured Bow Knight
+Captured Outlaw
+Captured Adventurer
+Captured Swordmaster
+Captured Samurai
+Captured Master of Arms
+Captured Oni Chieftain
+Captured Oni Savage
+Captured Blacksmith
+Captured Spear Master
+Captured Spear Fighter
+Captured Basara
+Captured Diviner
+Captured Onmyoji
+Captured Shrine Maiden
+Captured Great Master
+Captured Priestess
+Captured Falcon Knight
+Captured Sky Knight
+Captured Kinshi Knight
+Captured Archer
+Captured Sniper
+Captured Wyvern Lord
+Captured Wyvern Rider
+Captured Malig Knight
+Captured Master Ninja
+Captured Ninja
+Captured Mechanist
+Captured Apothecary
+Captured Merchant
+Captured Sorcerer
+Captured Dark Mage
+Captured Dark Knight
+Captured Strategist
+Captured Troubadour
+Captured Maid
+Captured Villager
+Captured Lancer
+Gin
+Azuki
+Hakuto
+Kureha
+Sango
+Himawari
+Kogane
+Ai
+Tetsu
+Tokiwa
+Suzaku
+Chigusa
+Renga
+Moegi
+Kohaku
+Murasaki
+Momotaro
+Sumire
+Rusty
+Amber
+Auburn
+Coral
+Hunter
+Hazel
+Cyan
+Fuchsia
+Jett
+Olive
+Slate
+Violet
+Sterling
+Ruby
+Tanner
+Kelly
+Teale
+Magenta
+Naoki
+Shizuku
+Kaito
+Wakaba
+Yukio
+Ibuki
+Riku
+Hibari
+Minato
+Aspen
+Cypress
+Daisy
+Thorn
+Primrose
+Quill
+Willow
+Flint
+Sequoia
+Shoga
+Anzu
+Inaho
+Yuzu
+Mugi
+Umeko
+Nori
+Kurumi
+Naruto
+Ringo
+Shoya
+Kiku
+Katsuo
+Ayu
+Takeshi
+Mizuna
+Koumei
+Shiori
+Sorrel
+Rosemary
+Bay
+Anise
+Saffron
+Pepper
+Basil
+Ginger
+Clove
+Mint
+Caraway
+Thyme
+Sage
+Cassia
+Dillan
+Lavender
+Fenn
+Perilla
+Dimitri
+Alexa
+Galen
+Althaea
+Damien
+Jacynth
+Orion
+Sophia
+George
+Eva
+Theo
+Helene
+Spiro
+Odele
+Peter
+Rhoda
+Lukas
+Charis
+Monster
+Monster
+Monster
+Monster
+Opponent
+Lilith
+Shopkeep
+Shopkeep
+Shopkeep
+Shopkeep
+Marth
+Ike
+Lucina
+Robin
+Outrealmer
