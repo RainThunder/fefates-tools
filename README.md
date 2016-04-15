@@ -41,8 +41,10 @@ Because Nightmare only allows editing fixed byte array, you can't add stuff to t
 * Class
 * Item
 * Chapter
+
 ## Tools
 * fst_generator.py: Generates fst.bin file for Fire Emblem Fates DLC. It is used for custom DLC (like DeathChaos25's DLC)
+
 ## Data files
 * GameData.bin
 
