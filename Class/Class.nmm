@@ -1,4 +1,4 @@
-#Fire Emblem Fates Character Editor
+#Fire Emblem Fates Class Editor
 
 1
 Fire Emblem Fates Class Editor by RainThunder
@@ -50,11 +50,11 @@ Flag 49 - 56
 NDHU
 Flag49-56.txt
 
-Flag 57 - 64
+Flag 57 - 63
 7
 1
 NDHU
-Flag57-64.txt
+Flag57-63.txt
 
 Class Pointer
 8
@@ -342,43 +342,43 @@ Resistance Pair Up Bonus
 NEDU
 NULL
 
-Maximum Sword Rank
+Maximum Sword / Katana Rank
 68
 1
 NDDU
 WeaponRank.txt
 
-Maximum Lance Rank
+Maximum Lance / Naginata Rank
 69
 1
 NDDU
 WeaponRank.txt
 
-Maximum Axe Rank
+Maximum Axe / Club Rank
 70
 1
 NDDU
 WeaponRank.txt
 
-Maximum Kunai Rank
+Maximum Dagger / Shuriken Rank
 71
 1
 NDDU
 WeaponRank.txt
 
-Maximum Bow Rank
+Maximum Bow / Yumi Rank
 72
 1
 NDDU
 WeaponRank.txt
 
-Maximum Tome Rank
+Maximum Tome / Scroll Rank
 73
 1
 NDDU
 WeaponRank.txt
 
-Maximum Staff Rank
+Maximum Staff / Rod Rank
 74
 1
 NDDU

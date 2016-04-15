@@ -1,0 +1,355 @@
+None
+Bronze Sword
+Iron Sword
+Steel Sword
+Silver Sword
+Brave Sword
+Iron Kukri
+Steel Kukri
+Silver Kukri
+Armorslayer
+Wyrmslayer
+Killing Edge
+Levin Sword
+Ganglari
+Siegfried
+Bottle
+Umbrella
+Nohrian Blade
+Leo's Iceblade
+Selena's Blade
+Laslow's Blade
+Brass Katana
+Iron Katana
+Steel Katana
+Silver Katana
+Venge Katana
+Iron Katti
+Steel Katti
+Silver Katti
+Kodachi
+Wakizashi
+Axe Splitter
+Dual Katana
+Practice Katana
+Spirit Katana
+Hagakure Blade
+Yato
+Noble Yato
+Blazing Yato
+Grim Yato
+Shadow Yato
+Alpha Yato
+Omega Yato
+Raijinto
+Daikon Radish
+Parasol
+Raider Katana
+Sunrise Katana
+Takumi's Shinai
+Hana's Katana
+Hinata's Katana
+Bronze Lance
+Iron Lance
+Steel Lance
+Silver Lance
+Brave Lance
+Iron Javelin
+Steel Javelin
+Silver Javelin
+Javelin
+Spear
+Beast Killer
+Killer Lance
+Blessed Lance
+Broom
+Stick
+Hexlock Spear
+Xander's Lance
+Effie's Lance
+Peri's Lance
+Brass Naginata
+Iron Naginata
+Steel Naginata
+Silver Naginata
+Venge Naginata
+Iron Nageyari
+Steel Nageyari
+Silver Nageyari
+Swordcatcher
+Dual Naginata
+Guard Naginata
+Bolt Naginata
+Waterwheel
+Bamboo Pole
+Pine Branch
+Raider Naginata
+Bold Naginata
+Hinoka's Spear
+Subaki's Pike
+Oboro's Spear
+Bronze Axe
+Iron Axe
+Steel Axe
+Silver Axe
+Brave Axe
+Iron Star Axe
+Steel Star Axe
+Silver Star Axe
+Hand Axe
+Tomahawk
+Hammer
+Bolt Axe
+Killer Axe
+Aurgelmir
+Bolverk
+Frying Pan
+Bone Axe
+Raider Axe
+Berserker's Axe
+Camilla's Axe
+Arthur's Axe
+Beruka's Axe
+Brass Club
+Iron Club
+Steel Club
+Silver Club
+Venge Club
+Iron Mace
+Steel Mace
+Silver Mace
+Throwing Club
+Battering Club
+Pike-Ruin Club
+Dual Club
+Great Club
+Carp Streamer
+Hoe
+Adamant Club
+Rinkah's Club
+Ryoma's Club
+Fuga's Club
+Bronze Dagger
+Iron Dagger
+Steel Dagger
+Silver Dagger
+Soldier's Knife
+Fruit Knife
+Hunter's Knife
+Kris Knife
+Quill Pen
+Stale Bread
+Raider Knife
+Votive Candle
+Sacrificial Knife
+Felicia's Plate
+Jakob's Tray
+Brass Shuriken
+Iron Shuriken
+Steel Shuriken
+Silver Shuriken
+Spy's Shuriken
+Dual Shuriken
+Sting Shuriken
+Barb Shuriken
+Flame Shuriken
+Chakram
+Chopstick
+Hair Pin
+Caltrop
+Kaze's Needle
+Saizo's Star
+Kagero's Dart
+Bronze Bow
+Iron Bow
+Steel Bow
+Silver Bow
+Crescent Bow
+Iron Shortbow
+Steel Shortbow
+Silver Shortbow
+Mini Bow
+Killer Bow
+Blessed Bow
+Shining Bow
+Rubber Bow
+Violin Bow
+Cupid Bow
+Hunter's Bow
+Anna's Bow
+Niles's Bow
+Brass Yumi
+Iron Yumi
+Steel Yumi
+Silver Yumi
+Spy's Yumi
+Iron Hankyu
+Steel Hankyu
+Silver Hankyu
+Dual Yumi
+Illusory Yumi
+Surefire Yumi
+Pursuer
+Fujin Yumi
+Fujin Yumi
+Skadi
+Bamboo Yumi
+Harp Yumi
+Raider Yumi
+Spellbane Yumi
+Sidelong Yumi
+Mikoto's Yumi
+Setsuna's Yumi
+Fire
+Thunder
+Fimbulvetr
+Ragnarok
+Ginnungagap
+Lightning
+Mjolnir
+Nosferatu
+Excalibur
+Brynhildr
+Ember
+Missiletainn
+Disrobing Gale
+Speed Thunder
+Moonlight
+Iago's Tome
+Odin's Grimoire
+Rat Spirit
+Ox Spirit
+Tiger Spirit
+Rabbit Spirit
+Dragon Spirit
+Calamity Gate
+Snake Spirit
+Horse Spirit
+Sheep Spirit
+Paper
+Malevolent Text
+Monkey Spirit
+Bird Spirit
+Ink Painting
+Izana's Scroll
+Heal
+Mend
+Physic
+Recover
+Fortify
+Freeze
+Enfeeble
+Entrap
+Entrap
+Bifrost
+Candy Cane
+Mushroom Staff
+Bouquet Staff
+Elise's Staff
+Lilith's Staff
+Bloom Festal
+Sun Festal
+Wane Festal
+Moon Festal
+Great Festal
+Rescue
+Silence
+Hexing Rod
+Lantern
+Dumpling Rod
+Bamboo Branch
+Sakura's Rod
+Purification Rod
+Dragonstone
+Dragonstone+
+Beaststone
+Beastrune
+Beaststone+
+Draconic Rage
+Dark Breath
+Dragon Breath
+Dragon Breath
+Shackled Fist
+Gauntlet
+Rock
+Massive Rock
+Astral Breath
+Astral Blessing
+Vulnerary
+Concoction
+Elixir
+HP Tonic
+Strength Tonic
+Magic Tonic
+Skill Tonic
+Speed Tonic
+Luck Tonic
+Defense Tonic
+Resistance Tonic
+Azura's Salve
+Gunter's Potion
+Asugi's Confect
+Rainbow Tonic
+Seed of Trust
+Allegro Harp
+Shell Horn
+Saw
+Big Saw
+Door Key
+Chest Key
+Master Key
+Seraph Robe
+Energy Drop
+Spirit Dust
+Secret Book
+Speedwing
+Goddess Icon
+Dracoshield
+Talisman
+Dragon Herbs
+Boots
+Arms Scroll
+Master Seal
+Heart Seal
+Partner Seal
+Friendship Seal
+Eternal Seal
+Dread Scroll
+Ebon Wing
+Ganglari
+Gold Bar
+Battle Seal
+Visitation Seal
+Offspring Seal
+Sighting Lens
+Witch's Mark
+Paragon
+Armor Shield
+Beast Shield
+Winged Shield
+Point Blank
+Bold Stance
+Strengthtaker
+Magictaker
+Skilltaker
+Speedtaker
+Lucktaker
+Defensetaker
+Resistancetaker
+Master Emblem
+Falchion
+Ragnell
+Parallel Falchion
+Thoron
+Marth's Spatha
+Ike's Backup
+Lucina's Estoc
+Robin's Primer
+1000G
+2000G
+3000G
+5000G
+7000G
+10000G
+20000G
+Obstacle

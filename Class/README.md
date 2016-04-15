@@ -2,7 +2,7 @@
 Run Nightmare, then open GameData.bin file with Class.nmm file.
 
 # Flag guide
-## Flag 1 - 64
+## Main flags (1 - 63)
 | Flag Index | Flag ID | Meaning |
 | --- | --- | --- |
 | 1 | SPID_女性 | Female |
@@ -69,8 +69,9 @@ Run Nightmare, then open GameData.bin file with Class.nmm file.
 | 62 | SPID_クラスチェンジ禁止 | Cannot promote |
 | 63 | SPID_ダウンロード | Amiibo |
 
-## Special flag 1 - 12
+## Special flags (1 - 12)
 Determines class weakness and special weapon, e.g. Manaketes can use Dragonstones.
+
 | Flag Index | Flag ID | Meaning |
 | --- | --- | --- |
 | 1 | JCID_飛行 | Flier |
@@ -78,7 +79,7 @@ Determines class weakness and special weapon, e.g. Manaketes can use Dragonstone
 | 3 | JCID_獣 | Beast |
 | 4 | JCID_アーマー | Armor |
 | 5 | JCID_魔物 | Monster (can use Claws) |
-| 6 | JCID_人形 | Puppet (can use Saws) |
+| 6 | JCID_人形 | Automaton (can use Saws) |
 | 7 | JCID_マムクート | Manakete (can use Dragonstones) |
 | 8 | JCID_ラグズ | Wolves / Foxes (can use Beaststones) |
 | 9 | JCID_騎乗 | Mounted |

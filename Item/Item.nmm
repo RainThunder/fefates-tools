@@ -1,0 +1,363 @@
+#Fire Emblem Fates Item Editor
+
+1
+Fire Emblem Fates Item Editor by RainThunder
+0x14F68
+355
+104
+Item.txt
+NULL
+
+Flag 1 - 8
+0
+1
+NDHU
+Flag1-8.txt
+
+Flag 9 - 16
+1
+1
+NDHU
+Flag9-16.txt
+
+Flag 17 - 24
+2
+1
+NDHU
+Flag17-24.txt
+
+Flag 25 - 32
+3
+1
+NDHU
+Flag25-32.txt
+
+Flag 33 - 40
+4
+1
+NDHU
+Flag33-40.txt
+
+Flag 41 - 48
+5
+1
+NDHU
+Flag41-48.txt
+
+Flag 49 - 56
+6
+1
+NDHU
+Flag49-56.txt
+
+Flag 57 - 64
+7
+1
+NDHU
+Flag57-64.txt
+
+Item pointer
+8
+4
+NEHU
+NULL
+
+Item name pointer
+12
+4
+NEHU
+NULL
+
+Item name description
+16
+4
+NEHU
+NULL
+
+Item ID
+20
+2
+NEHU
+NULL
+
+Item category
+24
+1
+NDHU
+ItemCategory.txt
+
+Weapon category
+26
+1
+NDHU
+WeaponCategory.txt
+
+Non-weapon category
+27
+1
+NDHU
+NonWeaponCategory.txt
+
+Weapon rank
+28
+1
+NDHU
+WeaponRank.txt
+
+Uses
+30
+1
+NEDU
+NULL
+
+Mt
+31
+1
+NEDU
+NULL
+
+Hit
+32
+2
+NEDS
+NULL
+
+Crit
+34
+2
+NEDS
+NULL
+
+Avoid
+36
+2
+NEDS
+NULL
+
+Dodge
+38
+2
+NEDS
+NULL
+
+Minimum Range
+40
+1
+NEDU
+NULL
+
+Maximum Range
+41
+1
+NEDU
+NULL
+
+Ability to double attack
+42
+1
+NEDS
+NULL
+
+Enemy's ability to double attack
+43
+1
+NEDS
+NULL
+
+Buy price
+44
+4
+NEDU
+NULL
+
+Sell price
+48
+4
+NEDU
+NULL
+
+Special flag 1 - 8
+52
+1
+NDHU
+SpecialFlag1-8.txt
+
+Special flag 9 - 12
+53
+1
+NDHU
+SpecialFlag9-12.txt
+
+Mov
+54
+1
+NEDU
+NULL
+
+Unknown
+55
+1
+NEHU
+NULL
+
+HP bonus (equipment)
+56
+1
+NEDS
+NULL
+
+Strength bonus (equipment)
+57
+1
+NEDS
+NULL
+
+Magic bonus (equipment)
+58
+1
+NEDS
+NULL
+
+Skill bonus (equipment)
+59
+1
+NEDS
+NULL
+
+Speed bonus (equipment)
+60
+1
+NEDS
+NULL
+
+Luck bonus (equipment)
+61
+1
+NEDS
+NULL
+
+Defense bonus (equipment)
+62
+1
+NEDS
+NULL
+
+Resistance bonus (equipment)
+63
+1
+NEDS
+NULL
+
+Extra
+64
+8
+HEXA
+NULL
+
+Unknown
+72
+4
+HEXA
+NULL
+
+Dawn Armory level 1 stock
+76
+1
+NEDS
+NULL
+
+Dawn Armory level 2 stock
+77
+1
+NEDS
+NULL
+
+Dawn Armory level 3 stock
+78
+1
+NEDS
+NULL
+
+Dusk Armory level 1 stock
+79
+1
+NEDS
+NULL
+
+Dusk Armory level 2 stock
+80
+1
+NEDS
+NULL
+
+Dusk Armory level 3 stock
+81
+1
+NEDS
+NULL
+
+Rod Shop level 1 stock
+82
+1
+NEDS
+NULL
+
+Rod Shop level 2 stock
+83
+1
+NEDS
+NULL
+
+Rod Shop level 3 stock
+84
+1
+NEDS
+NULL
+
+Staff Store level 1 stock
+85
+1
+NEDS
+NULL
+
+Staff Store level 2 stock
+86
+1
+NEDS
+NULL
+
+Staff Store level 3 stock
+87
+1
+NEDS
+NULL
+
+Hoshido event
+88
+1
+NEDS
+NULL
+
+Nohr event
+89
+1
+NEDS
+NULL
+
+Dawn Lottery
+90
+1
+NEDS
+NULL
+
+Dusk Lottery
+91
+1
+NEDS
+NULL
+
+Unknown pointer
+96
+4
+NEHU
+NULL
