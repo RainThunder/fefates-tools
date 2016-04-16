@@ -2,8 +2,10 @@
 A collection of Nightmare modules and small tools for Fire Emblem Fates. It is a compilation of my own research along with data from various source.
 
 # About Nightmare
-Nightmare is a program that allow you to easily hex edit data files using modules. This is the tradition of Fire Emblem ROM hacking community.
+Nightmare is a program that allow you to easily hex edit data files using modules. With Nightmare, even those who don't have any knowledge in data structure and hex editing can still edit the game's files and make some cool stuff. This is the tradition of Fire Emblem ROM hacking community.
+
 A Nightmare module (.nmm file) is just a text file that determine data structure and where to edit in the data files.
+
 Because Nightmare only allows editing fixed byte array, you can't add stuff to the game or change pointers in data files via these modules. However, based on the information in .nmm files, with some basic knowledge about pointers in the data files, you can definitely adding something new to the game.
 
 # Requirements
