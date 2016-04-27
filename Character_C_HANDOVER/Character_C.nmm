@@ -1,0 +1,444 @@
+#Fire Emblem Fates Character Editor
+
+1
+Fire Emblem Fates Character Editor by RainThunder
+0x30
+16
+152
+Character_C.txt
+NULL
+
+Flag 1 - 8
+0
+1
+NDHU
+Flag1-8.txt
+
+Flag 9 - 16
+1
+1
+NDHU
+Flag9-16.txt
+
+Flag 17 - 24
+2
+1
+NDHU
+Flag17-24.txt
+
+Flag 25 - 32
+3
+1
+NDHU
+Flag25-32.txt
+
+Flag 33 - 40
+4
+1
+NDHU
+Flag33-40.txt
+
+Flag 41 - 48
+5
+1
+NDHU
+Flag41-48.txt
+
+Flag 49 - 56
+6
+1
+NDHU
+Flag49-56.txt
+
+Flag 57 - 63
+7
+1
+NDHU
+Flag57-63.txt
+
+Character Pointer
+8
+4
+NEHU
+NULL
+
+Face Pointer
+12
+4
+NEHU
+NULL
+
+Asset Pointer
+16
+4
+NEHU
+NULL
+
+Character Name Pointer
+20
+4
+NEHU
+NULL
+
+Character Description Pointer
+24
+4
+NEHU
+NULL
+
+Attack Stance Pointer
+28
+4
+NEHU
+NULL
+
+Defense Stance Pointer
+32
+4
+NEHU
+NULL
+
+Character ID
+36
+2
+NEHU
+NULL
+
+Support Route
+38
+1
+NDHU
+Route.txt
+
+Parent
+42
+2
+NDHU
+Parent.txt
+
+Class 1
+44
+2
+NDHU
+Class.txt
+
+Class 2
+46
+2
+NDHU
+Class.txt
+
+Support ID
+48
+2
+NEHU
+NULL
+
+Level
+50
+1
+NEDU
+NULL
+
+Internal level
+51
+1
+NEDS
+NULL
+
+#Base Stats
+Base HP
+56
+1
+NEDS
+NULL
+
+Base Strength
+57
+1
+NEDS
+NULL
+
+Base Magic
+58
+1
+NEDS
+NULL
+
+Base Skill
+59
+1
+NEDS
+NULL
+
+Base Speed
+60
+1
+NEDS
+NULL
+
+Base Luck
+61
+1
+NEDS
+NULL
+
+Base Defense
+62
+1
+NEDS
+NULL
+
+Base Resistance
+63
+1
+NEDS
+NULL
+
+#Growth Rate
+HP Growth
+64
+1
+NEDU
+NULL
+
+Strength Growth
+65
+1
+NEDU
+NULL
+
+Magic Growth
+66
+1
+NEDU
+NULL
+
+Skill Growth
+67
+1
+NEDU
+NULL
+
+Speed Growth
+68
+1
+NEDU
+NULL
+
+Luck Growth
+69
+1
+NEDU
+NULL
+
+Defense Growth
+70
+1
+NEDU
+NULL
+
+Resistance Growth
+71
+1
+NEDU
+NULL
+
+#Modifier
+HP Modifier
+72
+1
+NEDS
+NULL
+
+Strength Modifier
+73
+1
+NEDS
+NULL
+
+Magic Modifer
+74
+1
+NEDS
+NULL
+
+Skill Modifier
+75
+1
+NEDS
+NULL
+
+Speed Modifier
+76
+1
+NEDS
+NULL
+
+Luck Modifier
+77
+1
+NEDS
+NULL
+
+Defense Modifier
+78
+1
+NEDS
+NULL
+
+Resistance Modifier
+79
+1
+NEDS
+NULL
+
+Sword Rank
+96
+1
+NDDU
+WeaponRank.txt
+
+Lance Rank
+97
+1
+NDDU
+WeaponRank.txt
+
+Axe Rank
+98
+1
+NDDU
+WeaponRank.txt
+
+Kunai Rank
+99
+1
+NDDU
+WeaponRank.txt
+
+Bow Rank
+100
+1
+NDDU
+WeaponRank.txt
+
+Tome Rank
+101
+1
+NDDU
+WeaponRank.txt
+
+Staff Rank
+102
+1
+NDDU
+WeaponRank.txt
+
+Stone Rank
+103
+1
+NDDU
+WeaponRank.txt
+
+Skill 1
+104
+2
+NDHU
+Skill.txt
+
+Skill 2
+106
+2
+NDHU
+Skill.txt
+
+Skill 3
+108
+2
+NDHU
+Skill.txt
+
+Skill 4
+110
+2
+NDHU
+Skill.txt
+
+Skill 5
+112
+2
+NDHU
+Skill.txt
+
+Personal Skill (Birthright)
+116
+2
+NDHU
+Skill.txt
+
+Personal Skill (Conquest)
+118
+2
+NDHU
+Skill.txt
+
+Personal Skill (Revelation)
+120
+2
+NDHU
+Skill.txt
+
+Day of birth
+122
+1
+NEDU
+NULL
+
+Month of birth
+123
+1
+NEDU
+NULL
+
+Parent ID
+128
+2
+NEHU
+NULL
+
+Child ID
+130
+2
+NEHU
+NULL
+
+Support Index (parent - child and sibling support)
+132
+2
+NEDS
+NULL
+
+Level Cap / 10
+134
+1
+NEDU
+NULL
+
+Unknown
+135
+1
+NEDU
+NULL
+
+Amiibo item 1
+144
+2
+NDHU
+Item.txt
+
+Amiibo item 2
+146
+2
+NDHU
+Item.txt
