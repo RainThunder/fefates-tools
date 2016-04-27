@@ -27,13 +27,13 @@ Run Nightmare, then open GameData.bin file with Item.nmm file.
 | 20 | ISID_ダークマージ系専用 | Dark Mage only |
 | 21 | ISID_男性専用 | Men only |
 | 22 | ISID_女性専用 | Women only |
-| 23 | ISID_錬成不可 | Can not be forged |
+| 23 | ISID_錬成不可 | Cannot be forged |
 | 24 | ISID_敵専用 | Enemy only |
 | 25 | ISID_強制オンバト |  |
-| 26 | ISID_通信譲渡禁止 | Can not be used in communication |
+| 26 | ISID_通信譲渡禁止 | Cannot be used in communication |
 | 27 | ISID_即換金 | Gold |
-| 28 | ISID_必殺奥義禁止 | Can not crit |
-| 29 | ISID_追撃禁止 | Can not double |
+| 28 | ISID_必殺奥義禁止 | Cannot crit |
+| 29 | ISID_追撃禁止 | Cannot double |
 | 30 | ISID_非特効時威力－ | Lower Mt if ineffectively used |
 | 31 | ISID_非特効時命中－ | Lower Hit if ineffectively used |
 | 32 | ISID_必殺倍率＋ | Damage x4 for crit |
@@ -70,7 +70,6 @@ Run Nightmare, then open GameData.bin file with Item.nmm file.
 | 63 | ISID_竜鱗有効 | Dragon scale effect (for Yato) |
 | 64 | ISID_オフェリア専用 | Ophelia only |
 
-
 ## Special flags (1 - 12)
 Determine weapon advantages and special weapons. They are the same as special flags in class data.
 
@@ -91,13 +90,12 @@ Determine weapon advantages and special weapons. They are the same as special fl
 
 # Extra bytes
 They are called "Extra" in this module. The following list may not cover everything, but you will get the idea.
-* For most weapons and staff, 8 extra bytes is stat bytes, following the normal order (HP / Str / Mag / Skl / Spd / Lck / Def / Res).
+* For most items, 8 extra bytes is stat bytes, following the normal order (HP / Str / Mag / Skl / Spd / Lck / Def / Res).
   * For Daggers, Shurikens, Saws, Enfeeble and all weapons that can be used to debuff the enemy (i.e. have flag 56), the extra bytes are debuff stats.
   * For all weapons that change HP after combat (i.e. have flag 54 and 55, like Spirit Katana, Moonlight, Berserker's Axe, etc.), the first byte is HP percent. They are different than the weapons that can be used via "Use" command to heal HP (like Sheep Spirit, etc.).
-  * For all weapons that give user a bonus when they are in possession, the extra bytes are stat bonuses.
-  * Special staff: Candy Cane, Mushroom Staff, Bouquet Staff.
-* For all items that can be used as Rally (like Violin Bow, Allegro Harp etc.), the first byte determined which Rally is used. 0x1 is Rally Strength, 0x2 is Rally Magic, etc. If the sign of the first byte is reversed, Rally effect will be applied to the enemy team, e.g. 0xFC (-4) is Rally Speed for the enemy.
-* For Tonics, Statboosters, and healing items, the extra bytes are stats, obviously.
+  * For all weapons that give user some bonuses while in possession, the extra bytes are stat bonuses.
+  * For all items that have the same effect as **Rally** command (e.g. Violin Bow, Allegro Harp, etc.), the first byte determined which Rally is used. 0x1 is Rally Strength, 0x2 is Rally Magic, etc. If the sign of the first byte is reversed, Rally effect will be applied to the enemy team, e.g. 0xFC (-4) is Rally Speed for the enemy.
+  * For all items that change user's stats when choosing **Use** command (e.g. Sheep Spirit, Vulnerary, Tonics, Statboosters etc.), the extra bytes are stats, obviously.
 * For class-changing Seals, the first byte determines Seal type. If the first byte is 0x5, the second and third byte will determine class. For example, 8 extra bytes for Dread Scroll are `05 76 00 00 00 00 00 00` (76 is class ID of Dread Fighter class).
 
 | Value | Meaning |
@@ -108,5 +106,5 @@ They are called "Extra" in this module. The following list may not cover everyth
 | 0x3 | Friendship Seal |
 | 0x4 | Eternal Seal |
 | 0x5 | Custom Seal |
-* For skill book, the first byte is skill ID, and the second byte is level limit. E.g. Aether: `1A 19 00 00 00 00 00 00`
-* There is some speical case: Xander's Lance, 
+* For skill items, the first byte is skill ID, and the second byte is level limit. E.g. Aether: `1A 19 00 00 00 00 00 00`
+* Special staff: Candy Cane, Mushroom Staff, Bouquet Staff.

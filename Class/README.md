@@ -66,7 +66,7 @@ Run Nightmare, then open GameData.bin file with Class.nmm file.
 | 59 | SPID_命中+20 | Hit +20 |
 | 60 | SPID_命中+30 | Hit +30 |
 | 61 | SPID_準特殊演出 |  |
-| 62 | SPID_クラスチェンジ禁止 | Cannot promote |
+| 62 | SPID_クラスチェンジ禁止 | Cannot be promoted |
 | 63 | SPID_ダウンロード | Amiibo |
 
 ## Special flags (1 - 12)

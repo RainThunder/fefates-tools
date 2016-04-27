@@ -1,5 +1,5 @@
 # How to use
-Run Nightmare, then open GameData.bin file with Character.nmm file.
+Run Nightmare, then open C_HANDOVER.bin file with Character.nmm file.
 
 # Flag guide
 | Flag Index | Flag ID | Meaning |
