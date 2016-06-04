@@ -1,0 +1,7 @@
+6
+0x0 NULL
+0x21A4 Poison Strike
+0x212B Underdog
+0x21F1 Seal Strength
+0x21DA Seal Defense
+0x217B Armored Blow

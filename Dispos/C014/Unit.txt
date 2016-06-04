@@ -1,0 +1,71 @@
+Corrin (M) 
+Felicia 
+Azura 
+Sakura 
+Hana 
+Subaki 
+Kaze 
+Rinkah 
+Hayato 
+Takumi 
+Oboro 
+Orochi 
+Elise 
+Arthur 
+Effie 
+Silas (Enemy)
+Benny (Enemy)
+Charlotte (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Cavalier (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian Outlaw (M) (Enemy)
+Nohrian Fighter (M) (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Outlaw (M) (Enemy)
+Nohrian Outlaw (M) (Enemy)
+Nohrian Mercenary (M) (Enemy)
+Nohrian Mercenary (M) (Enemy)
+Nohrian Fighter (M) (Enemy)
+Nohrian Fighter (M) (Enemy)
+Nohrian Knight (M) (Enemy)
+Nohrian Mercenary (M) (Enemy)
+Nohrian Mercenary (M) (Enemy)
+Nohrian Knight (M) (Enemy)
+Nohrian Knight (M) (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Cavalier (M) (Enemy)
+Nohrian Cavalier (M) (Enemy)
+Nohrian Cavalier (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian Knight (M) (Enemy)
+Nohrian Outlaw (M) (Enemy)
+Nohrian Fighter (M) (Enemy)
+Nohrian Mercenary (M) (Enemy)
+Nohrian Fighter (M) (Enemy)
+Nohrian Mercenary (M) (Enemy)
+Nohrian Mercenary (M) (Enemy)
+Silas (Support01)
+Nohrian Cavalier (M) (Reinforce01)
+Nohrian Cavalier (M) (Reinforce01)
+Nohrian Mercenary (M) (Reinforce02)
+Nohrian Mercenary (M) (Reinforce02)
+Nohrian Paladin (M) (Reinforce03)
+Nohrian Paladin (M) (Reinforce03)
+Nohrian Outlaw (M) (Reinforce04_1)
+Nohrian Outlaw (M) (Reinforce04_2)
+Silas (Event01)
+Corrin (M) (Event02)
+Azura (Event02)
+Camilla (Event02)
+Nohrian Cavalier (M) (Event03)
+Nohrian Cavalier (M) (Event03)
+Nohrian Fighter (M) (Event04)
+Elise (Event05)
+Arthur (Event06)
+Effie (Event07)
+Silas (Event11)
+Corrin (M) (Event11)

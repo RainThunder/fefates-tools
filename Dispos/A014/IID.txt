@@ -1,0 +1,32 @@
+31
+0x0 NULL
+0x3385 Killer Axe
+0x3487 Wakizashi
+0x3309 Steel Katana
+0x3295 Iron Shuriken
+0x341C Beast Killer
+0x331F Iron Naginata
+0x33A3 Steel Sword
+0x32A4 Steel Shuriken
+0x3246 Steel Dagger
+0x3529 Bolt Axe
+0x332C Steel Naginata
+0x3239 Iron Dagger
+0x32BE Bloom Festal
+0x3344 Rat Spirit
+0x3445 Steel Axe
+0x33C6 Guard Naginata
+0x32C7 Sun Festal
+0x3351 Tiger Spirit
+0x34D3 Silver Naginata
+0x32DB Bronze Lance
+0x3468 Steel Lance
+0x31EA Yato
+0x336B Raijinto
+0x33EE Ragnarok
+0x32E8 Javelin
+0x34F4 Steel Bow
+0x31F5 Dragonstone
+0x327B Steel Club
+0x326E Iron Club
+0x32FE Iron Katana

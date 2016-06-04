@@ -1,0 +1,26 @@
+25
+0x0 NULL
+0x3A07 Vantage
+0x3A8D Seal Strength
+0x3B13 Countermagic
+0x3B95 Pavise
+0x3999 Duelist's Blow
+0x3B9F Aegis
+0x3A20 Quick Draw
+0x3B27 Grisly Wound
+0x3BB4 Certain Blow
+0x3A5E Lunge
+0x3B42 Swordbreaker
+0x3BC4 Death Blow
+0x394F Poison Strike
+0x3BD4 Evenhanded
+0x3959 Inevitable End
+0x39DE Savage Blow
+0x3B5F Lancebreaker
+0x3BE2 Odd Shaped
+0x3967 Seal Defense
+0x3A6C Life and Death
+0x3BF0 Lancefaire
+0x39F9 Strong Riposte
+0x3B7A Axebreaker
+0x3A7F Swordfaire

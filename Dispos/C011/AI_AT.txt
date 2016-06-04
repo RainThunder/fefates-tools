@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x1D29 AI_AT_Heal
+0x1D05 AI_AT_Attack
+0x1BBE AI_AT_Null

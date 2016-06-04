@@ -1,0 +1,21 @@
+20
+0x0 NULL
+0x1D20 Sun Festal
+0x1D82 Steel Yumi
+0x1BE3 Iron Dagger
+0x1CA4 Ox Spirit
+0x1CFA Steel Katana
+0x1C06 Vulnerary
+0x1C40 Iron Katana
+0x1C8A Iron Club
+0x1CEB Steel Shuriken
+0x1DAD Steel Club
+0x1D4E Heal
+0x1C70 Iron Shuriken
+0x1D75 Iron Yumi
+0x1C56 Iron Naginata
+0x1B99 Ganglari
+0x1C1A Bloom Festal
+0x1BFB Iron Lance
+0x1CBC Fujin Yumi
+0x1DCA Steel Naginata

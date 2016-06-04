@@ -1,0 +1,35 @@
+34
+0x0 NULL
+0x2686 Bronze Lance
+0x2669 Bloom Festal
+0x288C Hand Axe
+0x260D Iron Dagger
+0x2693 Javelin
+0x2895 Illusory Yumi
+0x2716 Steel Shuriken
+0x28E9 Concoction
+0x2821 Steel Axe
+0x28A4 Mjölnir
+0x26A9 Iron Katana
+0x282C Iron Axe
+0x2730 Guard Naginata
+0x28B3 Snake Spirit
+0x2635 Iron Club
+0x25BE Yato
+0x26BF Iron Naginata
+0x25C9 Dragonstone
+0x28CD Iron Yumi
+0x27CE Steel Naginata
+0x264F Iron Shuriken
+0x2851 Thunder
+0x26D7 Rat Spirit
+0x2758 Killer Lance
+0x26E4 Tiger Spirit
+0x27E9 Steel Yumi
+0x2870 Throwing Club
+0x2672 Sun Festal
+0x27F6 Master Seal
+0x2769 Steel Star Axe
+0x2778 Arms Scroll
+0x287B Steel Nageyari
+0x26FE Steel Sword

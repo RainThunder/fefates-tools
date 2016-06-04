@@ -1,0 +1,40 @@
+39
+0x0 NULL
+0x3503 Talisman
+0x3684 Master Seal
+0x340A Rat Spirit
+0x3417 Tiger Spirit
+0x330C Steel Dagger
+0x338D Bloom Festal
+0x360E Silver Bow
+0x3697 Arms Scroll
+0x3319 Sun Festal
+0x358C Brave Lance
+0x36A0 10000G
+0x33A1 Bronze Lance
+0x32AA Noble Yato
+0x35AD Silver Lance
+0x33AE Javelin
+0x3431 Raijinto
+0x32BB Dragonstone
+0x333D Iron Club
+0x34BF Brave Axe
+0x3543 Crescent Bow
+0x33C4 Iron Katana
+0x3645 Ragnarok
+0x348C Guard Naginata
+0x334A Steel Club
+0x344B Killer Axe
+0x34CC Fimbulvetr
+0x35CE Moon Festal
+0x33CF Steel Katana
+0x3550 Silver Sword
+0x34DB Dragonstone+
+0x3364 Iron Shuriken
+0x33E5 Iron Naginata
+0x3469 Steel Sword
+0x356D Brave Sword
+0x35EF Silver Axe
+0x33F2 Steel Naginata
+0x3373 Steel Shuriken
+0x32FF Iron Dagger

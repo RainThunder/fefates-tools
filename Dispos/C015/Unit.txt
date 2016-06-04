@@ -1,0 +1,48 @@
+Corrin (M) 
+Felicia 
+Azura 
+Gunter 
+Takumi 
+Oboro 
+Kagero 
+Rinkah 
+Orochi 
+Illusion Onmyoji (M) (Enemy)
+Illusion General (M) (Enemy)
+Illusion General (M) (Enemy)
+Illusion Cavalier (M) (Enemy)
+Illusion Cavalier (M) (Enemy)
+Illusion Spear Fighter (M) (Enemy)
+Illusion Cavalier (M) (Enemy)
+Illusion Samurai (M) (Enemy)
+Illusion General (M) (Enemy)
+Illusion Diviner (M) (Enemy)
+Illusion Diviner (M) (Enemy)
+Illusion Outlaw (M) (Enemy)
+Illusion General (M) (Enemy)
+Illusion Spear Fighter (M) (Enemy)
+Illusion Diviner (M) (Enemy)
+Illusion Outlaw (M) (Enemy)
+Illusion Diviner (M) (Enemy)
+Illusion Spear Fighter (M) (Enemy)
+Illusion Oni Savage (M) (Enemy)
+Illusion Shrine Maiden (Enemy)
+Illusion Oni Savage (M) (Enemy)
+Illusion Samurai (M) (Enemy)
+Illusion Archer (M) (Enemy)
+Illusion Archer (M) (Enemy)
+Illusion Fighter (M) (Enemy)
+Illusion General (M) (Enemy)
+Illusion Outlaw (M) (Enemy)
+Illusion Diviner (M) (Enemy)
+Illusion Samurai (M) (Enemy)
+Illusion Ninja (M) (Enemy)
+Illusion Samurai (M) (Enemy)
+Illusion Ninja (M) (Enemy)
+Nyx (Support01)
+Shura (Reinforce01)
+Corrin (M) (Event11)
+Takumi (Event11)
+Elise (Event11)
+Sakura (Event11)
+Camilla (Event11)

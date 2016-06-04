@@ -1,0 +1,26 @@
+Corrin (M) 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Ryoma 
+Hinoka 
+Takumi 
+Felicia (PlayerM)
+Jakob (PlayerF)
+Xander (Enemy)
+Leo (Enemy)
+Leo (Enemy)
+Camilla (Enemy)
+Camilla (Enemy)
+Elise (Enemy)
+Nohrian Outlaw (M) (Enemy)
+Nohrian Fighter (M) (Enemy)
+Nohrian Fighter (M) (Enemy)
+Nohrian Cavalier (M) (Enemy)
+PID_A000_ランサーCorrin (M) (Event11)
+Azura (Event11)
+Ryoma (Event11)
+Sakura (Event11)
+Hinoka (Event11)
+Takumi (Event11)

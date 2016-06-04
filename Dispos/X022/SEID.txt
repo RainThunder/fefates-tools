@@ -1,0 +1,10 @@
+9
+0x0 NULL
+0x30E3 Inspiration
+0x3225 Malefic Aura
+0x314A Quick Draw
+0x31F0 Counter
+0x3231 Pass
+0x30D3 Armored Blow
+0x319A Lucky Seven
+0x30C5 Wary Fighter

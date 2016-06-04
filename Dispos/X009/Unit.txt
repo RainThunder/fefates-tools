@@ -1,0 +1,56 @@
+Corrin (M) 
+Saizo 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Hinata 
+Takumi 
+Setsuna 
+Funke (Enemy)
+Ruffian Ninja (M) (Enemy)
+Ruffian Mercenary (M) (Enemy)
+Ruffian Oni Savage (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Oni Savage (M) (Enemy)
+Ruffian Ninja (M) (Enemy)
+Ruffian Ninja (M) (Enemy)
+Ruffian Diviner (M) (Enemy)
+Ruffian Oni Savage (M) (Enemy)
+Ruffian Archer (M) (Enemy)
+Ruffian Oni Savage (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Mercenary (M) (Enemy)
+Ruffian Dark Mage (M) (Enemy)
+Ruffian Diviner (M) (Enemy)
+Ruffian Archer (M) (Enemy)
+Ruffian Dark Mage (M) (Enemy)
+Ruffian Mercenary (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Ruffian Oni Savage (M) (Enemy)
+Ruffian Mercenary (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Asugi (Enemy)
+Ruffian Ninja (M) (Enemy)
+Ruffian Diviner (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Ruffian Mercenary (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Ruffian Mercenary (M) (Enemy)
+Ruffian Archer (M) (Enemy)
+Ruffian Dark Mage (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Outlaw (M) (Reinforce01)
+Ruffian Oni Savage (M) (Reinforce11)
+Ruffian Fighter (M) (Reinforce02)
+Ruffian Mercenary (M) (Reinforce02)
+Ruffian Dark Mage (M) (Reinforce03)
+Ruffian Ninja (M) (Reinforce03)
+Asugi (Event01)
+Saizo (Event02)

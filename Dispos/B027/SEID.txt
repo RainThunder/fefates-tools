@@ -1,0 +1,19 @@
+18
+0x0 NULL
+0x2900 Heartseeker
+0x29A2 Spendthrift
+0x28AB Grisly Wound
+0x27EE Seal Speed
+0x2827 Warding Blow
+0x27DE Armored Blow
+0x28A1 Poison Strike
+0x290A Vantage
+0x286B Seal Strength
+0x29EE Wary Fighter
+0x28D0 Odd Shaped
+0x29D2 Movement +1
+0x29BE Countermagic
+0x29AE Counter
+0x2837 Seal Defense
+0x285B Certain Blow
+0x28DE Quick Draw

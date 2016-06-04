@@ -1,0 +1,20 @@
+19
+0x0 NULL
+0x1EC0 Certain Blow
+0x204B Life and Death
+0x1F46 Quick Draw
+0x1E26 Elbow Room
+0x1E51 Armored Blow
+0x206B Lifetaker
+0x1FA9 Rally Resistance
+0x1F0B Seal Speed
+0x1FEF Seal Strength
+0x2011 Malefic Aura
+0x1EB2 Wary Fighter
+0x1F67 Lunge
+0x1F75 Rally Defense
+0x1F38 Golembane
+0x205F Defender
+0x1E7E Seal Defense
+0x2055 Aegis
+0x203F Tomebreaker

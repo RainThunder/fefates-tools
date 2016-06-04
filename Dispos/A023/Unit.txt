@@ -1,0 +1,76 @@
+Corrin (M) 
+Felicia 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Ryoma 
+Scarlet 
+Silas 
+Saizo 
+Hinoka 
+Oboro 
+Camilla (Enemy)
+Beruka (Enemy)
+Selena (Enemy)
+Arthur (Enemy)
+Effie (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Paladin (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Sorcerer (M) (Enemy)
+Nohrian Sorcerer (M) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Sorcerer (M) (Enemy)
+Nohrian Sorcerer (M) (Enemy)
+Nohrian Sorcerer (M) (Enemy)
+Nohrian Sorcerer (M) (Enemy)
+Nohrian Sorcerer (M) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Sorcerer (M) (Reinforce01)
+Nohrian Sorcerer (M) (Reinforce02)
+Nohrian Wyvern Lord (M) (Reinforce03)
+Nohrian Wyvern Lord (M) (Reinforce03)
+Nohrian Malig Knight (M) (Reinforce04)
+Nohrian Malig Knight (M) (Reinforce04)
+Nohrian Dark Knight (M) (Reinforce06)
+Nohrian Paladin (M) (Reinforce07)
+Nohrian Wyvern Lord (M) (Reinforce08)
+Nohrian Wyvern Lord (M) (Reinforce08)
+Nohrian Malig Knight (M) (Reinforce08)
+Nohrian Malig Knight (M) (Reinforce08)
+Nohrian Sorcerer (M) (Reinforce08)

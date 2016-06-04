@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x112A Seal Strength
+0x1183 Poison Strike
+0x1136 Seal Defense

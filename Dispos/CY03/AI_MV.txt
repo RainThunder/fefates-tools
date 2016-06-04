@@ -1,0 +1,3 @@
+2
+0x0 NULL
+0x15EB AI_MV_CastleOffense

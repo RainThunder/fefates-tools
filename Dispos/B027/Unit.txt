@@ -1,0 +1,52 @@
+Corrin (M) 
+Felicia 
+Keaton 
+Elise 
+Charlotte 
+Benny 
+Leo 
+Niles 
+Nyx 
+Azura 
+Camilla 
+Selena 
+Beruka 
+Kaze 
+Xander 
+Peri 
+Felicia 
+Leo 
+Niles 
+Kaze 
+Garon (Enemy)
+Invader Swordmaster (M) (Enemy)
+Invader Swordmaster (M) (Enemy)
+Invader Swordmaster (M) (Enemy)
+Invader Spear Master (M) (Enemy)
+Invader Spear Master (M) (Enemy)
+Invader Spear Master (M) (Enemy)
+Invader Berserker (M) (Enemy)
+Invader Berserker (M) (Enemy)
+Invader Master Ninja (M) (Enemy)
+Invader Master Ninja (M) (Enemy)
+Invader Sniper (M) (Enemy)
+Invader Sniper (M) (Enemy)
+Invader Sorcerer (M) (Enemy)
+Invader Sorcerer (M) (Enemy)
+Invader Shrine Maiden (Enemy)
+Invader Shrine Maiden (Enemy)
+Invader Shrine Maiden (Enemy)
+Invader Shrine Maiden (Enemy)
+Invader Shrine Maiden (Enemy)
+Invader Shrine Maiden (Enemy)
+Invader Lancer (Enemy)
+Invader Lancer (Enemy)
+Invader Lancer (Enemy)
+Invader Lancer (Enemy)
+Invader Merchant (M) (Enemy)
+Garon (Event01)
+Corrin (M) (Event01)
+Xander (Event01)
+Camilla (Event01)
+Leo (Event01)
+Elise (Event01)

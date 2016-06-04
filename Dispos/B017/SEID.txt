@@ -1,0 +1,11 @@
+10
+0x0 NULL
+0x4401 Movement +1
+0x43D6 Natural Cover
+0x4388 Poison Strike
+0x446A Quick Draw
+0x44E0 Life and Death
+0x43B8 Vantage
+0x4392 Grisly Wound
+0x44B6 Lunge
+0x4478 Elbow Room

@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x8669 AI_MV_WeakEnemy
+0x82B6 AI_MV_Null
+0x88FF AI_MV_B028

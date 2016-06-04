@@ -1,0 +1,10 @@
+9
+0x0 NULL
+0x1121 Shackled Fist
+0x11C7 Bloom Festal
+0x102B Ganglari
+0x108D Iron Shuriken
+0x1071 Brass Club
+0x10B7 Raijinto
+0x11BA Steel Naginata
+0x109C Vulnerary

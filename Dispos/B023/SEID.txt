@@ -1,0 +1,18 @@
+17
+0x0 NULL
+0x3E01 Strong Riposte
+0x3D62 Quick Draw
+0x3DAE Life and Death
+0x3E46 Seal Strength
+0x3C4E Counter
+0x3D70 Rally Speed
+0x3CD1 Rally Defense
+0x3D80 Rally Skill
+0x3C33 Amaterasu
+0x3CB4 Duelist's Blow
+0x3CFE Rally Strength
+0x3D8E Rally Resistance
+0x3D9E Rally Luck
+0x3DB8 Armored Blow
+0x3D54 Seal Defense
+0x3C5E Lunge

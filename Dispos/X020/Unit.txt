@@ -1,0 +1,58 @@
+Corrin (M) 
+Odin 
+Jakob 
+Felicia 
+Silas 
+Elise 
+Arthur 
+Effie 
+Niles 
+Nyx 
+Azura 
+Camilla 
+Ophelia 
+Senno (Enemy)
+Ruffian Samurai (M) (Enemy)
+Ruffian Diviner (M) (Enemy)
+Ruffian Shrine Maiden (Enemy)
+Ruffian Spear Fighter (M) (Enemy)
+Ruffian Spear Fighter (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Ruffian Archer (M) (Enemy)
+Ruffian Knight (M) (Enemy)
+Ruffian Knight (M) (Enemy)
+Ruffian Knight (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Knight (M) (Enemy)
+Ruffian Knight (M) (Enemy)
+Ruffian Diviner (M) (Enemy)
+Ruffian Diviner (M) (Enemy)
+Ruffian Wyvern Rider (M) (Enemy)
+Ruffian Wyvern Rider (M) (Enemy)
+Ruffian Wyvern Rider (M) (Enemy)
+Ruffian Knight (M) (Enemy)
+Ruffian Ninja (M) (Enemy)
+Ruffian Ninja (M) (Enemy)
+Ruffian Samurai (M) (Enemy)
+Ruffian Samurai (M) (Enemy)
+Ruffian Samurai (M) (Enemy)
+Ruffian Diviner (M) (Enemy)
+Ruffian Diviner (M) (Enemy)
+Ruffian Diviner (M) (Enemy)
+Ruffian Shrine Maiden (Enemy)
+Ruffian Apothecary (M) (Reinforce01)
+Ruffian Spear Fighter (M) (Reinforce01)
+Ruffian Spear Fighter (M) (Reinforce01)
+Ruffian Spear Fighter (M) (Reinforce01)
+Ruffian Fighter (M) (Reinforce01)
+Ruffian Outlaw (M) (Reinforce01)
+Ruffian Apothecary (M) (Reinforce02)
+Ruffian Mercenary (M) (Reinforce02)
+Ruffian Mercenary (M) (Reinforce02)
+Ruffian Mercenary (M) (Reinforce02)
+Ruffian Diviner (M) (Reinforce02)
+Ruffian Outlaw (M) (Reinforce02)

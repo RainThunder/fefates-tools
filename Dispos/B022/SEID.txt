@@ -1,0 +1,20 @@
+19
+0x0 NULL
+0x4FD4 Rally Magic
+0x4DC3 Inspiration
+0x4FC4 Certain Blow
+0x4FE4 Shurikenfaire
+0x4F9D Quick Draw
+0x4EAA Odd Shaped
+0x4FAB Pavise
+0x4E0C Shurikenbreaker
+0x4EEF Pass
+0x4DFE Tomefaire
+0x4ED2 Evenhanded
+0x4F33 Elbow Room
+0x4FF4 Lancefaire
+0x4E35 Heartseeker
+0x4E79 Death Blow
+0x4F7C Rally Resistance
+0x4EFD Vantage
+0x4E5E Strong Riposte

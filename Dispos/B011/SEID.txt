@@ -1,0 +1,14 @@
+13
+0x0 NULL
+0x3300 Winged Shield
+0x3344 Gentilhomme
+0x33A6 Lunge
+0x3426 Malefic Aura
+0x3549 Seal Resistance
+0x33CF Life and Death
+0x34CF Counter
+0x32F4 Camaraderie
+0x3564 Seal Speed
+0x33B4 Armored Blow
+0x346F Miracle
+0x33FF Poison Strike

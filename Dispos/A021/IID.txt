@@ -1,0 +1,40 @@
+39
+0x0 NULL
+0x4F80 Silver Katana
+0x4C83 Iron Dagger
+0x4F8B Venge Katana
+0x4E8D Rock
+0x500E Arms Scroll
+0x4C90 Steel Dagger
+0x4D11 Bloom Festal
+0x5017 Steel Sword
+0x4D9B Tiger Spirit
+0x4C9D Sun Festal
+0x4D25 Bronze Lance
+0x4FA8 Steel Axe
+0x4E2B Massive Rock
+0x4F2D Steel Yumi
+0x4C2E Noble Yato
+0x4EB2 Silver Yumi
+0x4FB3 Silver Sword
+0x4DB5 Raijinto
+0x4E36 Master Seal
+0x4C3F Dragonstone
+0x4CC1 Iron Club
+0x4D48 Iron Katana
+0x4D32 Javelin
+0x4CCE Steel Club
+0x4DCF Killer Axe
+0x4D53 Steel Katana
+0x4F54 Silver Axe
+0x4D8E Rat Spirit
+0x4ED9 Killer Bow
+0x4F5F Levin Sword
+0x4F10 Ox Spirit
+0x4CE8 Iron Shuriken
+0x4D69 Iron Naginata
+0x4EE8 Silver Bow
+0x4EF3 Physic
+0x4D76 Steel Naginata
+0x4CF7 Steel Shuriken
+0x4DF8 Guard Naginata

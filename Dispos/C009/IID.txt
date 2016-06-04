@@ -1,0 +1,19 @@
+18
+0x0 NULL
+0x2607 Steel Lance
+0x25E9 Iron Shuriken
+0x262A Brass Club
+0x2647 Iron Club
+0x25CF Iron Naginata
+0x2510 Ganglari
+0x26D8 Ox Spirit
+0x2572 Bronze Lance
+0x2593 Bloom Festal
+0x2654 Heart Seal
+0x2675 Sun Festal
+0x25B9 Iron Katana
+0x26B8 Rat Spirit
+0x2699 Iron Yumi
+0x255A Iron Dagger
+0x26FF Chest Key
+0x257F Vulnerary

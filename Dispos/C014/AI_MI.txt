@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0x2FB6 AI_MI_Null
+0x3287 AI_MI_Village

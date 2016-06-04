@@ -1,0 +1,50 @@
+Corrin (M) 
+Takumi 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Hinata 
+Saizo 
+Hinoka 
+Kiragi 
+Invader Falcon Knight (F) (Enemy)
+Invader Malig Knight (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Malig Knight (M) (Enemy)
+Invader Malig Knight (M) (Enemy)
+Invader Kinshi Knight (F) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Kinshi Knight (F) (Enemy)
+Invader Falcon Knight (F) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Kinshi Knight (F) (Enemy)
+Invader Falcon Knight (F) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Falcon Knight (F) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Malig Knight (M) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Falcon Knight (F) (Enemy)
+Invader Wyvern Rider (M) (Reinforce01)
+Invader Wyvern Rider (M) (Reinforce01)
+Kiragi (Event01)
+Invader Sky Knight (F) (Event01)
+Invader Sky Knight (F) (Event01)
+Invader Wyvern Rider (M) (Event01)
+Sakura (Event02)
+Takumi (Event02)

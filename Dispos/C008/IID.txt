@@ -1,0 +1,17 @@
+16
+0x0 NULL
+0x1821 Iron Shuriken
+0x1782 Iron Dagger
+0x1876 Iron Naginata
+0x17A7 Vulnerary
+0x1840 Rat Spirit
+0x1802 Iron Yumi
+0x18CF Sun Festal
+0x17F5 Steel Dagger
+0x18B6 Chest Key
+0x1917 Bloom Festal
+0x1738 Ganglari
+0x1859 Iron Katana
+0x179A Bronze Lance
+0x18FD Iron Club
+0x17BF Steel Lance

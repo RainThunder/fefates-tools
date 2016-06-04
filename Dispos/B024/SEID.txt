@@ -1,0 +1,15 @@
+14
+0x0 NULL
+0x46A1 Shurikenbreaker
+0x4683 Seal Resistance
+0x4608 Aegis
+0x45ED Air Superiority
+0x46AF Heartseeker
+0x4528 Certain Blow
+0x4612 Bowbreaker
+0x45A3 Pass
+0x4675 Seal Speed
+0x46F8 Darting Blow
+0x46B9 Malefic Aura
+0x463B Vantage
+0x451E Life and Death

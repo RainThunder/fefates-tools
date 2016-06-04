@@ -1,0 +1,13 @@
+12
+0x0 NULL
+0x2B63 Wary Fighter
+0x2A04 Odd Shaped
+0x2BEC Darting Blow
+0x2AAB Seal Defense
+0x2CAC Elbow Room
+0x2B32 Quick Draw
+0x2A33 Evenhanded
+0x2ADA Pass
+0x2CDB Good Fortune
+0x2C9C Potent Potion
+0x2B9E Seal Strength

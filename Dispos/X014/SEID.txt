@@ -1,0 +1,11 @@
+10
+0x0 NULL
+0x2D45 Axebreaker
+0x2D89 Tomebreaker
+0x2D6B Aegis
+0x2D2D Swordbreaker
+0x2D51 Shurikenbreaker
+0x2D75 Pavise
+0x2D39 Lancebreaker
+0x2D5F Bowbreaker
+0x2D7F Miracle

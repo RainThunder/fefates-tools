@@ -1,0 +1,3 @@
+2
+0x0 NULL
+0x1217 V_Default,PID_A005_リョウマ

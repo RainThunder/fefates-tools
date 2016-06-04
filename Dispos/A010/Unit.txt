@@ -1,0 +1,59 @@
+Corrin (M) 
+Felicia 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Silas 
+Saizo 
+Hinoka 
+Kotaro (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Spear Fighter (M) (Enemy)
+Mokushujin Spear Fighter (M) (Enemy)
+Mokushujin Archer (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Ninja (M) (Enemy)
+Mokushujin Diviner (M) (Enemy)
+Mokushujin Diviner (M) (Enemy)
+Mokushujin Diviner (M) (Enemy)
+Mokushujin Diviner (M) (Enemy)
+Mokushujin Archer (M) (Enemy)
+Mokushujin Diviner (M) (Enemy)
+Mokushujin Diviner (M) (Enemy)
+Mokushujin Diviner (M) (Enemy)
+Mokushujin Archer (M) (Enemy)
+Mokushujin Archer (M) (Enemy)
+Mokushujin Archer (M) (Enemy)
+Mokushujin Spear Fighter (M) (Enemy)
+Mokushujin Spear Fighter (M) (Enemy)
+Mokushujin Spear Fighter (M) (Enemy)
+Mokushujin Shrine Maiden (Enemy)
+Mokushujin Shrine Maiden (Enemy)
+Takumi (Enemy02)
+Mokushujin Diviner (M) (Reinforce01)
+Mokushujin Spear Fighter (M) (Reinforce02)
+Mokushujin Spear Fighter (M) (Reinforce02)
+Mokushujin Diviner (M) (Reinforce03)
+Mokushujin Archer (M) (Reinforce03)
+Mokushujin Ninja (M) (Reinforce04)
+Mokushujin Spear Fighter (M) (Reinforce04)
+Kagero (Support01)
+Takumi (Support02)
+Corrin (M) (Event01)
+Azura (Event01)
+Takumi (Event01)

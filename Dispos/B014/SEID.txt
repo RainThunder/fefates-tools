@@ -1,0 +1,8 @@
+7
+0x0 NULL
+0x3321 Poison Strike
+0x33E9 Darting Blow
+0x332B Lunge
+0x33AF Pass
+0x3352 Heartseeker
+0x32F7 Certain Blow

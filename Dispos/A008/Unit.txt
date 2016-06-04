@@ -1,0 +1,52 @@
+Corrin (M) 
+Felicia 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Silas 
+Saizo 
+Fuga (Enemy)
+Tribalist Samurai (M) (Enemy)
+Tribalist Oni Savage (M) (Enemy)
+Tribalist Samurai (M) (Enemy)
+Tribalist Samurai (M) (Enemy)
+Tribalist Oni Savage (M) (Enemy)
+Tribalist Oni Savage (M) (Enemy)
+Tribalist Samurai (M) (Enemy)
+Tribalist Oni Savage (M) (Enemy)
+Tribalist Oni Savage (M) (Enemy)
+Tribalist Diviner (M) (Enemy)
+Tribalist Diviner (M) (Enemy)
+Tribalist Diviner (M) (Enemy)
+Tribalist Diviner (M) (Enemy)
+Tribalist Diviner (M) (Enemy)
+Tribalist Shrine Maiden (Enemy)
+Tribalist Shrine Maiden (Enemy)
+Tribalist Archer (M) (Enemy)
+Tribalist Archer (M) (Enemy)
+Tribalist Archer (M) (Enemy)
+Tribalist Oni Savage (M) (Enemy)
+Tribalist Diviner (M) (Enemy)
+Tribalist Oni Savage (M) (Enemy)
+Tribalist Diviner (M) (Enemy)
+Tribalist Samurai (M) (Enemy)
+Tribalist Archer (M) (Enemy)
+Hinoka (Ally)
+Azama (Ally)
+Setsuna (Ally)
+Tribalist Oni Savage (M) (Enemy01)
+Hayato (Support01)
+Fuga (Event11)
+Corrin (M) (Event11)
+Azura (Event11)
+Hinoka (Event12)
+Azama (Event12)
+Corrin (M) (Event12)
+Subaki (Event12)
+Kaze (Event12)
+Rinkah (Event12)
+Setsuna (Event13)

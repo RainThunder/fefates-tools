@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x4C48 AI_AC_Null
+0x4CA6 AI_AC_Everytime
+0x4E49 AI_AC_AttackRange

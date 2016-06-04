@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x2E19 AI_MV_Null
+0x2FDB AI_MV_TrasureToEscape
+0x31C6 AI_MV_WeakEnemy

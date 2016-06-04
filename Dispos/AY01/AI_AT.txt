@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0xA13 AI_AT_CastleOffense
+0xACD AI_AT_CastleDestroy

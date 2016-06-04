@@ -1,0 +1,61 @@
+Corrin (M) 
+Felicia 
+Azura 
+Sakura 
+Leo 
+Ryoma 
+Kagero 
+Rinkah 
+Nyx 
+Takumi 
+Oboro 
+Xander 
+Orochi 
+Gunter 
+Arete (Enemy)
+Vallite Faceless (Enemy)
+Vallite Faceless (Enemy)
+Vallite Onmyoji (M) (Enemy)
+Vallite Onmyoji (M) (Enemy)
+Vallite Swordmaster (M) (Enemy)
+Vallite Swordmaster (M) (Enemy)
+Vallite Sniper (M) (Enemy)
+Vallite Sniper (M) (Enemy)
+Vallite Spear Master (M) (Enemy)
+Vallite Spear Master (M) (Enemy)
+Vallite Spear Master (M) (Enemy)
+Vallite Oni Chieftain (M) (Enemy)
+Vallite Oni Chieftain (M) (Enemy)
+Vallite Oni Chieftain (M) (Enemy)
+Vallite Swordmaster (M) (Enemy)
+Vallite Master of Arms (M) (Enemy)
+Vallite Master of Arms (M) (Enemy)
+Vallite Mechanist (M) (Enemy)
+Vallite Mechanist (M) (Enemy)
+Vallite Master Ninja (M) (Enemy)
+Vallite Great Master (Enemy)
+Vallite Great Master (Enemy)
+Vallite Master Ninja (M) (Enemy)
+Vallite Falcon Knight (F) (Enemy)
+Vallite Falcon Knight (F) (Enemy)
+Vallite Falcon Knight (F) (Enemy)
+Vallite Falcon Knight (F) (Enemy)
+Vallite Falcon Knight (F) (Enemy)
+Vallite Oni Chieftain (M) (Enemy)
+Vallite Spear Master (M) (Enemy)
+Vallite Sniper (M) (Enemy)
+Vallite Sniper (M) (Enemy)
+Vallite Falcon Knight (F) (Enemy)
+Vallite Kinshi Knight (F) (Reinforce01_1)
+Vallite Kinshi Knight (F) (Reinforce01_2)
+Vallite Kinshi Knight (F) (Reinforce01_3)
+Vallite Master Ninja (M) (Reinforce02_1)
+Vallite Master Ninja (M) (Reinforce02_2)
+Vallite Master Ninja (M) (Reinforce02_3)
+Vallite Basara (M) (Reinforce03)
+Vallite Basara (M) (Reinforce03)
+Arete (Event11)
+Corrin (M) (Event11)
+Azura (Event11)
+Xander (Event11)
+Ryoma (Event11)

@@ -1,0 +1,6 @@
+5
+0x0 NULL
+0x4F63 AI_MV_Position
+0x4A0A AI_MV_Null
+0x4F0B AI_MV_WeakEnemySide
+0x4D7F AI_MV_NearestEnemy

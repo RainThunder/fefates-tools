@@ -1,0 +1,6 @@
+5
+0x0 NULL
+0x1050 AI_AT_Null
+0x10D2 AI_AT_ExcludeBand
+0x1144 AI_AT_Attack
+0x11D0 AI_AT_Heal

@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x32B1 AI_MV_NearestEnemy
+0x334A AI_MV_TrasureToEscape
+0x2D63 AI_MV_Null

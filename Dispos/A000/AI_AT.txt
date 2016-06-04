@@ -1,0 +1,7 @@
+6
+0x0 NULL
+0x23A0 AI_AT_Hero
+0x2284 AI_AT_Heal
+0x1FC6 AI_AT_Null
+0x2047 AI_AT_PersonOnly
+0x2017 AI_AT_HeroOnly

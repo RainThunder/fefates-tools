@@ -1,0 +1,6 @@
+5
+0x0 NULL
+0x4431 AI_AT_AttackToHeal
+0x412A AI_AT_Null
+0x436D AI_AT_Attack
+0x4531 AI_AT_TrapRelease

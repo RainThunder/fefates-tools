@@ -1,0 +1,11 @@
+10
+0x0 NULL
+0x3E84 Seal Defense
+0x3E27 Lunge
+0x3F37 Quick Draw
+0x3EAC Elbow Room
+0x3EE7 Seal Strength
+0x3E57 Armored Blow
+0x3F58 Luna
+0x3E19 Savage Blow
+0x3F1E Strong Riposte

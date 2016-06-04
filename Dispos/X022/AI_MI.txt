@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0x2FC2 AI_MI_Treasure
+0x2E03 AI_MI_Null

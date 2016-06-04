@@ -1,0 +1,6 @@
+5
+0x0 NULL
+0x23E1 AI_MV_Null
+0x260A AI_MV_Person
+0x26D3 AI_MV_NearestEnemy
+0x25C5 AI_MV_Escape

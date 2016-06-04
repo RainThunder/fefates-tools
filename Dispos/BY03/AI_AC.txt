@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0x1E61 AI_AC_Everytime
+0x1DAF AI_AC_Turn

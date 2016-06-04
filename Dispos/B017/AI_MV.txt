@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x4543 AI_MV_TrapRelease
+0x4135 AI_MV_Null
+0x4486 AI_MV_NearestEnemy

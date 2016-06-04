@@ -1,0 +1,19 @@
+18
+0x0 NULL
+0x18E0 Beast Killer
+0x17A3 Dragonstone
+0x18C4 Steel Lance
+0x1965 Brass Naginata
+0x18A6 Iron Shuriken
+0x1808 Heal
+0x17AC Yato
+0x182B Bronze Lance
+0x188C Iron Naginata
+0x190E Shackled Fist
+0x18CF Killer Lance
+0x184C Iron Club
+0x1813 Mend
+0x1876 Iron Katana
+0x17B7 Spirit Katana
+0x1838 Vulnerary
+0x17FB Iron Dagger

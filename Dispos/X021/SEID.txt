@@ -1,0 +1,9 @@
+8
+0x0 NULL
+0x4745 Wary Fighter
+0x4688 Poison Strike
+0x4629 Heartseeker
+0x464D Duelist's Blow
+0x46C9 Malefic Aura
+0x4678 Pass
+0x46BB Lunge

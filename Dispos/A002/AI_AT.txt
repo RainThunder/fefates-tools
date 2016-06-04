@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0xA6B AI_AT_Attack
+0x9C7 AI_AT_Null

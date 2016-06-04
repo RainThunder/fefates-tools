@@ -1,0 +1,61 @@
+Corrin (M) 
+Felicia 
+Azura 
+Gunter 
+Sakura 
+Hana 
+Subaki 
+Kaze 
+Rinkah 
+Takumi 
+Oboro 
+Hinata 
+Flora (Enemy)
+Tribalist Sorcerer (M) (Enemy)
+Tribalist Sorcerer (M) (Enemy)
+Tribalist Berserker (M) (Enemy)
+Tribalist Sorcerer (M) (Enemy)
+Tribalist Berserker (M) (Enemy)
+Tribalist Sorcerer (M) (Enemy)
+Tribalist Sorcerer (M) (Enemy)
+Tribalist Outlaw (M) (Enemy)
+Tribalist Berserker (M) (Enemy)
+Camilla (Enemy)
+Tribalist Fighter (M) (Enemy)
+Tribalist Dark Mage (M) (Enemy)
+Tribalist Fighter (M) (Enemy)
+Beruka (Enemy)
+Tribalist Fighter (M) (Enemy)
+Tribalist Fighter (M) (Enemy)
+Tribalist Outlaw (M) (Enemy)
+Tribalist Dark Mage (M) (Enemy)
+Tribalist Dark Mage (M) (Enemy)
+Tribalist Berserker (M) (Enemy)
+Selena (Enemy)
+Tribalist Dark Mage (M) (Enemy)
+Tribalist Fighter (M) (Enemy)
+Tribalist Fighter (M) (Enemy)
+Tribalist Outlaw (M) (Enemy)
+Tribalist Berserker (M) (Enemy)
+Camilla (Support01)
+Beruka (Support02)
+Selena (Support03)
+Tribalist Fighter (M) (Reinforce01_1)
+Tribalist Fighter (M) (Reinforce01_1)
+Tribalist Outlaw (M) (Reinforce01_2)
+Tribalist Dark Mage (M) (Reinforce01_2)
+Tribalist Outlaw (M) (Reinforce02_1)
+Tribalist Dark Mage (M) (Reinforce02_1)
+Tribalist Fighter (M) (Reinforce02_2)
+Tribalist Fighter (M) (Reinforce02_2)
+Camilla (Event01)
+Corrin (M) (Event01)
+Felicia (Event02)
+Jakob (Event03)
+Flora (Event04)
+Camilla (Event11)
+Flora (Event11)
+Selena (Event11)
+Beruka (Event11)
+Corrin (M) (Event11)
+Takumi (Event11)

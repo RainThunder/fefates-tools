@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0x32D1 AI_MI_Null
+0x3559 AI_MI_Treasure

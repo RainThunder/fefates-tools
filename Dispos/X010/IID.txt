@@ -1,0 +1,26 @@
+25
+0x0 NULL
+0x1F02 Bronze Lance
+0x1F85 Steel Shuriken
+0x208C Steel Club
+0x1E8D Beaststone
+0x1F0F Javelin
+0x2111 Steel Yumi
+0x1F9F Guard Naginata
+0x1F25 Iron Katana
+0x2127 Concoction
+0x1EB1 Iron Club
+0x1F3B Iron Naginata
+0x1E42 Yato
+0x20C3 Steel Axe
+0x1FC4 Steel Naginata
+0x1ECB Iron Shuriken
+0x1E4D Dragonstone
+0x2050 Steel Bow
+0x1F53 Rat Spirit
+0x1FDC Fujin Yumi
+0x1F60 Tiger Spirit
+0x20E4 Fimbulvetr
+0x1EE5 Bloom Festal
+0x1EEE Sun Festal
+0x2071 Steel Sword

@@ -1,0 +1,77 @@
+Corrin (M) 
+Felicia 
+Azura 
+Sakura 
+Camilla 
+Shura 
+Kagero 
+Rinkah 
+Orochi 
+Takumi 
+Oboro 
+Peri 
+Nyx 
+Xander 
+Leo 
+Ryoma 
+Gunter (Enemy)
+Vallite General (M) (Enemy)
+Vallite General (M) (Enemy)
+Vallite General (M) (Enemy)
+Vallite Paladin (M) (Enemy)
+Vallite Paladin (M) (Enemy)
+Vallite Paladin (M) (Enemy)
+Vallite General (M) (Enemy)
+Vallite Sorcerer (M) (Enemy)
+Vallite Hero (M) (Enemy)
+Vallite Bow Knight (M) (Enemy)
+Vallite Bow Knight (M) (Enemy)
+Vallite Dark Knight (M) (Enemy)
+Vallite Wyvern Lord (M) (Enemy)
+Vallite Wyvern Lord (M) (Enemy)
+Vallite General (M) (Enemy)
+Vallite Maid (Enemy)
+Vallite Maid (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Paladin (M) (Enemy)
+Vallite General (M) (Enemy)
+Vallite Maid (Enemy)
+Vallite Berserker (M) (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Bow Knight (M) (Enemy)
+Vallite Bow Knight (M) (Enemy)
+Vallite Dark Knight (M) (Enemy)
+Vallite Dark Knight (M) (Enemy)
+Vallite Dark Knight (M) (Enemy)
+Vallite Wyvern Lord (M) (Enemy)
+Vallite Wyvern Lord (M) (Enemy)
+Vallite Paladin (M) (Enemy)
+Vallite Paladin (M) (Enemy)
+Vallite Paladin (M) (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite General (M) (Enemy)
+Vallite General (M) (Enemy)
+Vallite Hero (M) (Reinforce01)
+Vallite Hero (M) (Reinforce01)
+Vallite Hero (M) (Reinforce01)
+Vallite Hero (M) (Reinforce01)
+Vallite Sorcerer (M) (Reinforce02)
+Vallite Sorcerer (M) (Reinforce02)
+Vallite Sorcerer (M) (Reinforce02)
+Vallite Sorcerer (M) (Reinforce02)
+Vallite Berserker (M) (Reinforce03)
+Vallite Berserker (M) (Reinforce03)
+Vallite Berserker (M) (Reinforce03)
+Vallite Berserker (M) (Reinforce03)
+Vallite Great Knight (M) (Reinforce04)
+Vallite Great Knight (M) (Reinforce04)
+Vallite Great Knight (M) (Reinforce04)
+Vallite Great Knight (M) (Reinforce04)
+Vallite Malig Knight (M) (Reinforce05)
+Vallite Malig Knight (M) (Reinforce05)
+Vallite Malig Knight (M) (Reinforce05)
+Vallite Malig Knight (M) (Reinforce05)

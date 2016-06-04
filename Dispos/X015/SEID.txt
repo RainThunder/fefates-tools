@@ -1,0 +1,15 @@
+14
+0x0 NULL
+0x4501 Certain Blow
+0x45C7 Elbow Room
+0x44A7 Seal Speed
+0x4477 Heartseeker
+0x456D Quick Draw
+0x4541 Seal Strength
+0x43CD Darting Blow
+0x4511 Malefic Aura
+0x4533 Seal Magic
+0x4596 Poison Strike
+0x44D7 Duelist's Blow
+0x4358 Wary Fighter
+0x437C Seal Defense

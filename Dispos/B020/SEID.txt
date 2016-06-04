@@ -1,0 +1,13 @@
+12
+0x0 NULL
+0x3D68 Lunge
+0x3EC6 Renewal
+0x3E31 Seal Speed
+0x3E08 Seal Strength
+0x3CFF Axebreaker
+0x3D91 Seal Resistance
+0x3E72 Air Superiority
+0x3DCF Seal Defense
+0x3E9A Counter
+0x3EDB Trample
+0x3E3F Armored Blow

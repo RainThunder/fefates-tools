@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0x20C1 AI_AT_Attack
+0x200D AI_AT_Null

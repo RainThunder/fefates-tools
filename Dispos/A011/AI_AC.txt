@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x2781 AI_AC_TurnAttackRange
+0x261A AI_AC_Everytime
+0x25D2 AI_AC_Null

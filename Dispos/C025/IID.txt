@@ -1,0 +1,37 @@
+36
+0x0 NULL
+0x316B Fimbulvetr
+0x3205 Silver Yumi
+0x3087 Vulnerary
+0x3189 Beaststone
+0x328A Steel Katana
+0x310B Iron Club
+0x3395 Iron Yumi
+0x301A Ganglari
+0x309B Bloom Festal
+0x331D Steel Yumi
+0x31A0 Silver Naginata
+0x3125 Ox Spirit
+0x30F1 Iron Shuriken
+0x332A Venge Katana
+0x31AD Great Festal
+0x322F Silver Katana
+0x33B2 Rat Spirit
+0x323A Steel Naginata
+0x313D Fujin Yumi
+0x32C0 Steel Shuriken
+0x30C1 Iron Katana
+0x3345 Silver Shuriken
+0x3247 Steel Club
+0x3354 Venge Naginata
+0x30D7 Iron Naginata
+0x32A5 Rabbit Spirit
+0x3262 Hagakure Blade
+0x3363 Moon Festal
+0x3064 Iron Dagger
+0x326B Ganglari
+0x336C Wane Festal
+0x31EE Sun Festal
+0x32F1 Silver Club
+0x307C Iron Lance
+0x32FE Tiger Spirit

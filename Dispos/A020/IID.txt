@@ -1,0 +1,28 @@
+27
+0x0 NULL
+0x3801 Bronze Lance
+0x3907 Gauntlet
+0x370A Noble Yato
+0x380E Javelin
+0x3891 Raijinto
+0x3912 Master Seal
+0x3794 Iron Club
+0x371B Dragonstone
+0x37A1 Steel Club
+0x3824 Iron Katana
+0x3A25 Goddess Icon
+0x38AB Killer Axe
+0x382F Steel Katana
+0x39B2 Shackled Fist
+0x37BB Iron Shuriken
+0x3A3E 5000G
+0x3845 Iron Naginata
+0x37CA Steel Shuriken
+0x3852 Steel Naginata
+0x38D4 Guard Naginata
+0x375F Iron Dagger
+0x37E4 Bloom Festal
+0x386A Rat Spirit
+0x376C Steel Dagger
+0x37ED Sun Festal
+0x3877 Tiger Spirit

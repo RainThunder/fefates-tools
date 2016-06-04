@@ -1,0 +1,20 @@
+19
+0x0 NULL
+0x2120 Dual Naginata
+0x20A2 Speedwing
+0x2143 Steel Shuriken
+0x2084 Steel Kukri
+0x2062 Steel Axe
+0x1FD2 Grim Yato
+0x1FEC Kodachi
+0x21CD Spirit Dust
+0x202E Brass Naginata
+0x206D Javelin
+0x21E8 Hand Axe
+0x2152 Bolt Naginata
+0x2093 Steel Star Axe
+0x21C0 Goddess Icon
+0x2057 Steel Lance
+0x203D Vulnerary
+0x20DE Steel Naginata
+0x1FE3 Dragonstone

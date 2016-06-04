@@ -1,0 +1,41 @@
+40
+0x0 NULL
+0x2882 Iron Katana
+0x2B04 Silver Katana
+0x2985 Silver Lance
+0x2909 Killer Axe
+0x288D Steel Katana
+0x2A0E Steel Axe
+0x2A93 Master Seal
+0x2819 Iron Shuriken
+0x28A3 Iron Naginata
+0x2927 Steel Sword
+0x2828 Steel Shuriken
+0x27F2 Iron Club
+0x28B0 Steel Naginata
+0x2A33 Physic
+0x2AB6 Ox Spirit
+0x2B3D Blessed Lance
+0x2842 Bloom Festal
+0x2AC3 Rabbit Spirit
+0x28C8 Rat Spirit
+0x2B4A Steel Lance
+0x284B Sun Festal
+0x2A4E Steel Yumi
+0x29D0 Dual Naginata
+0x28D5 Tiger Spirit
+0x2A5B Chest Key
+0x2ADE Great Festal
+0x285F Bronze Lance
+0x27BD Iron Dagger
+0x286C Javelin
+0x276E Yato
+0x28EF Raijinto
+0x27CA Steel Dagger
+0x2972 Spear
+0x2A74 Flame Shuriken
+0x2AF7 Silver Club
+0x2779 Dragonstone
+0x294A Guard Naginata
+0x29DB Bolt Naginata
+0x27FF Steel Club

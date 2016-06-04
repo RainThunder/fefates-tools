@@ -1,0 +1,55 @@
+Corrin (M) 
+Felicia 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Silas 
+Saizo 
+Hinoka 
+Invader Wyvern Lord (M) (Enemy)
+Invader Falcon Knight (F) (Enemy)
+Invader Kinshi Knight (F) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Malig Knight (M) (Enemy)
+Invader Malig Knight (M) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Wyvern Rider (M) (Enemy)
+Invader Sky Knight (F) (Enemy)
+Invader Wyvern Rider (M) (Reinforce01)
+Invader Wyvern Rider (M) (Reinforce01)
+Invader Sky Knight (F) (Reinforce02)
+Invader Sky Knight (F) (Reinforce02)
+Invader Wyvern Rider (M) (Reinforce03)
+Invader Wyvern Rider (M) (Reinforce03)
+Invader Sky Knight (F) (Reinforce04)
+Invader Sky Knight (F) (Reinforce04)
+Invader Wyvern Rider (M) (Reinforce05)
+Invader Wyvern Rider (M) (Reinforce05)
+Invader Sky Knight (F) (Reinforce06)
+Invader Sky Knight (F) (Reinforce06)
+Invader Wyvern Rider (M) (Reinforce07)
+Invader Wyvern Rider (M) (Reinforce07)
+Invader Sky Knight (F) (Reinforce08)
+Invader Sky Knight (F) (Reinforce08)
+Invader Sky Knight (F) (Reinforce09)
+Invader Sky Knight (F) (Reinforce09)
+Invader Wyvern Rider (M) (Reinforce10)
+Invader Wyvern Rider (M) (Reinforce10)
+Invader Kinshi Knight (F) (Reinforce90)
+Invader Malig Knight (M) (Reinforce91)
+Reina (Support01)
+Reina (Support02)

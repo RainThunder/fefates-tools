@@ -1,0 +1,6 @@
+5
+0x0 NULL
+0xBC8 Elbow Room
+0xB4A Underdog
+0xAC3 Strong Riposte
+0xBF9 Strength +2

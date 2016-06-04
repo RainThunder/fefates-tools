@@ -1,0 +1,67 @@
+Corrin (M) 
+Felicia 
+Azura 
+Ryoma 
+Xander 
+Leo 
+Kagero 
+Rinkah 
+Oboro 
+Takumi 
+Nyx 
+Orochi 
+Sakura 
+Anankos (Enemy)
+Anankos (Enemy)
+Anankos (Reinforce_Boss_Second)
+Anankos (Reinforce_Boss_Final)
+Vallite General (M) (Reinforce_01)
+Vallite Berserker (M) (Reinforce_01)
+Vallite Sorcerer (M) (Reinforce_01)
+Vallite Adventurer (M) (Reinforce_01)
+Vallite Paladin (M) (Reinforce_01)
+Vallite Dark Knight (M) (Reinforce_01)
+Vallite Wyvern Lord (M) (Reinforce_01)
+Vallite Bow Knight (M) (Reinforce_01)
+Vallite General (M) (Reinforce_01_1)
+Vallite Berserker (M) (Reinforce_01_2)
+Vallite Sorcerer (M) (Reinforce_01_3)
+Vallite Adventurer (M) (Reinforce_01_4)
+Vallite Paladin (M) (Reinforce_01_5)
+Vallite Dark Knight (M) (Reinforce_01_6)
+Vallite Wyvern Lord (M) (Reinforce_01_7)
+Vallite Bow Knight (M) (Reinforce_01_8)
+Vallite Spear Master (M) (Reinforce_02)
+Vallite Master of Arms (M) (Reinforce_02)
+Vallite Master Ninja (M) (Reinforce_02)
+Vallite Oni Chieftain (M) (Reinforce_02)
+Vallite Swordmaster (M) (Reinforce_02)
+Vallite Sniper (M) (Reinforce_02)
+Vallite Falcon Knight (F) (Reinforce_02)
+Vallite Onmyoji (M) (Reinforce_02)
+Vallite Spear Master (M) (Reinforce_02_1)
+Vallite Master of Arms (M) (Reinforce_02_2)
+Vallite Master Ninja (M) (Reinforce_02_3)
+Vallite Oni Chieftain (M) (Reinforce_02_4)
+Vallite Swordmaster (M) (Reinforce_02_5)
+Vallite Sniper (M) (Reinforce_02_6)
+Vallite Falcon Knight (F) (Reinforce_02_7)
+Vallite Onmyoji (M) (Reinforce_02_8)
+Vallite Mechanist (M) (Reinforce_03)
+Vallite Merchant (M) (Reinforce_03)
+Vallite Great Master (Reinforce_03)
+Vallite Basara (M) (Reinforce_03)
+Vallite Hero (M) (Reinforce_03)
+Vallite Great Knight (M) (Reinforce_03)
+Vallite Dark Knight (M) (Reinforce_03)
+Vallite Malig Knight (M) (Reinforce_03)
+Vallite Mechanist (M) (Reinforce_03_1)
+Vallite Merchant (M) (Reinforce_03_2)
+Vallite Great Master (Reinforce_03_3)
+Vallite Basara (M) (Reinforce_03_4)
+Vallite Hero (M) (Reinforce_03_5)
+Vallite Great Knight (M) (Reinforce_03_6)
+Vallite Dark Knight (M) (Reinforce_03_7)
+Vallite Malig Knight (M) (Reinforce_03_8)
+Corrin (M) (Event11)
+Azura (Event11)

@@ -1,0 +1,9 @@
+8
+0x0 NULL
+0x88B Rat Spirit
+0x828 Iron Club
+0x75C Steel Katana
+0x80B Iron Yumi
+0x870 Iron Katana
+0x855 Iron Shuriken
+0x7BC Iron Naginata

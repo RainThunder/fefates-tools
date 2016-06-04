@@ -1,0 +1,28 @@
+27
+0x0 NULL
+0x5588 Underdog
+0x5492 Demoiselle
+0x5594 Seal Strength
+0x5616 Tomefaire
+0x5697 Certain Blow
+0x571B Warding Blow
+0x5421 Strong Riposte
+0x54A2 Staff Savant
+0x5529 Savage Blow
+0x542F Counter
+0x54B0 Lucky Seven
+0x5635 Inspiration
+0x5537 Poison Strike
+0x54BF Swordfaire
+0x5652 Live to Serve
+0x567A Armored Blow
+0x555E Seal Magic
+0x54DF Aegis
+0x5465 Quick Draw
+0x54E9 Darting Blow
+0x556C Seal Defense
+0x56EE Pavise
+0x55EF Heartseeker
+0x55A9 Countermagic
+0x55F9 Malefic Aura
+0x557A Wary Fighter

@@ -1,0 +1,62 @@
+Corrin (M) 
+Azama 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Hinata 
+Takumi 
+Setsuna 
+Saizo 
+Hinoka 
+Invader General (M) (Enemy)
+Invader Paladin (M) (Enemy)
+Invader Ninja (M) (Enemy)
+Invader Archer (M) (Enemy)
+Invader Archer (M) (Enemy)
+Invader Oni Savage (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Archer (M) (Enemy)
+Invader Ninja (M) (Enemy)
+Invader Ninja (M) (Enemy)
+Invader Diviner (M) (Enemy)
+Invader Diviner (M) (Enemy)
+Invader Diviner (M) (Enemy)
+Invader Diviner (M) (Enemy)
+Invader Archer (M) (Enemy)
+Invader Oni Savage (M) (Enemy)
+Invader Oni Savage (M) (Enemy)
+Invader Oni Savage (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Paladin (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Archer (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Outlaw (M) (Reinforce01)
+Invader Outlaw (M) (Reinforce02)
+Invader Outlaw (M) (Reinforce03)
+Invader Outlaw (M) (Reinforce04)
+Mitama (Support01)
+Mitama (Support02)
+Invader Fighter (M) (Event01)
+Invader Fighter (M) (Event01)
+Invader Archer (M) (Event01)
+Invader Archer (M) (Event01)
+Corrin (M) (Event11)
+Azama (Event11)

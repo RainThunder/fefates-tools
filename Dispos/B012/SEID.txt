@@ -1,0 +1,12 @@
+11
+0x0 NULL
+0x2D83 Odd Shaped
+0x2DAC Certain Blow
+0x2D4E Spendthrift
+0x2D0F Potent Potion
+0x2CD3 Underdog
+0x2D75 Evenhanded
+0x2D37 Lunge
+0x2D5A Seal Defense
+0x2D9C Duelist's Blow
+0x2CBE Poison Strike

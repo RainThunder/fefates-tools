@@ -1,0 +1,13 @@
+12
+0x0 NULL
+0x2AE0 Seal Defense
+0x2B4E Poison Strike
+0x2BA7 Quick Draw
+0x2B2A Seal Speed
+0x2AEE Seal Strength
+0x2A75 Demoiselle
+0x2B58 Savage Blow
+0x2A19 Wary Fighter
+0x2B1C Seal Resistance
+0x2B7E Trample
+0x2BC0 Malefic Aura

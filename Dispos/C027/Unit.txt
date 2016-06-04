@@ -1,0 +1,74 @@
+Corrin (M) 
+Felicia 
+Azura 
+Sakura 
+Hana 
+Subaki 
+Kaze 
+Rinkah 
+Hayato 
+Takumi 
+Oboro 
+Hinata 
+Elise 
+Arthur 
+Effie 
+Charlotte 
+Anankos (Enemy)
+Vallite General (M) (Enemy)
+Vallite General (M) (Enemy)
+Vallite General (M) (Enemy)
+Vallite Sorcerer (M) (Enemy)
+Vallite Sorcerer (M) (Enemy)
+Vallite Sorcerer (M) (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Paladin (M) (Enemy)
+Vallite Paladin (M) (Enemy)
+Vallite Great Knight (M) (Enemy)
+Vallite Great Knight (M) (Enemy)
+Vallite Bow Knight (M) (Enemy)
+Vallite Bow Knight (M) (Enemy)
+Vallite Dark Knight (M) (Enemy)
+Vallite Dark Knight (M) (Enemy)
+Vallite Malig Knight (M) (Enemy)
+Vallite Malig Knight (M) (Enemy)
+Vallite Wyvern Lord (M) (Enemy)
+Vallite Wyvern Lord (M) (Enemy)
+Vallite Hero (M) (Enemy)
+Vallite Hero (M) (Enemy)
+Vallite Berserker (M) (Enemy)
+Vallite Berserker (M) (Enemy)
+Vallite Maid (Enemy)
+Vallite Maid (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Adventurer (M) (Enemy)
+Vallite Maid (Reinforce_01)
+Vallite Berserker (M) (Reinforce_01)
+Vallite Hero (M) (Reinforce_01)
+Vallite Wyvern Lord (M) (Reinforce_01)
+Vallite Malig Knight (M) (Reinforce_02)
+Vallite Dark Knight (M) (Reinforce_02)
+Vallite Bow Knight (M) (Reinforce_02)
+Vallite Great Knight (M) (Reinforce_02)
+Vallite Paladin (M) (Reinforce_03)
+Vallite Sorcerer (M) (Reinforce_03)
+Vallite Adventurer (M) (Reinforce_03)
+Vallite General (M) (Reinforce_03)
+Vallite Basara (M) (Reinforce_04)
+Vallite Master of Arms (M) (Reinforce_04)
+Vallite Master Ninja (M) (Reinforce_04)
+Vallite Swordmaster (M) (Reinforce_04)
+Vallite Merchant (M) (Reinforce_05)
+Vallite Oni Chieftain (M) (Reinforce_06)
+Vallite Falcon Knight (F) (Reinforce_07)
+Vallite Kinshi Knight (F) (Reinforce_08)
+Vallite Great Master (Reinforce_09)
+Vallite Mechanist (M) (Reinforce_10)
+Vallite Onmyoji (M) (Reinforce_11)
+Vallite Sniper (M) (Reinforce_12)
+Vallite Master Ninja (M) (Reinforce_13)
+Vallite Swordmaster (M) (Reinforce_14)
+Vallite Basara (M) (Reinforce_15)
+Vallite Master of Arms (M) (Reinforce_16)
+Vallite Merchant (M) (Reinforce_17)

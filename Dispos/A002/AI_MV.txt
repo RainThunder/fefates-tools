@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0xA78 AI_MV_NearestEnemy
+0x9D2 AI_MV_Null

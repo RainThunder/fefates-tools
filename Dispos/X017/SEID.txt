@@ -1,0 +1,6 @@
+5
+0x0 NULL
+0x242A Elbow Room
+0x237B Natural Cover
+0x22CC Malefic Aura
+0x23C6 Poison Strike

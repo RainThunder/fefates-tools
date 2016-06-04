@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x20C1 AI_MV_Position
+0x2260 AI_MV_Hero
+0x1FD1 AI_MV_Null

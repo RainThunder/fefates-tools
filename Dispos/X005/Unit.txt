@@ -1,0 +1,56 @@
+Corrin (M) 
+Silas 
+Felicia 
+Azura 
+Rinkah 
+Takumi 
+Subaki 
+Orochi 
+Gunter 
+Oboro 
+Reina 
+Kagero 
+Nichol (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Strategist (F) (Enemy)
+Ruffian Cavalier (M) (Enemy)
+Ruffian Paladin (M) (Enemy)
+Ruffian Cavalier (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Ruffian Paladin (M) (Enemy)
+Ruffian Cavalier (M) (Enemy)
+Ruffian Cavalier (M) (Enemy)
+Ruffian Berserker (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian General (M) (Enemy)
+Ruffian Dark Mage (M) (Enemy)
+Ruffian Dark Mage (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Ruffian Paladin (M) (Enemy)
+Ruffian Cavalier (M) (Enemy)
+Ruffian Cavalier (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Fighter (M) (Enemy)
+Ruffian Dark Mage (M) (Enemy)
+Ruffian Outlaw (M) (Enemy)
+Ruffian Troubadour (F) (Enemy)
+Ruffian Troubadour (F) (Enemy)
+Villager Villager (M) (Ally)
+Villager Villager (F) (Ally)
+Villager Villager (M) (Ally)
+Villager Villager (F) (Ally)
+Villager Villager (M) (Ally)
+Villager Villager (F) (Ally)
+Sophie (Ally)
+Ruffian Berserker (M) (Reinforce01)
+Ruffian Fighter (M) (Reinforce01)
+Ruffian Fighter (M) (Reinforce01)
+Ruffian Paladin (M) (Reinforce02)
+Ruffian Cavalier (M) (Reinforce02)
+Ruffian Cavalier (M) (Reinforce02)
+Ruffian Wyvern Lord (M) (Reinforce03)
+Ruffian Wyvern Rider (M) (Reinforce03)
+Ruffian Dark Mage (M) (Reinforce04)
+Ruffian Outlaw (M) (Reinforce05)

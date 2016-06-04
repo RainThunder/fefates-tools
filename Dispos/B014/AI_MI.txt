@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0x30A9 AI_MI_Null
+0x347A AI_MI_Talk

@@ -1,0 +1,77 @@
+Corrin (M) 
+Felicia 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Ryoma 
+Scarlet 
+Silas 
+Saizo 
+Hinoka 
+Oboro 
+Hinata 
+Garon (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian Sorcerer (M) (Enemy)
+Nohrian Sorcerer (M) (Enemy)
+Nohrian Maid (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Hero (M) (Enemy)
+Nohrian Hero (M) (Enemy)
+Nohrian Hero (M) (Enemy)
+Nohrian Hero (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Garon (Event01)
+Corrin (M) (Event01)
+Azura (Event01)
+Ryoma (Event01)
+Takumi (Event01)
+Sakura (Event01)
+Hinoka (Event02)
+Hinoka (Event03)

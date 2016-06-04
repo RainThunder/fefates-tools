@@ -1,0 +1,25 @@
+24
+0x0 NULL
+0x2488 Brass Yumi
+0x230A Bronze Lance
+0x238D Steel Shuriken
+0x2497 Iron Yumi
+0x2298 Iron Dagger
+0x241F Iron Club
+0x2324 Iron Katana
+0x23AA Steel Katana
+0x242C Brass Katana
+0x24AF Guard Naginata
+0x23B5 Iron Mace
+0x2449 Ox Spirit
+0x233A Iron Naginata
+0x22C0 Brass Club
+0x23C6 Secret Book
+0x2249 Yato
+0x2352 Rat Spirit
+0x2254 Dragonstone
+0x22DC Iron Shuriken
+0x2464 Sun Festal
+0x236C Steel Sword
+0x22F6 Bloom Festal
+0x2377 Javelin

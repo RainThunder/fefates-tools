@@ -1,0 +1,8 @@
+7
+0x0 NULL
+0x31E8 Certain Blow
+0x314C Trample
+0x3276 Locktouch
+0x329C Heartseeker
+0x319D Darting Blow
+0x321F Wary Fighter

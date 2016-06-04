@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0x7DB AI_AC_Everytime
+0x767 AI_AC_Turn

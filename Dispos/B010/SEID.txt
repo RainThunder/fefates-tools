@@ -1,0 +1,7 @@
+6
+0x0 NULL
+0x4323 Poison Strike
+0x4405 Quick Draw
+0x4348 Lunge
+0x43AF Seal Defense
+0x439F Darting Blow

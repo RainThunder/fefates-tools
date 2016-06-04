@@ -1,0 +1,6 @@
+5
+0x0 NULL
+0x2F1A Beastbane
+0x2F64 Evenhanded
+0x2F85 Life and Death
+0x2F26 Pass

@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x105B AI_MV_Null
+0x118D AI_MV_Person
+0x10E6 AI_MV_ForceExcludePerson

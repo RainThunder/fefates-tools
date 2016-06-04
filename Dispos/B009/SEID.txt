@@ -1,0 +1,7 @@
+6
+0x0 NULL
+0x2089 Vantage
+0x20AF Quick Draw
+0x20D4 Underdog
+0x2079 Duelist's Blow
+0x2014 Seal Defense

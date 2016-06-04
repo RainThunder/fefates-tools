@@ -1,0 +1,7 @@
+6
+0x0 NULL
+0x2B06 AI_MV_VillageToAttack
+0x280F AI_MV_Null
+0x2B71 AI_MV_NearestEnemy
+0x29D9 AI_MV_WeakEnemy
+0x2A7C AI_MV_NearestHeal

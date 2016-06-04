@@ -1,0 +1,60 @@
+Corrin (M) 
+Felicia 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Ryoma 
+Scarlet 
+Silas 
+Saizo 
+Hinoka 
+Illusion General (M) (Enemy)
+Illusion Spear Master (M) (Enemy)
+Illusion Spear Master (M) (Enemy)
+Illusion Swordmaster (M) (Enemy)
+Illusion Berserker (M) (Enemy)
+Illusion Berserker (M) (Enemy)
+Illusion Swordmaster (M) (Enemy)
+Illusion Swordmaster (M) (Enemy)
+Illusion Berserker (M) (Enemy)
+Illusion Adventurer (M) (Enemy)
+Illusion Adventurer (M) (Enemy)
+Illusion Sniper (M) (Enemy)
+Illusion Sniper (M) (Enemy)
+Illusion Master Ninja (M) (Enemy)
+Illusion Master Ninja (M) (Enemy)
+Illusion Merchant (M) (Enemy)
+Illusion Onmyoji (M) (Enemy)
+Illusion Onmyoji (M) (Enemy)
+Illusion Merchant (M) (Enemy)
+Illusion Onmyoji (M) (Enemy)
+Illusion Great Master (Enemy)
+Illusion Great Master (Enemy)
+Illusion Master of Arms (M) (Enemy)
+Illusion Master of Arms (M) (Enemy)
+Illusion Hero (M) (Enemy)
+Illusion Hero (M) (Enemy)
+Illusion General (M) (Enemy)
+Illusion General (M) (Enemy)
+Illusion Basara (M) (Enemy)
+Illusion Basara (M) (Enemy)
+Illusion Maid (Enemy)
+Illusion Mechanist (M) (Enemy)
+Illusion Mechanist (M) (Enemy)
+Illusion Maid (Enemy)
+Illusion Mechanist (M) (Enemy)
+Corrin (M) (Event01)
+Azura (Event01)
+Felicia (Event02)
+Jakob (Event02)
+Corrin (M) (Event11)
+Azura (Event11)
+Ryoma (Event11)
+Takumi (Event11)
+Sakura (Event11)
+Hinoka (Event12)
+Hinoka (Event13)

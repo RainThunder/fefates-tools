@@ -1,0 +1,15 @@
+14
+0x0 NULL
+0x3160 Seal Resistance
+0x3382 Strong Riposte
+0x3227 Inspiration
+0x328C Armored Blow
+0x3137 Odd Shaped
+0x32AC Quick Draw
+0x3152 Seal Defense
+0x31E1 Malefic Aura
+0x3235 Certain Blow
+0x3196 Good Fortune
+0x3129 Evenhanded
+0x331F Seal Strength
+0x32DF Darting Blow

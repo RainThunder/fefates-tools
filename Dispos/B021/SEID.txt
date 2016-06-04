@@ -1,0 +1,13 @@
+12
+0x0 NULL
+0x3842 Axebreaker
+0x3868 Tomebreaker
+0x37E9 Renewal
+0x384E Shurikenbreaker
+0x3890 Grisly Wound
+0x37B2 Savage Blow
+0x37F3 Heartseeker
+0x3836 Lancebreaker
+0x3818 Swordbreaker
+0x37DB Wary Fighter
+0x385C Bowbreaker

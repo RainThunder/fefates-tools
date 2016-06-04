@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x31B0 AI_MV_NearestEnemy
+0x2FCC AI_MV_Null
+0x3295 AI_MV_VillageToAttack

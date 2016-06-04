@@ -1,0 +1,38 @@
+37
+0x0 NULL
+0x4102 Noble Yato
+0x4204 Javelin
+0x4287 Raijinto
+0x4195 Silver Club
+0x448A Spear
+0x4392 Tomahawk
+0x4113 Dragonstone
+0x4315 Ginnungagap
+0x421A Silver Katana
+0x451C Chest Key
+0x449D Arms Scroll
+0x42A1 Killer Axe
+0x41A2 Steel Club
+0x4225 Steel Katana
+0x4326 Hagakure Blade
+0x43C8 Entrap
+0x4373 Massive Rock
+0x43B9 Fimbulvetr
+0x423B Silver Naginata
+0x41BC Silver Shuriken
+0x42BF Steel Sword
+0x4248 Steel Naginata
+0x41CB Steel Shuriken
+0x44D2 Silver Bow
+0x4157 Silver Dagger
+0x445E Silver Sword
+0x4260 Rabbit Spirit
+0x42E2 Guard Naginata
+0x4164 Steel Dagger
+0x41E5 Bloom Festal
+0x426D Tiger Spirit
+0x4171 Sun Festal
+0x44F3 Ragnarok
+0x43F7 10000G
+0x41F9 Silver Lance
+0x447F Silver Axe

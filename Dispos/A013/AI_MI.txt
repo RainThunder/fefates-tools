@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x3BF8 AI_MI_Village
+0x3CEB AI_MI_Treasure
+0x396F AI_MI_Null

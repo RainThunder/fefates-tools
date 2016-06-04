@@ -1,0 +1,17 @@
+16
+0x0 NULL
+0x3E40 Strong Riposte
+0x3E02 Counter
+0x3DC4 Defense +2
+0x3DF6 Gamble
+0x3E28 Lancebreaker
+0x3DAC Strength +2
+0x3D8D Bowbreaker
+0x3E4E Vantage
+0x3DD0 Resistance +2
+0x3DE8 Quick Draw
+0x3E12 Swordbreaker
+0x3E34 Tomebreaker
+0x3DB6 Shurikenbreaker
+0x3DDC Axebreaker
+0x3E1E Vengeance

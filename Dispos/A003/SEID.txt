@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x1A89 Darting Blow
+0x19BF Duelist's Blow
+0x19F1 Skill +2

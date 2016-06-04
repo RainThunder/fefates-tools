@@ -1,0 +1,17 @@
+16
+0x0 NULL
+0x1900 Heal
+0x19E4 Iron Yumi
+0x1AD1 Steel Shuriken
+0x1928 Iron Shuriken
+0x1A6D Brass Naginata
+0x188F Ganglari
+0x1A50 Iron Axe
+0x1971 Brass Katana
+0x18F3 Iron Dagger
+0x19B4 Iron Katana
+0x1A10 Brass Yumi
+0x1937 Brass Shuriken
+0x18D9 Iron Lance
+0x1B34 Siegfried
+0x1A7C Iron Naginata

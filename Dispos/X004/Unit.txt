@@ -1,0 +1,47 @@
+Corrin (F) 
+Jakob 
+Azura 
+Gunter 
+Takumi 
+Oboro 
+Kagero 
+Rinkah 
+Reina 
+Sakura 
+Subaki 
+Orochi 
+Invader Onmyoji (M) (Enemy)
+Invader Swordmaster (M) (Enemy)
+Invader Swordmaster (M) (Enemy)
+Invader Diviner (M) (Enemy)
+Invader Diviner (M) (Enemy)
+Invader Oni Savage (M) (Enemy)
+Invader Oni Savage (M) (Enemy)
+Invader Oni Chieftain (M) (Enemy)
+Invader Spear Fighter (M) (Enemy)
+Invader Spear Master (M) (Enemy)
+Invader Spear Fighter (M) (Enemy)
+Invader Sniper (M) (Enemy)
+Invader Archer (M) (Enemy)
+Invader Archer (M) (Enemy)
+Invader Samurai (M) (Enemy)
+Invader Samurai (M) (Enemy)
+Invader Master Ninja (M) (Enemy)
+Invader Ninja (M) (Enemy)
+Invader Ninja (M) (Enemy)
+Other Knight (M) (Ally)
+Other Knight (M) (Ally)
+Other Knight (M) (Ally)
+Other Knight (M) (Ally)
+Other Knight (M) (Ally)
+Dwyer (Ally)
+Invader Archer (M) (Reinforce01)
+Invader Swordmaster (M) (Reinforce01)
+Invader Samurai (M) (Reinforce01)
+Invader Oni Savage (M) (Reinforce01)
+Invader Diviner (M) (Reinforce02)
+Invader Sniper (M) (Reinforce02)
+Invader Oni Savage (M) (Reinforce02)
+Invader Spear Fighter (M) (Reinforce02)
+Invader Ninja (M) (Reinforce03)
+Invader Master Ninja (M) (Reinforce03)

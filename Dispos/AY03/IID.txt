@@ -1,0 +1,11 @@
+10
+0x0 NULL
+0x18C1 Rabbit Spirit
+0x1928 Silver Axe
+0x1972 Ragnarok
+0x1951 Silver Naginata
+0x19D2 Massive Rock
+0x1854 Venge Katana
+0x19B5 Silver Sword
+0x18F7 Silver Katana
+0x18DC Silver Yumi

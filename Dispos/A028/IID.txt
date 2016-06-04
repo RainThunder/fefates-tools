@@ -1,0 +1,36 @@
+35
+0x0 NULL
+0x3581 Raijinto
+0x340B Dragonstone+
+0x348F Silver Club
+0x37D8 Gauntlet
+0x3612 Brave Lance
+0x3514 Silver Katana
+0x359B Killer Axe
+0x349C Steel Club
+0x351F Steel Katana
+0x36A3 Tomahawk
+0x362A Brave Sword
+0x35AC Brave Axe
+0x372E Ragnarok
+0x35D1 Spear
+0x34F3 Silver Lance
+0x3535 Silver Naginata
+0x34B6 Silver Shuriken
+0x37B5 Massive Rock
+0x3542 Steel Naginata
+0x3645 Dark Breath
+0x35C6 Silver Sword
+0x3451 Silver Dagger
+0x3755 Silver Bow
+0x34C5 Steel Shuriken
+0x355A Rabbit Spirit
+0x33FA Blazing Yato
+0x345E Steel Dagger
+0x34DF Bloom Festal
+0x3567 Tiger Spirit
+0x346B Sun Festal
+0x36F3 Silver Axe
+0x377A Fimbulvetr
+0x37FB Crescent Bow
+0x34FE Javelin

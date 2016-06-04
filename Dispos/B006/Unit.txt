@@ -1,0 +1,14 @@
+Corrin (M) 
+Xander 
+Camilla 
+Leo 
+Elise 
+Felicia (PlayerM)
+Jakob (PlayerF)
+Ryoma (Enemy)
+Hinoka (Enemy)
+Takumi (Enemy)
+Yukimura (Enemy)
+Sakura (Enemy)
+Corrin (M) (Event11)
+Azura (Event12)

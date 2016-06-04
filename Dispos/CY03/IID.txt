@@ -1,0 +1,16 @@
+15
+0x0 NULL
+0x1680 Steel Yumi
+0x16A5 Steel Sword
+0x1646 Silver Yumi
+0x1721 Silver Club
+0x1768 Steel Naginata
+0x160D Silver Katana
+0x174E Rabbit Spirit
+0x15AD Tiger Spirit
+0x16B0 Thunder
+0x15A0 Silver Naginata
+0x16F6 Steel Axe
+0x1661 Silver Shuriken
+0x175B Mend
+0x16CF Silver Dagger

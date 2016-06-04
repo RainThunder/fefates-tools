@@ -1,0 +1,38 @@
+37
+0x0 NULL
+0x2C87 Vulnerary
+0x3189 Snake Spirit
+0x2D8A Ragnarok
+0x2D0B Iron Club
+0x2F0C Silver Katana
+0x30C2 Great Club
+0x2F91 Steel Katana
+0x2E17 Silver Yumi
+0x2C1A Ganglari
+0x2C9B Bloom Festal
+0x2E9C Steel Shuriken
+0x2D9B Fortify
+0x2D25 Ox Spirit
+0x2DA8 Enfeeble
+0x2EAB Steel Yumi
+0x2FAF Rabbit Spirit
+0x2F5E Tiger Spirit
+0x2FBC Wane Festal
+0x2D3D Fujin Yumi
+0x2CC1 Iron Katana
+0x2E42 Dual Katana
+0x2D53 Steel Naginata
+0x2CD7 Iron Naginata
+0x2E5C Steel Club
+0x2DDD Silver Naginata
+0x30DE Silver Shuriken
+0x2EE1 Steel Axe
+0x2C64 Iron Dagger
+0x2E69 Rat Spirit
+0x2DEA Sun Festal
+0x2EEC Tomahawk
+0x2D6D Fimbulvetr
+0x2CF1 Iron Shuriken
+0x2FF8 Spy's Yumi
+0x2C7C Iron Lance
+0x307E Swordcatcher

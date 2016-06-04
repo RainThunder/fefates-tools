@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x38F1 AI_MV_HeroOnly
+0x360A AI_MV_Null
+0x39BB AI_MV_WeakEnemy

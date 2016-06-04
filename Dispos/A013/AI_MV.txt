@@ -1,0 +1,7 @@
+6
+0x0 NULL
+0x3985 AI_MV_Null
+0x3C06 AI_MV_VillageToAttack
+0x3B72 AI_MV_NearestEnemy
+0x3AF6 AI_MV_Hero
+0x3D05 AI_MV_TrasureToEscape

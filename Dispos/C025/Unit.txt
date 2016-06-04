@@ -1,0 +1,72 @@
+Corrin (M) 
+Felicia 
+Azura 
+Sakura 
+Hana 
+Subaki 
+Kaze 
+Rinkah 
+Hayato 
+Takumi 
+Oboro 
+Hinata 
+Nyx 
+Keaton 
+Vallite Great Master (Enemy)
+Vallite Great Master (Enemy)
+Vallite Sniper (M) (Enemy)
+Vallite Sniper (M) (Enemy)
+Vallite Master of Arms (M) (Enemy)
+Vallite Master of Arms (M) (Enemy)
+Sumeragi (Enemy)
+Vallite Swordmaster (M) (Enemy)
+Vallite Onmyoji (M) (Enemy)
+Vallite Master Ninja (M) (Enemy)
+Vallite Falcon Knight (F) (Enemy)
+Vallite Oni Chieftain (M) (Enemy)
+Vallite Kinshi Knight (F) (Enemy)
+Vallite Master of Arms (M) (Enemy)
+Vallite Swordmaster (M) (Enemy)
+Vallite Swordmaster (M) (Enemy)
+Vallite Onmyoji (M) (Enemy)
+Vallite Oni Chieftain (M) (Enemy)
+Vallite Oni Chieftain (M) (Enemy)
+Vallite Spear Master (M) (Enemy)
+Vallite Master Ninja (M) (Enemy)
+Vallite Master Ninja (M) (Enemy)
+Vallite Master Ninja (M) (Enemy)
+Vallite Master Ninja (M) (Enemy)
+Vallite Master Ninja (M) (Enemy)
+Vallite Onmyoji (M) (Enemy)
+Vallite Spear Master (M) (Enemy)
+Vallite Spear Master (M) (Enemy)
+Vallite Falcon Knight (F) (Enemy)
+Vallite Oni Chieftain (M) (Enemy)
+Vallite Oni Chieftain (M) (Enemy)
+Vallite Onmyoji (M) (Enemy)
+Vallite Onmyoji (M) (Enemy)
+Vallite Onmyoji (M) (Enemy)
+Vallite Merchant (M) (Enemy)
+Vallite Merchant (M) (Enemy)
+Vallite Kinshi Knight (F) (Enemy)
+Vallite Spear Master (M) (Enemy)
+Vallite Spear Master (M) (Enemy)
+Vallite Mechanist (M) (Reinforce01)
+Vallite Mechanist (M) (Reinforce01)
+Vallite Basara (M) (Reinforce01)
+Vallite Basara (M) (Reinforce02)
+Vallite Basara (M) (Reinforce02)
+Vallite Mechanist (M) (Reinforce02)
+Vallite Onmyoji (M) (Reinforce03)
+Vallite Onmyoji (M) (Reinforce03)
+Vallite Merchant (M) (Reinforce03)
+Vallite Master Ninja (M) (Reinforce04)
+Vallite Master Ninja (M) (Reinforce04)
+Vallite Oni Chieftain (M) (Reinforce04)
+Azura (Event01)
+Corrin (M) (Event02)
+Gunter (Event02)
+Ryoma (Event03)
+Vallite Swordmaster (M) (Event04)
+Vallite Swordmaster (M) (Event04)
+Vallite Swordmaster (M) (Event05)

@@ -1,0 +1,10 @@
+9
+0x0 NULL
+0x1589 Silver Naginata
+0x1652 Fimbulvetr
+0x1696 Steel Bow
+0x1677 Steel Sword
+0x16B9 Steel Lance
+0x15FA Sun Festal
+0x157C Silver Yumi
+0x161D Steel Axe

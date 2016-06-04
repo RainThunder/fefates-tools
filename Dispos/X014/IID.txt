@@ -1,0 +1,22 @@
+21
+0x0 NULL
+0x2B81 Iron Club
+0x2C55 Iron Lance
+0x2C0B Iron Naginata
+0x2D24 Shackled Fist
+0x2CB3 Iron Yumi
+0x2BF5 Iron Katana
+0x2C4A Iron Sword
+0x2C6B Fujin Yumi
+0x2B0C Yato
+0x2CF2 Guard Naginata
+0x2C30 Tiger Spirit
+0x2BD2 Bronze Lance
+0x2C23 Rat Spirit
+0x2BB5 Bloom Festal
+0x2B17 Dragonstone
+0x2CD8 Steel Shuriken
+0x2B59 Ox Spirit
+0x2B9B Iron Shuriken
+0x2BBE Sun Festal
+0x2BDF Javelin

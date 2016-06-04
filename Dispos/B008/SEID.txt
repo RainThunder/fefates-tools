@@ -1,0 +1,6 @@
+5
+0x0 NULL
+0x30DB Quick Draw
+0x3035 Malefic Aura
+0x3066 HP +5
+0x30A5 Heartseeker

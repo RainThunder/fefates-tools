@@ -1,0 +1,6 @@
+5
+0x0 NULL
+0x1068 AI_AT_Null
+0x1114 AI_AT_Attack
+0x114D AI_AT_ExcludePerson
+0x123E AI_AT_Person

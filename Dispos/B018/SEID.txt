@@ -1,0 +1,14 @@
+13
+0x0 NULL
+0x3A41 Elbow Room
+0x3AE4 Strong Riposte
+0x3B69 Malefic Aura
+0x3B4A Seal Resistance
+0x3B40 Heartseeker
+0x3A4F Armored Blow
+0x3AF2 Duelist's Blow
+0x39C9 Wary Fighter
+0x3ABA Demoiselle
+0x39BB Natural Cover
+0x3A7E Quick Draw
+0x3B9F Seal Defense

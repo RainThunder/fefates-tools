@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x4D69 AI_AC_BandRange
+0x4CC2 AI_AC_Everytime
+0x49E9 AI_AC_Null

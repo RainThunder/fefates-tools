@@ -1,0 +1,38 @@
+37
+0x0 NULL
+0x3D84 Shackled Fist
+0x3B96 Steel Shuriken
+0x3B87 Iron Shuriken
+0x3D09 Nosferatu
+0x3C11 Iron Naginata
+0x3D16 Horse Spirit
+0x3C1E Steel Naginata
+0x3F1F Silver Bow
+0x3CA0 Guard Naginata
+0x3BF0 Iron Katana
+0x3B2B Iron Dagger
+0x3BB0 Bloom Festal
+0x3EB2 Silver Kukri
+0x3C36 Rat Spirit
+0x3B38 Steel Dagger
+0x3BB9 Sun Festal
+0x3F42 Ragnarok
+0x3C43 Tiger Spirit
+0x3BCD Bronze Lance
+0x3D50 Killer Bow
+0x3CD3 Brynhildr
+0x3ED9 Silver Sword
+0x3BDA Javelin
+0x3ADC Yato
+0x3C5D Raijinto
+0x3D5F Silver Yumi
+0x3B60 Iron Club
+0x3BFB Steel Katana
+0x3CE6 Energy Drop
+0x3AE7 Dragonstone
+0x3F69 Physic
+0x3B6D Steel Club
+0x3E70 Silver Lance
+0x3C77 Killer Axe
+0x3E7B Silver Axe
+0x3EFC Silver Javelin

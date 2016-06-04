@@ -1,0 +1,77 @@
+Corrin (M) 
+Felicia 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Hana 
+Subaki 
+Orochi 
+Ryoma 
+Scarlet 
+Silas 
+Saizo 
+Hinoka 
+Oboro 
+Hinata 
+Garon (Enemy)
+Nohrian Maid (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian Hero (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian General (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Great Knight (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Berserker (M) (Enemy)
+Nohrian Hero (M) (Enemy)
+Nohrian Hero (M) (Enemy)
+Nohrian Hero (M) (Enemy)
+Nohrian Hero (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Dark Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Bow Knight (M) (Enemy)
+Nohrian Maid (Enemy)
+Nohrian Maid (Enemy)
+Nohrian Maid (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Malig Knight (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Wyvern Lord (M) (Enemy)
+Nohrian Stoneborn (Enemy)
+Nohrian Stoneborn (Enemy)
+Nohrian Stoneborn (Enemy)
+Nohrian Stoneborn (Enemy)
+Nohrian Faceless (Enemy)
+Nohrian Faceless (Enemy)
+Nohrian Faceless (Enemy)
+Nohrian Faceless (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Strategist (F) (Enemy)
+Nohrian Wyvern Lord (M) (Reinforce01)
+Nohrian Dark Knight (M) (Reinforce02)
+Nohrian Bow Knight (M) (Reinforce03)
+Nohrian Berserker (M) (Reinforce04)
+Nohrian Malig Knight (M) (Reinforce05)
+Nohrian Hero (M) (Reinforce06)
+Nohrian Malig Knight (M) (Reinforce07)
+Nohrian Wyvern Lord (M) (Reinforce08)
+Nohrian Stoneborn (Reinforce09)
+Nohrian Faceless (Reinforce10)
+Nohrian Malig Knight (M) (Reinforce11)

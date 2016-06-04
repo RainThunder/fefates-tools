@@ -1,0 +1,35 @@
+34
+0x0 NULL
+0x4B81 Silver Lance
+0x4982 Steel Club
+0x4A83 Killer Axe
+0x4B04 Silver Star Axe
+0x4A07 Steel Katana
+0x4C0B Fimbulvetr
+0x4B8C Venge Naginata
+0x4B13 Chakram
+0x4944 Steel Dagger
+0x4C1A 10000G
+0x499C Iron Shuriken
+0x4A1D Iron Naginata
+0x4AA1 Steel Sword
+0x4A2A Steel Naginata
+0x49AB Steel Shuriken
+0x4937 Iron Dagger
+0x4A42 Rat Spirit
+0x4AC4 Guard Naginata
+0x49C5 Bloom Festal
+0x4BC9 Silver Sword
+0x48E2 Noble Yato
+0x4A4F Tiger Spirit
+0x4951 Sun Festal
+0x4C55 Wyrmslayer
+0x49D9 Bronze Lance
+0x4B62 Silver Axe
+0x49E6 Javelin
+0x4A69 Raijinto
+0x4BEE Arms Scroll
+0x48F3 Dragonstone
+0x4975 Iron Club
+0x4AF7 Brave Axe
+0x49FC Iron Katana

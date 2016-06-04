@@ -1,0 +1,66 @@
+Corrin (M) 
+Felicia 
+Jakob 
+Gunter 
+Silas 
+Xander 
+Leo 
+Camilla 
+Elise 
+Rinkah 
+Kaze 
+Sakura 
+Azura 
+Ryoma 
+Takumi 
+Hinoka 
+Keaton 
+Kaden 
+Mozu 
+Zhara 
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Enemy)
+NULL (Reinforce01)
+NULL (Reinforce01)
+NULL (Reinforce01)
+NULL (Reinforce02)
+NULL (Reinforce02)
+NULL (Reinforce02)
+NULL (Reinforce02)
+NULL (Reinforce02)
+NULL (Reinforce02)
+NULL (Reinforce02)
+NULL (Reinforce02)
+NULL (Reinforce03)
+NULL (Reinforce04)
+NULL (Reinforce04)
+NULL (Reinforce04)
+NULL (Reinforce04)
+NULL (Reinforce04)
+NULL (Reinforce04)
+NULL (Reinforce05)
+NULL (Reinforce05)
+NULL (Reinforce05)
+NULL (Reinforce05)
+NULL (Reinforce06)
+Shigure (Reinforce07)
+Sophie (Reinforce07)
+Midori (Reinforce07)
+Corrin (M) (Event01)
+Felicia (Event01)
+Jakob (Event01)
+Gunter (Event01)
+Elise (Event02)

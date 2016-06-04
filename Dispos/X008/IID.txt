@@ -1,0 +1,25 @@
+24
+0x0 NULL
+0x2380 Fimbulvetr
+0x2204 Sun Festal
+0x2156 Yato
+0x2218 Bronze Lance
+0x231A Silver Naginata
+0x229B Steel Shuriken
+0x21A1 Fujin Yumi
+0x2225 Javelin
+0x2327 Wane Festal
+0x22B5 Guard Naginata
+0x23B9 Steel Naginata
+0x223B Iron Katana
+0x21C7 Iron Club
+0x2251 Iron Naginata
+0x23D6 Steel Yumi
+0x22DC Iron Yumi
+0x2161 Dragonstone
+0x2269 Rat Spirit
+0x21E1 Iron Shuriken
+0x2375 Steel Axe
+0x2276 Ox Spirit
+0x22E9 Vulnerary
+0x21FB Bloom Festal

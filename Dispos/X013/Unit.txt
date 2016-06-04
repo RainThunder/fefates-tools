@@ -1,0 +1,56 @@
+Corrin (M) 
+Subaki 
+Sakura 
+Kaze 
+Rinkah 
+Azura 
+Hana 
+Silas 
+Orochi 
+Hinata 
+Takumi 
+Setsuna 
+Saizo 
+Invader Sorcerer (M) (Enemy)
+Invader Hero (M) (Enemy)
+Invader Paladin (M) (Enemy)
+Invader Sorcerer (M) (Enemy)
+Invader Hero (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Sorcerer (M) (Enemy)
+Invader Sorcerer (M) (Enemy)
+Invader Hero (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Hero (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Paladin (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Hero (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Mercenary (M) (Enemy)
+Invader Fighter (M) (Reinforce01)
+Invader Fighter (M) (Reinforce01)
+Invader Ninja (M) (Reinforce01)
+Invader Diviner (M) (Reinforce01)
+Invader Archer (M) (Reinforce01)
+Invader Oni Savage (M) (Reinforce01)
+Invader Outlaw (M) (Reinforce01)
+Invader Fighter (M) (Reinforce01)
+Invader Dark Mage (M) (Reinforce01)
+Invader General (M) (Reinforce01)
+Invader Berserker (M) (Reinforce01)
+Invader Hero (M) (Reinforce01)
+Invader Paladin (M) (Reinforce01)
+Invader Sorcerer (M) (Reinforce01)
+Caeldori (Support01)

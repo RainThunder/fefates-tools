@@ -1,0 +1,7 @@
+6
+0x0 NULL
+0x2B00 Malefic Aura
+0x2AC6 Quick Draw
+0x2B41 Natural Cover
+0x2BEC Elbow Room
+0x2B4F Defense +2

@@ -1,0 +1,309 @@
+#Fire Emblem Fates Dispos Editor
+
+1
+Fire Emblem Fates Dispos Editor by RainThunder
+0xD4
+61
+0x8C
+Unit.txt
+NULL
+
+Unit pointer
+0x0
+4
+NDHU
+PID.txt
+
+Class pointer
+0x4
+4
+NDHU
+JID.txt
+
+Team
+0x8
+1
+NDHU
+Team.txt
+
+X Coordinate 1
+0xA
+1
+NEDU
+NULL
+
+Y Coordinate 1
+0xB
+1
+NEDU
+NULL
+
+X Coordinate 2
+0xC
+1
+NEDU
+NULL
+
+Y Coordinate 2
+0xD
+1
+NEDU
+NULL
+
+Unit flag 1 - 8
+0x10
+1
+NDHU
+Flag1-8.txt
+
+Unit flag 9 - 16
+0x11
+1
+NDHU
+Flag9-16.txt
+
+Pair Up
+0x12
+1
+NDHU
+PairUp.txt
+
+Item 0 pointer
+0x14
+4
+NDHU
+IID.txt
+
+Item flag 1 - 8
+0x18
+1
+NDHU
+Flag1-8.txt
+
+Item flag 9 - 16
+0x19
+1
+NDHU
+Flag9-16.txt
+
+Item flag 17 - 24
+0x1a
+1
+NDHU
+Flag17-24.txt
+
+Item flag 25 - 32
+0x1b
+1
+NDHU
+Flag25-32.txt
+
+Item 1 pointer
+0x1c
+4
+NDHU
+IID.txt
+
+Item flag 1 - 8
+0x20
+1
+NDHU
+Flag1-8.txt
+
+Item flag 9 - 16
+0x21
+1
+NDHU
+Flag9-16.txt
+
+Item flag 17 - 24
+0x22
+1
+NDHU
+Flag17-24.txt
+
+Item flag 25 - 32
+0x23
+1
+NDHU
+Flag25-32.txt
+
+Item 2 pointer
+0x24
+4
+NDHU
+IID.txt
+
+Item flag 1 - 8
+0x28
+1
+NDHU
+Flag1-8.txt
+
+Item flag 9 - 16
+0x29
+1
+NDHU
+Flag9-16.txt
+
+Item flag 17 - 24
+0x2a
+1
+NDHU
+Flag17-24.txt
+
+Item flag 25 - 32
+0x2b
+1
+NDHU
+Flag25-32.txt
+
+Item 3 pointer
+0x2c
+4
+NDHU
+IID.txt
+
+Item flag 1 - 8
+0x30
+1
+NDHU
+Flag1-8.txt
+
+Item flag 9 - 16
+0x31
+1
+NDHU
+Flag9-16.txt
+
+Item flag 17 - 24
+0x32
+1
+NDHU
+Flag17-24.txt
+
+Item flag 25 - 32
+0x33
+1
+NDHU
+Flag25-32.txt
+
+Item 4 pointer
+0x34
+4
+NDHU
+IID.txt
+
+Item flag 1 - 8
+0x38
+1
+NDHU
+Flag1-8.txt
+
+Item flag 9 - 16
+0x39
+1
+NDHU
+Flag9-16.txt
+
+Item flag 17 - 24
+0x3a
+1
+NDHU
+Flag17-24.txt
+
+Item flag 25 - 32
+0x3b
+1
+NDHU
+Flag25-32.txt
+
+Skill 0 pointer
+0x3c
+4
+NDHU
+SEID.txt
+
+Skill 1 pointer
+0x40
+4
+NDHU
+SEID.txt
+
+Skill 2 pointer
+0x44
+4
+NDHU
+SEID.txt
+
+Skill 3 pointer
+0x48
+4
+NDHU
+SEID.txt
+
+Skill 4 pointer
+0x4c
+4
+NDHU
+SEID.txt
+
+Skill flag 1 - 8
+0x50
+1
+NDHU
+Flag1-8.txt
+
+Skill flag 9 - 16
+0x51
+1
+NDHU
+Flag9-16.txt
+
+AI_AC pointer
+0x54
+4
+NDHU
+AI_AC.txt
+
+AI_AC parameter pointer
+0x58
+4
+NDHU
+AI_AC_param.txt
+
+AI_MI pointer
+0x5C
+4
+NDHU
+AI_MI.txt
+
+AI_MI parameter pointer
+0x60
+4
+NDHU
+AI_MI_param.txt
+
+AI_AT pointer
+0x64
+4
+NDHU
+AI_AT.txt
+
+AI_AT parameter pointer
+0x68
+4
+NDHU
+AI_AT_param.txt
+
+AI_MV pointer
+0x6C
+4
+NDHU
+AI_MV.txt
+
+AI_MV parameter pointer
+0x70
+4
+NDHU
+AI_MV_param.txt

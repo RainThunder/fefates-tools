@@ -1,0 +1,45 @@
+Corrin (M) 
+Felicia 
+Azura 
+Rinkah 
+Takumi 
+Subaki 
+Orochi 
+Gunter 
+Sakura 
+Oboro 
+Reina 
+Kagero 
+Invader Adventurer (M) (Enemy)
+Invader Outlaw (M) (Enemy)
+Invader Outlaw (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Berserker (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Berserker (M) (Enemy)
+Invader Fighter (M) (Enemy)
+Invader Adventurer (M) (Enemy)
+Invader Outlaw (M) (Enemy)
+Invader Outlaw (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Sorcerer (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Sorcerer (M) (Enemy)
+Invader Dark Mage (M) (Enemy)
+Invader Berserker (M) (Reinforce01_1)
+Invader Fighter (M) (Reinforce01_1)
+Invader Sorcerer (M) (Reinforce01_2)
+Invader Dark Mage (M) (Reinforce01_2)
+Invader Berserker (M) (Reinforce02_1)
+Invader Fighter (M) (Reinforce02_1)
+Invader Sorcerer (M) (Reinforce02_2)
+Invader Dark Mage (M) (Reinforce02_2)
+Shigure (Support01)
+Shigure (Event01)
+Azura (Event02)
+Invader Fighter (M) (Event03)
+Invader Berserker (M) (Event03)

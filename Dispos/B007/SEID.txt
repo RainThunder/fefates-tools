@@ -1,0 +1,5 @@
+4
+0x0 NULL
+0x16B1 Poison Strike
+0x16BB Grisly Wound
+0x16D9 Seal Speed
