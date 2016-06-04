@@ -2,11 +2,11 @@
 A collection of Nightmare modules and small tools for Fire Emblem Fates.
 
 # About Nightmare
-Nightmare is a program that allow you to easily hex edit data files using modules. With Nightmare, even those who don't have any knowledge in data structure and hex editing can still edit the game's files and make some cool stuff. This is the tradition of Fire Emblem ROM hacking community.
+Nightmare is a program that allow you to easily hex edit the data files using modules. With Nightmare, even those who don't have any knowledge in data structure and hex editing can still edit the game's files and make some cool stuff. This is the tradition of Fire Emblem ROM hacking community.
 
 A Nightmare module (.nmm file) is just a text file that determine data structure and where to edit in the data files.
 
-Because Nightmare only allows editing fixed byte array, you can't add stuff to the game or change pointers in data files via these modules. However, based on the information in .nmm files, with some basic knowledge about pointers in the data files, you can definitely adding something new to the game.
+Because Nightmare only allows editing fixed byte array, you can't add stuff to the game or change pointers in data files via these modules. However, based on the information in .nmm files, with some basic knowledge about pointers in the data files, you can definitely adding something new to the game. Read [here](https://github.com/RainThunder/fefates-tools/wiki/BIN-(File-Format)) for more info.
 
 # Requirements
 * A way to decrypt the game and extract the game's files. Currently, any 3DS with CFW or homebrew access will be able to do this. For instructions, see below.
@@ -24,7 +24,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 * Alternatively, you can download xorpads or decrypted ROMs on "that iso site", or use the provided files in this repository.
 
 ## Editing
-* All .lz files can be decompressed using FEAT.
+* All .lz files can be decompressed using FEAT (there are still some error that need to be fixed soon).
   * Just drag and drop .lz file into FEAT window.
 * How to use modules and tools:
   * To use Nightmare modules, you need to open certain file with its respective module file (.nmm). Please read README.md in the folder of each module for more details.
@@ -35,8 +35,8 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
   * BatchLZ77:
     * Click *Options* -> *LZ77 Type 11*
     * Click *File* -> *Compress Files...*
-	* Choose your edited file, then click *Open*.
-	* Your edited file will be compressed to *.bin.compressed. Rename it to *.bin.lz.
+    * Choose your edited file, then click *Open*.
+    * Your edited file will be compressed to *.bin.compressed. Rename it to *.bin.lz.
   
 ## Applying the patch
 * Main game: You can use one of the following methods:
@@ -56,6 +56,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 * Path Bonus
 * Visit Bonus
 * Battle Bonus
+* Dispos
 
 ## Tools
 * fst_generator.py: Generates fst.bin file for Fire Emblem Fates DLC. It is used for custom DLC (like DeathChaos25's DLC)
@@ -66,10 +67,10 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 
 # Documentation
 * General Fire Emblem Fates ROM hacking: https://github.com/RainThunder/fefates-tools/wiki
-* Nightmare file format: http://feuniverse.us/t/nightmare-module-format-explained/267, or the text file in Nightmare 2 download.
+* Nightmare file format: http://feuniverse.us/t/nightmare-module-format-explained/267, or the text file in the Nightmare 2 download.
 
 # Special thanks
 * SciresM, for [FEAT](https://github.com/SciresM/FEAT).
-* VincentASM, for his [awesome website](http//serenesforest.net).
+* VincentASM, for his [initial data mining](http://serenesforest.net/fire-emblem-fates).
 * Hextator, for Nightmare 2.
 * DeathChaos25, for his contributions.

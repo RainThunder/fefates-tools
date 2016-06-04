@@ -9,6 +9,7 @@ In Fire Emblem Fates, GameData/Dispos directory contains unit distribution on ev
 | X | Paralogue |
 | E | DLC |
 | P | Branch chapter |
+| Y | Castle invasion |
 | Z | Debug |
 
 | Map suffix | Description |
@@ -23,7 +24,9 @@ Open the .bin file with its respective .nmm file.
 
 # Flag guide
 ## Unit flags
+
 | Flags | Description |
+| --- | --- |
 | 1 | |
 | 2 | |
 | 3 | |
@@ -42,7 +45,9 @@ Open the .bin file with its respective .nmm file.
 | 16 | |
 
 ## Item flags
+
 | Flags | Description |
+| --- | --- |
 | 1 | Droppable |
 | 2 | |
 | 3 | |
@@ -61,6 +66,7 @@ Open the .bin file with its respective .nmm file.
 | 16 | |
 
 ## Skill flags
+
 | Flags | Description |
 | --- | --- |
 | 1 | Skill 1 is available on Normal difficulty |

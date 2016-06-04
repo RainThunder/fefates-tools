@@ -1,0 +1,4 @@
+3
+0x0 NULL
+0x1320 AI_MV_CastleOffense
+0x13D8 AI_MV_BreakDown

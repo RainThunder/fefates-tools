@@ -1,0 +1,11 @@
+10
+0x0 NULL
+0x1400 Thunder
+0x1342 Steel Bow
+0x12E4 Steel Katana
+0x1485 Steel Shuriken
+0x136B Steel Naginata
+0x13AC Steel Sword
+0x12D0 Steel Lance
+0x13B7 Steel Axe
+0x12DB Javelin
