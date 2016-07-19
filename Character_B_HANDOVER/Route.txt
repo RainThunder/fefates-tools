@@ -1,0 +1,9 @@
+8
+0x0 None
+0x1 Birthright
+0x2 Conquest
+0x3 Birthright, Conquest
+0x4 Revelation
+0x5 Birthright, Revelation
+0x6 Conquest, Revelation
+0x7 Birthright, Conquest, Revelation
