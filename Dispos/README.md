@@ -28,7 +28,7 @@ Open the .bin file with its respective .nmm file.
 | Flags | Description |
 | --- | --- |
 | 1 | |
-| 2 | |
+| 2 | This unit is forced into player's army |
 | 3 | |
 | 4 | This unit must participate the map |
 | 5 | |
@@ -39,9 +39,9 @@ Open the .bin file with its respective .nmm file.
 | 10 | Hard difficulty |
 | 11 | Lunatic difficulty |
 | 12 | |
-| 13 | |
-| 14 | |
-| 15 | |
+| 13 | New player unit |
+| 14 | Boss type unit |
+| 15 | Unit cannot move |
 | 16 | |
 
 ## Item flags
