@@ -1,8 +1,10 @@
 # How to use
-Run Nightmare, then open GameData.bin file with Character.nmm file.
+Run Nightmare, then open A_HANDOVER.bin with Character.nmm.
 
 # Flag guide
-| Flag Index | Flag ID | Meaning |
+## Character flags
+
+| Flag Index | Flag ID | Description |
 | --- | --- | --- |
 | 1 | SPID_女性 | Female |
 | 2 | SPID_主人公 | Hero |
@@ -67,3 +69,23 @@ Run Nightmare, then open GameData.bin file with Character.nmm file.
 | 61 | SPID_準特殊演出 |  |
 | 62 | SPID_クラスチェンジ禁止 | Cannot promote |
 | 63 | SPID_ダウンロード | Amiibo |
+
+## Skill flags
+
+| Flags | Description |
+| --- | --- |
+| 1 | Skill 1 is available on Normal difficulty |
+| 2 | Skill 1 is available on Hard difficulty |
+| 3 | Skill 1 is available on Lunatic difficulty |
+| 4 | Skill 2 is available on Normal difficulty |
+| 5 | Skill 2 is available on Hard difficulty |
+| 6 | Skill 2 is available on Lunatic difficulty |
+| 7 | Skill 3 is available on Normal difficulty |
+| 8 | Skill 3 is available on Hard difficulty |
+| 9 | Skill 3 is available on Lunatic difficulty |
+| 10 | Skill 4 is available on Normal difficulty |
+| 11 | Skill 4 is available on Hard difficulty |
+| 12 | Skill 4 is available on Lunatic difficulty |
+| 13 | Skill 5 is available on Normal difficulty |
+| 14 | Skill 5 is available on Hard difficulty |
+| 15 | Skill 5 is available on Lunatic difficulty |

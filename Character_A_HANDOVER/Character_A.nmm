@@ -110,11 +110,23 @@ Support Route
 NDHU
 Route.txt
 
+Army ID
+39
+1
+NDHU
+Army.txt
+
+Replace this Character ID from GameData
+40
+2
+NDHU
+CharID.txt
+
 Parent
 42
 2
 NDHU
-Parent.txt
+CharID.txt
 
 Class 1
 44
@@ -142,6 +154,12 @@ NULL
 
 Internal level
 51
+1
+NEDS
+NULL
+
+Enemy/Ally Flag
+52
 1
 NEDS
 NULL
@@ -293,43 +311,43 @@ Resistance Modifier
 NEDS
 NULL
 
-Sword Rank
+Sword/Katana Rank
 96
 1
 NDDU
 WeaponRank.txt
 
-Lance Rank
+Lance/Naginata Rank
 97
 1
 NDDU
 WeaponRank.txt
 
-Axe Rank
+Axe/Club Rank
 98
 1
 NDDU
 WeaponRank.txt
 
-Kunai Rank
+Shuriken/Dagger Rank
 99
 1
 NDDU
 WeaponRank.txt
 
-Bow Rank
+Bow/Yumi Rank
 100
 1
 NDDU
 WeaponRank.txt
 
-Tome Rank
+Tome/Scroll Rank
 101
 1
 NDDU
 WeaponRank.txt
 
-Staff Rank
+Staff/Rod Rank
 102
 1
 NDDU
@@ -371,6 +389,18 @@ Skill 5
 NDHU
 Skill.txt
 
+Skill Flags 1 - 8
+114
+1
+NDHU
+Flag1-8.txt
+
+Skill Flags 9 - 16
+115
+1
+NDHU
+Flag9-16.txt
+
 Personal Skill (Birthright)
 116
 2
@@ -400,6 +430,18 @@ Month of birth
 1
 NEDU
 NULL
+
+Reclass option 1
+124
+2
+NDHU
+Class.txt
+
+Reclass Option 2
+126
+2
+NDHU
+Class.txt
 
 Parent ID
 128
@@ -431,13 +473,25 @@ Unknown
 NEDU
 NULL
 
-Amiibo item 1
+Combat Music Pointer
+136
+4
+NEHU
+NULL
+
+Enemy Voice Pointer
+140
+4
+NEHU
+NULL
+
+Amiibo weapon 1
 144
 2
 NDHU
 Item.txt
 
-Amiibo item 2
+Amiibo weapon 2
 146
 2
 NDHU

@@ -2,11 +2,11 @@
 A collection of Nightmare modules and small tools for Fire Emblem Fates.
 
 # About Nightmare
-Nightmare is a program that allow you to easily hex edit the data files using modules. With Nightmare, even those who don't have any knowledge in data structure and hex editing can still edit the game's files and make some cool stuff. This is the tradition of Fire Emblem ROM hacking community.
+Nightmare is a program that allow you to easily hex edit the data files using modules. With Nightmare, even those who don't have any knowledge in data structure and hex editing are able to edit the game's files and make some cool stuff. Nightmare is the tradition of Fire Emblem ROM hacking community.
 
-A Nightmare module (.nmm file) is just a text file that determine data structure and where to edit in the data files.
+A Nightmare module (.nmm file) is just a text file which defines structure in a data file.
 
-Because Nightmare only allows editing fixed byte array, you can't add stuff to the game or change pointers in data files via these modules. However, based on the information in .nmm files, with some basic knowledge about pointers in the data files, you can definitely adding something new to the game. Read [here](https://github.com/RainThunder/fefates-tools/wiki/BIN-(File-Format)) for more info.
+Because Nightmare only allows editing fixed-size data, you can't add any new stuff into the game via these modules. However, based on the information in .nmm files, with some basic knowledge of [.bin file format](https://github.com/RainThunder/fefates-tools/wiki/BIN-(File-Format)), you definitely can add something new to the game.
 
 # Requirements
 * A way to decrypt the game and extract the game's files. Currently, any 3DS with CFW or homebrew access will be able to do this. For instructions, see below.
@@ -20,7 +20,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 
 # Instructions
 ## Decrypting
-* [This guide](http://gbatemp.net/threads/383055/) is a good start.
+* [This guide](https://github.com/ihaveamac/3DS-rom-tools/wiki) or [this guide](http://gbatemp.net/threads/383055/) is a good start.
 * Alternatively, you can download xorpads or decrypted ROMs on "that iso site", or use the provided files in this repository.
 
 ## Editing
@@ -28,10 +28,10 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
   * Just drag and drop .lz file into FEAT window.
 * How to use modules and tools:
   * To use Nightmare modules, you need to open certain file with its respective module file (.nmm). Please read README.md in the folder of each module for more details.
-  * fst_generator.py: Drag and drop your folder that contains your files in DLC to this folder.
+  * fst_generator.py: Drag and drop your folder that contains your DLC files to this script.
 * After editing, you can use BatchLZ77 / DSDecmp4 / lzx to recompress your edited files.
-  * DSDecmp4 command: `DSDecmp4 -c lz11 file.bin` (file.bin is the name of the file that need to be compressed)
-  * lzx command: `lzx -evb file.bin`
+  * DSDecmp4: Type `DSDecmp4 -c lz11 file.bin` in the command line (file.bin is the name of the file that need to be compressed)
+  * lzx: Type `lzx -evb file.bin` in the command line.
   * BatchLZ77:
     * Click *Options* -> *LZ77 Type 11*
     * Click *File* -> *Compress Files...*
@@ -48,7 +48,9 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 # List of modules and tools
 ## Modules
 * Character
-* Character (C_HANDOVER)
+* Character (A_HANDOVER): Modify character data that will be used in Birthright path.
+* Character (B_HANDOVER): Modify character data that will be used in Conquest path.
+* Character (C_HANDOVER): Modify character data that will be used in Revelation path.
 * Class
 * Item
 * Chapter
@@ -63,6 +65,8 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 
 ## Data files
 * GameData.bin
+* A_HANDOVER.bin
+* B_HANDOVER.bin
 * C_HANDOVER.bin
 
 # Documentation
