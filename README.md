@@ -9,7 +9,7 @@ A Nightmare module (.nmm file) is just a text file which defines structure in a 
 Because Nightmare only allows editing fixed-size data, you can't add any new stuff into the game via these modules. However, based on the information in .nmm files, with some basic knowledge of [.bin file format](https://github.com/RainThunder/fefates-tools/wiki/BIN-(File-Format)), you definitely can add something new to the game.
 
 # Requirements
-* A way to decrypt the game and extract the game's files. Currently, any 3DS with CFW or homebrew access will be able to do this. For instructions, see below.
+* A way to decrypt the game and extract the game's files. Currently, any 3DS with CFW or homebrew access is able to do this. For instructions, see below.
 * Nightmare: [here](http://serenesforest.net/forums/index.php?showtopic=26737) or [here](http://www.romhacking.net/utilities/610/). Nightmare 2 is recommended.
 * [FEAT](https://github.com/SciresM/FEAT/releases), for decompressing .lz files.
 * [BatchLZ77](http://filetrip.net/nds-downloads/utilities/download-batchlz77-1-3-f11736.html) / [DSDecmp4](http://www.romhacking.net/utilities/789/) / [lzx](http://www.romhacking.net/utilities/826/) to recompress the edited file. I'm not sure if those tools work on other operating systems than Windows. lzx is open-source and written in C, so you might be able to compile it for other OSes.
@@ -42,7 +42,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 * Main game: You can use one of the following methods:
   * Use [NTR CFW](https://github.com/44670/BootNTR/releases)'s LayeredFS plugin.
   * Rebuild entire RomFS folder with [RomFS Builder](https://github.com/SciresM/RomFS-Builder/releases) to use with [HANS](https://smealum.github.io/3ds).
-  * Rebuild 3DS or CIA to use with Gateway 3DS or CFW. Again, [the guide that was mentioned above](http://gbatemp.net/threads/383055/) is okay to follow.
+  * Rebuild 3DS or CIA to use with Gateway 3DS or CFW. Read one of the guide that was mentioned above for more details.
 * DLC: [Here](http://gbatemp.net/threads/397560/page-5#post-5906138).
 
 # List of modules and tools
@@ -62,6 +62,12 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 
 ## Tools
 * fst_generator.py: Generates fst.bin file for Fire Emblem Fates DLC. It is used for custom DLC (like DeathChaos25's DLC)
+* arc.py: Extract and repack .arc files.
+  * For Windows:
+    * To extract an .arc file, drag and drop it to the arc.bat script.
+	* To repack a folder, drag and drop the folder to the arc.bat script.
+  * For other OSes:
+    * Just open the Terminal and type `python arc.py file` to extract, or `python arc.py folder` to repack.
 
 ## Data files
 * GameData.bin

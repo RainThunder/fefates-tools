@@ -10,7 +10,7 @@ Run Nightmare, then open GameData.bin file with Class.nmm file.
 | 3 | SPID_プレイヤー | Player |
 | 4 | SPID_上級職 | Advanced classes |
 | 5 | SPID_リーダー | Leader |
-| 6 | SPID_敗北条件 | Defeat cond. |
+| 6 | SPID_敗北条件 | Defeat condition |
 | 7 | SPID_移動禁止 | Movement ban |
 | 8 | SPID_命中禁止 | Hit ban |
 | 9 | SPID_必殺禁止 | Crit ban |
