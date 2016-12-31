@@ -18,34 +18,7 @@ Because Nightmare only allows editing fixed-size data, you can't add any new stu
 # Download
 https://github.com/RainThunder/fefates-tools/archive/master.zip
 
-# Instructions
-## Decrypting
-* [This guide](https://github.com/ihaveamac/3DS-rom-tools/wiki) or [this guide](http://gbatemp.net/threads/383055/) is a good start.
-* Alternatively, you can download xorpads or decrypted ROMs on "that iso site", or use the provided files in this repository.
-
-## Editing
-* All .lz files can be decompressed using FEAT (there are still some error that need to be fixed soon).
-  * Just drag and drop .lz file into FEAT window.
-* How to use modules and tools:
-  * To use Nightmare modules, you need to open certain file with its respective module file (.nmm). Please read README.md in the folder of each module for more details.
-  * fst_generator.py: Drag and drop your folder that contains your DLC files to this script.
-* After editing, you can use BatchLZ77 / DSDecmp4 / lzx to recompress your edited files.
-  * DSDecmp4: Type `DSDecmp4 -c lz11 file.bin` in the command line (file.bin is the name of the file that need to be compressed)
-  * lzx: Type `lzx -evb file.bin` in the command line.
-  * BatchLZ77:
-    * Click *Options* -> *LZ77 Type 11*
-    * Click *File* -> *Compress Files...*
-    * Choose your edited file, then click *Open*.
-    * Your edited file will be compressed to *.bin.compressed. Rename it to *.bin.lz.
-  
-## Applying the patch
-* Main game: You can use one of the following methods:
-  * Use [NTR CFW](https://github.com/44670/BootNTR/releases)'s LayeredFS plugin.
-  * Rebuild entire RomFS folder with [RomFS Builder](https://github.com/SciresM/RomFS-Builder/releases) to use with [HANS](https://smealum.github.io/3ds).
-  * Rebuild 3DS or CIA to use with Gateway 3DS or CFW. Read one of the guide that was mentioned above for more details.
-* DLC: [Here](http://gbatemp.net/threads/397560/page-5#post-5906138).
-
-# List of modules and tools
+# List of modules, tools and files
 ## Modules
 * Character
 * Character (A_HANDOVER): Modify character data that will be used in Birthright path.
@@ -61,22 +34,62 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 * Dispos
 
 ## Tools
-* fst_generator.py: Generates fst.bin file for Fire Emblem Fates DLC. It is used for custom DLC (like DeathChaos25's DLC)
-* arc.py: Extract and repack .arc files.
-  * For Windows:
-    * To extract an .arc file, drag and drop it to the arc.bat script.
-	* To repack a folder, drag and drop the folder to the arc.bat script.
-  * For other OSes:
-    * Just open the Terminal and type `python arc.py file` to extract, or `python arc.py folder` to repack.
+* **fst_generator.py**: Generates fst.bin for Fire Emblem Fates custom DLC.
+* **arc.py**: Extract and repack .arc files.
+* **gamedata_module.py**: Add new data to GameData.bin and automatically update all modules to reflect the changes. This tool is a workaround for Nightmare limitations.
 
 ## Data files
 * GameData.bin
 * A_HANDOVER.bin
 * B_HANDOVER.bin
 * C_HANDOVER.bin
+* Dispos files
 
-# Documentation
-* General Fire Emblem Fates ROM hacking: https://github.com/RainThunder/fefates-tools/wiki
+# Instructions
+## Decrypting
+* [This guide](https://github.com/ihaveamac/3DS-rom-tools/wiki) or [this guide](http://gbatemp.net/threads/383055/) is a good start.
+* Alternatively, you can download xorpads or decrypted ROMs / CIAs on other sites, or use the provided files in this repository.
+
+## Editing
+* All .lz files can be decompressed using **FEAT** (there are still some error that need to be fixed soon).
+  * Just drag and drop .lz file into FEAT window.
+* How to use the modules and tools:
+  * For Nightmare modules, you need to open certain .bin file with its respective module file (.nmm). Please read README.md in each module's folder for more details.
+  * For tool usage, see [https://github.com/RainThunder/fefates-tools#using-the-tools](Using the tools)
+* After editing, you can use BatchLZ77 / DSDecmp4 / lzx to recompress your edited files.
+  * **DSDecmp4**: Type `DSDecmp4 -c lz11 file.bin` in the command line (file.bin is the name of the file that need to be compressed)
+  * **lzx**: Type `lzx -evb file.bin` in the command line.
+  * **BatchLZ77**:
+    * Click *Options* -> *LZ77 Type 11*
+    * Click *File* -> *Compress Files...*
+    * Choose your edited file, then click *Open*.
+    * Your edited file will be compressed to *.bin.compressed. Rename it to *.bin.lz.
+  
+## Applying the patch
+* Main game: You can use one of the following methods:
+  * Use [NTR CFW](https://github.com/44670/BootNTR/releases)'s LayeredFS plugin.
+  * Rebuild entire RomFS folder with [RomFS Builder](https://github.com/SciresM/RomFS-Builder/releases) to use with [HANS](https://smealum.github.io/3ds).
+  * Rebuild 3DS or CIA to use with Gateway 3DS or CFW. Read one of the guide that was mentioned above for more details.
+* DLC: The instructions can be found [here](http://gbatemp.net/threads/397560/page-5#post-5906138).
+
+## Using the tools:
+* **fst_generator.py**: Drag and drop your folder that contains your DLC files to this script.
+* **arc.py**: Extract and repack .arc files.
+  * For Windows:
+    * To extract an .arc file, drag and drop it to the arc.bat script.
+    * To repack a folder, drag and drop the folder to the arc.bat script.
+  * For other OSes:
+    * Just open the Terminal and type python arc.py file to extract, or python arc.py folder to repack.
+* **gamedata_module.py**: `python gamedata_module.py [--option id name] ...`
+  * Arguments:
+	* `option`: "chapter", "character", "class", "item" are available options.
+	* `id`: ID of the new data. Must be an integer.
+	* `name`: Name of the new data, which is used for label.
+  * Example:
+    * `python gamedata_module.py --item 405 ABC --item 406 DEF`: Adding two items, which takes 405 and 406 as IDs and IID_ABC and IID_DEF as labels, respectively.
+
+# See also
+* General Fire Emblem Fates ROM hacking documentation: https://github.com/RainThunder/fefates-tools/wiki
 * Nightmare file format: http://feuniverse.us/t/nightmare-module-format-explained/267, or the text file in the Nightmare 2 download.
 
 # Special thanks

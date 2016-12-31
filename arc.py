@@ -127,13 +127,11 @@ class Arc(object):
                 index, length, file_offset)))
 
     def get_file_count(self):
-        """Get the number of files in the Arc object.
-        """
+        """Get the number of files in the Arc object."""
         return len(self.__info_table)
 
     def get_filename(self, file_index):
-        """Get the file name of the file_index-th file.
-        """
+        """Get the file name of the file_index-th file."""
         if file_index >= len(self.__info_table):
             raise ValueError("Out-of-bound file index.")
 
@@ -167,8 +165,7 @@ class Arc(object):
         self.__data += data + '\0' * pad
 
     def to_arc(self):
-        """Export the Arc object to .arc file format
-        """
+        """Export the Arc object to .arc file format."""
         output = cStringIO.StringIO()
         file_count = len(self.__info_table)
 
