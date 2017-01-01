@@ -1,0 +1,229 @@
+None
+HP +5
+Strength +2
+Magic +2
+Skill +2
+Speed +2
+Luck +4
+Defense +2
+Resistance +2
+Movement +1
+Draconic Hex
+Seal Strength
+Seal Magic
+Seal Speed
+Seal Defense
+Seal Resistance
+Rally Strength
+Rally Magic
+Rally Skill
+Rally Speed
+Rally Luck
+Rally Defense
+Rally Resistance
+Rally Movement
+Inspiring Song
+Lethality
+Aether
+Astra
+Dragon Fang
+Sol
+Luna
+Rend Heaven
+Vengeance
+Pavise
+Aegis
+Dragon Ward
+Miracle
+Counter
+Countermagic
+Vantage
+Beastbane
+Golembane
+Nohrian Trust
+Hoshidan Unity
+Shelter
+Shove
+Lunge
+Swap
+Replicate
+Quick Draw
+Strong Riposte
+Elbow Room
+Natural Cover
+Evenhanded
+Odd Shaped
+Life and Death
+Spendthrift
+Duelist's Blow
+Darting Blow
+Death Blow
+Certain Blow
+Armored Blow
+Warding Blow
+Trample
+Wary Fighter
+Swordfaire
+Lancefaire
+Axefaire
+Shurikenfaire
+Bowfaire
+Tomefaire
+Defender
+Charm
+Gentilhomme
+Demoiselle
+Inspiration
+Malefic Aura
+Voice of Peace
+Foreign Princess
+Swordbreaker
+Lancebreaker
+Axebreaker
+Shurikenbreaker
+Bowbreaker
+Tomebreaker
+Gamble
+Underdog
+Lucky Seven
+Air Superiority
+Heartseeker
+Quixotic
+Good Fortune
+Relief
+Camaraderie
+Renewal
+Even Better
+Better Odds
+Amaterasu
+Lifetaker
+Potent Potion
+Live to Serve
+Poison Strike
+Savage Blow
+Grisly Wound
+Salvage Blow
+Profiteer
+Nobility
+Future Sight
+Aptitude
+Quick Salve
+Galeforce
+Pass
+Locktouch
+Brynhildr
+Dragonskin
+Divine Shield
+Hit/Avo +10
+Hit/Avo +20
+Resist Status
+Immune Status
+Bold Stance
+Point Blank
+Winged Shield
+Void Curse
+Self-Destruct
+Staff Savant
+Immobilize
+Inevitable End
+Even Keel
+Iron Will
+Clarity
+Aggressor
+Dual Striker
+Awakening
+Tactical Advice
+Solidarity
+Ignis
+Rally Spectrum
+Paragon
+Armor Shield
+Beast Shield
+Shadowgift
+Strengthtaker
+Magictaker
+Skilltaker
+Speedtaker
+Lucktaker
+Defensetaker
+Resistancetaker
+Survey
+Opportunity Shot
+Rifled Barrel
+Surefooted
+Witch's Brew
+Warp
+Toxic Brew
+Dancing Blade
+Dual Guardsman
+Heavy Blade
+Veteran Intuition
+Supportive
+Forceful Partner
+Devoted Partner
+Evasive Partner
+Fiery Blood
+Miraculous Save
+Healing Descant
+Quiet Strength
+Fearsome Blow
+Perfectionist
+Vow of Friendship
+Pyrotechnics
+Capture
+Rallying Cry
+Divine Retribution
+Optimistic
+Pride
+Nohr Enmity
+Triple Threat
+Competitive
+Shuriken Mastery
+Morbid Celebration
+Reciprocity
+Bushido
+In Extremis
+Highwayman
+Lily's Poise
+Misfortunate
+Puissance
+Aching Blood
+Kidnap
+Countercurse
+Rose's Thorns
+Fierce Rival
+Opportunist
+Fancy Footwork
+Bloodthirst
+Fierce Mien
+Unmask
+Pragmatic
+Collector
+Chivalry
+Peacebringer
+Wind Disciple
+Perspicacious
+Icy Blood
+Forager
+Draconic Heir
+Born Steward
+Perfect Pitch
+Mischievous
+Lucky Charm
+Noble Cause
+Optimist
+Sweet Tooth
+Playthings
+Calm
+Haiku
+Prodigy
+Vendetta
+Gallant
+Guarded Bravery
+Fierce Counter
+Goody Basket
+Fortunate Son
+Bibliophile
+Sisterhood
+Daydream
+Make a Killing

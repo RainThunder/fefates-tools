@@ -38,7 +38,7 @@ other file for you. If you want a new characters, classes, etc. to work
 properly, you also need to manually change other files.
 
 Usage:
-python gamedata_module.py [--option id name] ...
+    python gamedata_module.py [--option id name] ...
 
 ``option``: "chapter", "character", "class", "item" are available options.
 ``id``: ID of the new data. Must be an integer.
@@ -98,7 +98,13 @@ MODULE_ORDER = [
     ('Chapter', os.path.join('Chapter', 'Chapter.nmm')),
     ('Character', os.path.join('Character', 'Character.nmm')),
     ('Class', os.path.join('Class', 'Class.nmm')),
+    ('Skill', os.path.join('Skill', 'Skill.nmm')),
+    ('Stat', os.path.join('Stat', 'Stat.nmm')),
+    ('Army', os.path.join('Army', 'Army.nmm')),
+    ('Weapon Rank', os.path.join('Weapon Rank', 'WeaponRank.nmm')),
     ('Item', os.path.join('Item', 'Item.nmm')),
+    ('Forge', os.path.join('Forge', 'Forge.nmm')),
+    ('Tutorial', os.path.join('Tutorial', 'Tutorial.nmm')),
     ('Path Bonus', os.path.join('Path Bonus', 'PathBonus.nmm')),
     ('Battle Bonus', os.path.join('Battle Bonus', 'BattleBonus.nmm')),
     ('Visit Bonus', os.path.join('Visit Bonus', 'VisitBonus.nmm'))
@@ -126,7 +132,8 @@ def update_modules(data_type, ids, names):
             lines = file.readlines()
             lines[0] = str(int(lines[0]) + len(names)) + '\n'
             for index in xrange(len(ids)):
-                lines.append('0x' + format(ids[index], 'X') + ' ' + names[index] + '\n')
+                lines.append('0x' + format(ids[index], 'X') + ' ' +
+                             names[index] + '\n')
             file.seek(0)
             lines = file.writelines(lines)
 

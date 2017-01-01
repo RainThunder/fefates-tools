@@ -56,7 +56,7 @@ Flag 57 - 64
 NDHU
 Flag57-64.txt
 
-Item pointer
+Item label pointer
 8
 4
 NEHU
@@ -68,7 +68,7 @@ Item name pointer
 NEHU
 NULL
 
-Item name description
+Item description pointer
 16
 4
 NEHU

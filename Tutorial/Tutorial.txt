@@ -1,0 +1,34 @@
+1. System Menu
+2. Moving Units
+3. Commanding Units
+4. Switching Phases
+5. Combat
+6. Combat (Bows)
+7. Combat (Tomes)
+8. Combat Forecast
+9. Staves
+10. Help at a Touch
+11. Weapon Triangle
+12. Bonus Damage
+13. Status Effects
+14. Losing Units
+15. Healing
+16. Trading Items
+17. Item Drops
+18. Tag Team
+19. Pair Up
+20. Talking
+21. Singing
+22. Locks
+23. Preparations
+24. Support
+25. Dragon Vein
+26. Villages
+27. Turrets
+28. Reinforcements
+29. Danger Area
+30. Auto-battle
+31. Class Change
+32. Reclassing
+33. Castle Buildings
+34. Castle Defense

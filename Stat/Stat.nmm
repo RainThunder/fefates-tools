@@ -1,0 +1,339 @@
+#Fire Emblem Fates Stat Editor
+
+1
+Fire Emblem Fates Stat Editor by RainThunder
+0x1485C
+9
+64
+Stat.txt
+NULL
+
+Stat ID
+0
+4
+NEHU
+NULL
+
+Stat label pointer
+4
+4
+NEHU
+NULL
+
+Stat description pointer
+8
+4
+NEHU
+NULL
+
+(?) HP
+12
+1
+NEDS
+NULL
+
+(?) Strength
+13
+1
+NEDS
+NULL
+
+(?) Magic
+14
+1
+NEDS
+NULL
+
+(?) Skill
+15
+1
+NEDS
+NULL
+
+(?) Speed
+16
+1
+NEDS
+NULL
+
+(?) Luck
+17
+1
+NEDS
+NULL
+
+(?) Defense
+18
+1
+NEDS
+NULL
+
+(?) Resistance
+19
+1
+NEDS
+NULL
+
+Boon HP Growth
+20
+1
+NEDS
+NULL
+
+Boon Strength Growth
+21
+1
+NEDS
+NULL
+
+Boon Magic Growth
+22
+1
+NEDS
+NULL
+
+Boon Skill Growth
+23
+1
+NEDS
+NULL
+
+Boon Speed Growth
+24
+1
+NEDS
+NULL
+
+Boon Luck Growth
+25
+1
+NEDS
+NULL
+
+Boon Defense Growth
+26
+1
+NEDS
+NULL
+
+Boon Resistance Growth
+27
+1
+NEDS
+NULL
+
+Boon HP
+28
+1
+NEDS
+NULL
+
+Boon Strength
+29
+1
+NEDS
+NULL
+
+Boon Magic
+30
+1
+NEDS
+NULL
+
+Boon Skill
+31
+1
+NEDS
+NULL
+
+Boon Speed
+32
+1
+NEDS
+NULL
+
+Boon Luck
+33
+1
+NEDS
+NULL
+
+Boon Defense
+34
+1
+NEDS
+NULL
+
+Boon Resistance
+35
+1
+NEDS
+NULL
+
+(?) HP
+36
+1
+NEDS
+NULL
+
+(?) Strength
+37
+1
+NEDS
+NULL
+
+(?) Magic
+38
+1
+NEDS
+NULL
+
+(?) Skill
+39
+1
+NEDS
+NULL
+
+(?) Speed
+40
+1
+NEDS
+NULL
+
+(?) Luck
+41
+1
+NEDS
+NULL
+
+(?) Defense
+42
+1
+NEDS
+NULL
+
+(?) Resistance
+43
+1
+NEDS
+NULL
+
+Bane HP Growth
+44
+1
+NEDS
+NULL
+
+Bane Strength Growth
+45
+1
+NEDS
+NULL
+
+Bane Magic Growth
+46
+1
+NEDS
+NULL
+
+Bane Skill Growth
+47
+1
+NEDS
+NULL
+
+Bane Speed Growth
+48
+1
+NEDS
+NULL
+
+Bane Luck Growth
+49
+1
+NEDS
+NULL
+
+Bane Defense Growth
+50
+1
+NEDS
+NULL
+
+Bane Resistance Growth
+51
+1
+NEDS
+NULL
+
+Bane HP
+52
+1
+NEDS
+NULL
+
+Bane Strength
+53
+1
+NEDS
+NULL
+
+Bane Magic
+54
+1
+NEDS
+NULL
+
+Bane Skill
+55
+1
+NEDS
+NULL
+
+Bane Speed
+56
+1
+NEDS
+NULL
+
+Bane Luck
+57
+1
+NEDS
+NULL
+
+Bane Defense
+58
+1
+NEDS
+NULL
+
+Bane Resistance
+59
+1
+NEDS
+NULL
+
+Unknown 1
+60
+1
+NEDS
+NULL
+
+Unknown 2
+61
+1
+NEDS
+NULL
+
+Unknown 3
+62
+1
+NEDS
+NULL
+
+Unknown 4
+63
+1
+NEDS
+NULL

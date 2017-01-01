@@ -1,0 +1,9 @@
+None
+HP
+Strength
+Magic
+Skill
+Speed
+Luck
+Defense
+Resistance

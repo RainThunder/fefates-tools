@@ -1,0 +1,45 @@
+#Fire Emblem Fates Tutorial Editor
+
+1
+Fire Emblem Fates Tutorial Editor by RainThunder
+0x12BBC
+34
+20
+Tutorial.txt
+NULL
+
+Tutorial label pointer
+0
+4
+NEHU
+NULL
+
+Tutorial ID
+4
+2
+NEHU
+NULL
+
+Unknown
+6
+2
+NEHU
+NULL
+
+Tutorial name pointer
+8
+4
+NEHU
+NULL
+
+Tutorial description pointer
+12
+4
+NEHU
+NULL
+
+Unknown pointer
+16
+4
+NEHU
+NULL

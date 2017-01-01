@@ -20,13 +20,18 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 
 # List of modules, tools and files
 ## Modules
+* Chapter
 * Character
 * Character (A_HANDOVER): Modify character data that will be used in Birthright path.
 * Character (B_HANDOVER): Modify character data that will be used in Conquest path.
 * Character (C_HANDOVER): Modify character data that will be used in Revelation path.
 * Class
+* Skill
+* Stat
+* Army (practically useless)
 * Item
-* Chapter
+* Forge
+* Tutorial (practically useless)
 * Weapon Rank
 * Path Bonus
 * Visit Bonus

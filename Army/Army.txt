@@ -1,0 +1,22 @@
+None
+Other
+Player's Army
+Hoshido Army
+Nohr Army
+Vallite Army
+Mokushu Army
+Cheve Army
+Phantom Army
+Tribal Army
+Foreign Army
+Intruding Army
+Ruffians
+Villagers
+Other (captureable)
+Player 1's Army
+Player 2's Army
+DLC Army 1
+DLC Army 2
+DLC Army 3
+DLC Army 4
+DLC Army (captureable)
