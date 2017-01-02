@@ -42,6 +42,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 * **fst_generator.py**: Generates fst.bin for Fire Emblem Fates custom DLC.
 * **arc.py**: Extract and repack .arc files.
 * **gamedata_module.py**: Add new data to GameData.bin and automatically update all modules to reflect the changes. This tool is a workaround for Nightmare limitations.
+* **trim.py**: Trim the padding bytes caused by Nightmare 2.
 
 ## Data files
 * GameData.bin
@@ -56,12 +57,12 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 * Alternatively, you can download xorpads or decrypted ROMs / CIAs on other sites, or use the provided files in this repository.
 
 ## Editing
-* All .lz files can be decompressed using **FEAT** (there are still some error that need to be fixed soon).
+* All *.lz* files can be decompressed using **FEAT** (there are still some error that need to be fixed soon).
   * Just drag and drop .lz file into FEAT window.
 * How to use the modules and tools:
-  * For Nightmare modules, you need to open certain .bin file with its respective module file (.nmm). Please read README.md in each module's folder for more details.
+  * For Nightmare modules, you need to open certain .bin file with its respective module file (.nmm). Please read **README.md** in each module's folder for more details.
   * For tool usage, see [https://github.com/RainThunder/fefates-tools#using-the-tools](Using the tools)
-* After editing, you can use BatchLZ77 / DSDecmp4 / lzx to recompress your edited files.
+* After editing, drag and drop your modified file(s) to **trim.py**, then run **BatchLZ77** / **DSDecmp4** / **lzx** to recompress your edited file(s).
   * **DSDecmp4**: Type `DSDecmp4 -c lz11 file.bin` in the command line (file.bin is the name of the file that need to be compressed)
   * **lzx**: Type `lzx -evb file.bin` in the command line.
   * **BatchLZ77**:
@@ -84,7 +85,9 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
     * To extract an .arc file, drag and drop it to the arc.bat script.
     * To repack a folder, drag and drop the folder to the arc.bat script.
   * For other OSes:
-    * Just open the Terminal and type python arc.py file to extract, or python arc.py folder to repack.
+    * Open the Terminal.
+	* Type `python arc.py file.arc` to extract a file named "file.arc".
+	* Type `python arc.py folder` to pack a folder named "folder" to an .arc file with the same name.
 * **gamedata_module.py**: `python gamedata_module.py [--option id name] ...`
   * Arguments:
 	* `option`: "chapter", "character", "class", "item" are available options.
@@ -92,6 +95,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 	* `name`: Name of the new data, which is used for label.
   * Example:
     * `python gamedata_module.py --item 405 ABC --item 406 DEF`: Adding two items, which takes 405 and 406 as IDs and IID_ABC and IID_DEF as labels, respectively.
+* **trim.py**: Drag and drop the padded files to this script, or if you prefer the command line: `python trim.py files [files ...]`.
 
 # See also
 * General Fire Emblem Fates ROM hacking documentation: https://github.com/RainThunder/fefates-tools/wiki
