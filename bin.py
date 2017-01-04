@@ -35,28 +35,34 @@ class BinFile(object):
         ``header``: Header
         ``raw``: Raw data
         """
+        if (header == None or raw == None):
+            self._data = ''
+            self._p1_list = []
+            self._p2_list = []
+            self._labels = ''
 
-        # Header
-        size, data_length, p1_count, p2_count = \
-            unpack('<4I', header[0x0:0x10])
-        p1_offset = data_length
-        p2_offset = p1_offset + p1_count * 4
-        label_offset = p2_offset + p2_count * 8
+        else:
+            # Header
+            size, data_length, p1_count, p2_count = \
+                unpack('<4I', header[0x0:0x10])
+            p1_offset = data_length
+            p2_offset = p1_offset + p1_count * 4
+            label_offset = p2_offset + p2_count * 8
 
-        # Data
-        self._data = raw[:data_length]
+            # Data
+            self._data = raw[:data_length]
 
-        # Pointer 1
-        self._p1_list = list(unpack('<' + str(p1_count) + 'I',\
-            raw[p1_offset:p2_offset]))
+            # Pointer 1
+            self._p1_list = list(unpack('<' + str(p1_count) + 'I',\
+                raw[p1_offset:p2_offset]))
 
-        # Pointer 2
-        self._p2_list = []
-        for offset in xrange(p2_offset, label_offset, 8):
-            self._p2_list.append(unpack('<II', raw[offset:offset + 8]))
+            # Pointer 2
+            self._p2_list = []
+            for offset in xrange(p2_offset, label_offset, 8):
+                self._p2_list.append(unpack('<II', raw[offset:offset + 8]))
 
-        # Labels
-        self._labels = raw[label_offset:]
+            # Labels
+            self._labels = raw[label_offset:]
 
     def __repr__(self):
         return self.get_raw_data()

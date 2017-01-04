@@ -54,8 +54,7 @@ from collections import namedtuple
 from struct import unpack, pack
 
 class Arc(object):
-    """An arc file object.
-    """
+    """An arc file object."""
     FileInfo = namedtuple('FileInfo', ['name', 'index', 'length', 'offset'])
 
     def __init__(self, header=None, raw=None):

@@ -99,6 +99,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 
 # See also
 * General Fire Emblem Fates ROM hacking documentation: https://github.com/RainThunder/fefates-tools/wiki
+* Fire Emblem Fates ROM Hacking General Thread: https://gbatemp.net/threads/fire-emblem-fates-rom-hacking-general-thread.434509/
 * Nightmare file format: http://feuniverse.us/t/nightmare-module-format-explained/267, or the text file in the Nightmare 2 download.
 
 # Special thanks
