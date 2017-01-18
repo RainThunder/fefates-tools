@@ -39,7 +39,7 @@ class GameData(bin.BinFile):
             (0x18, 'MPID_H')],
         'Class': [(0x8, 'JID'), (0xC, 'FID'), (0x10, 'MJID'), (0x14, 'MJID_H')],
         'Skill': [(0x0, 'SEID'), (0x4, 'MSEID'), (0x8, 'MSEID_H')],
-        'Stat': [(0x0, 'MID'), (0x4, MID_H)],
+        'Stat': [(0x0, 'MID'), (0x4, 'MID_H')],
         'Army': [(0x4, 'BID'), (0x8, 'BID_H')],
         'Item': [(0x8, 'IID'), (0xC, 'MIID'), (0x10, 'MIID_H')],
         'Tutorial': [(0x0, 'TUTID'), (0x8, 'MTUTID'), (0xC, 'MTUTID_H')]
