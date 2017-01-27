@@ -43,6 +43,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 * **arc.py**: Extract and repack .arc files.
 * **gamedata_module.py**: Add new data to GameData.bin and automatically update all modules to reflect the changes. This tool is a workaround for Nightmare limitations.
 * **trim.py**: Trim the padding bytes caused by Nightmare 2.
+* **castle_join.py**: Convert castle_join.bin to tab-delimited text file and vice versa.
 
 ## Data files
 * GameData.bin
@@ -96,11 +97,13 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
   * Example:
     * `python gamedata_module.py --item 405 ABC --item 406 DEF`: Adding two items, which takes 405 and 406 as IDs and IID_ABC and IID_DEF as labels, respectively.
 * **trim.py**: Drag and drop the padded files to this script, or if you prefer the command line: `python trim.py files [files ...]`.
+* **castle_join.py**: Drag and drop castle_join.bin / castle_join.txt to this script.
+  * Legacy tool can be found [here](https://gist.github.com/RainThunder/e547462df8bfdcc3cc5af0786a74f6ee).
 
 # See also
 * General Fire Emblem Fates ROM hacking documentation: https://github.com/RainThunder/fefates-tools/wiki
 * Fire Emblem Fates ROM Hacking General Thread: https://gbatemp.net/threads/fire-emblem-fates-rom-hacking-general-thread.434509/
-* Nightmare file format: http://feuniverse.us/t/nightmare-module-format-explained/267, or the text file in the Nightmare 2 download.
+* Nightmare file format: http://feuniverse.us/t/nightmare-module-format-explained/267, or the text file in the Nightmare 2 zip.
 
 # Special thanks
 * SciresM, for [FEAT](https://github.com/SciresM/FEAT).

@@ -27,6 +27,10 @@
 from struct import unpack, pack, pack_into
 
 
+class InvalidFileError(Exception):
+    pass
+
+
 class BinFile(object):
     def __init__(self, header=None, raw=None):
         """Initialize the bin objects.
@@ -35,7 +39,7 @@ class BinFile(object):
         ``header``: Header
         ``raw``: Raw data
         """
-        if (header == None or raw == None):
+        if header is None or raw is None:
             self._data = ''
             self._p1_list = []
             self._p2_list = []
@@ -45,6 +49,9 @@ class BinFile(object):
             # Header
             size, data_length, p1_count, p2_count = \
                 unpack('<4I', header[0x0:0x10])
+            if size != len(header) + len(raw):
+                raise InvalidFileError('Invalid file.')
+
             p1_offset = data_length
             p2_offset = p1_offset + p1_count * 4
             label_offset = p2_offset + p2_count * 8
@@ -64,6 +71,10 @@ class BinFile(object):
             # Labels
             self._labels = raw[label_offset:]
 
+    def __len__(self):
+        return 0x20 + len(self._data) + len(self._p1_list) * 4 + \
+            len(self._p2_list) * 8 + len(self._labels)
+
     def __repr__(self):
         return self.get_raw_data()
 
@@ -75,14 +86,12 @@ class BinFile(object):
 
     def tobin(self):
         """Export to .bin file."""
-        header = pack(
-            '<4I', 0x20 + len(self._data) + len(self._p1_list) * 4 +
-            len(self._p2_list) * 8 + len(self._labels), len(self._data),
-            len(self._p1_list), len(self._p2_list))
+        header = pack('<4I', len(self), len(self._data), len(self._p1_list),
+                      len(self._p2_list))
         return header + '\0' * 16 + self.get_raw_data()
 
     def get_data(self):
-        """Return data region."""
+        """Get raw bytes of the data region."""
         return self._data
 
     def get_pointer_1(self):
@@ -119,6 +128,8 @@ class BinFile(object):
                 length += 1
             if encoding == 'shift-jis':
                 label_dict[ptr] = self._labels[offset:offset + length]
+            elif encoding == 'unicode':
+                label_dict[ptr] = self._labels[offset:offset + length].decode('shift-jis')
             else:
                 label_dict[ptr] = self._labels[offset:offset + length]\
                     .decode('shift-jis').encode(encoding)
