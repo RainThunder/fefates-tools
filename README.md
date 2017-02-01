@@ -13,7 +13,7 @@ Because Nightmare only allows editing fixed-size data, you can't add any new stu
 * Nightmare: [here](http://serenesforest.net/forums/index.php?showtopic=26737) or [here](http://www.romhacking.net/utilities/610/). Nightmare 2 is recommended.
 * [FEAT](https://github.com/SciresM/FEAT/releases), for decompressing .lz files.
 * [BatchLZ77](http://filetrip.net/nds-downloads/utilities/download-batchlz77-1-3-f11736.html) / [DSDecmp4](http://www.romhacking.net/utilities/789/) / [lzx](http://www.romhacking.net/utilities/826/) to recompress the edited file. I'm not sure if those tools work on other operating systems than Windows. lzx is open-source and written in C, so you might be able to compile it for other OSes.
-* If you want to run .py script, you need [Python 2.7](https://www.python.org/download).
+* If you want to run .py script, you need [Python](https://www.python.org/download). Both Python 2 and Python 3 are supported.
 
 # Download
 https://github.com/RainThunder/fefates-tools/archive/master.zip
@@ -98,7 +98,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
     * `python gamedata_module.py --item 405 ABC --item 406 DEF`: Adding two items, which takes 405 and 406 as IDs and IID_ABC and IID_DEF as labels, respectively.
 * **trim.py**: Drag and drop the padded files to this script, or if you prefer the command line: `python trim.py files [files ...]`.
 * **castle_join.py**: Drag and drop castle_join.bin / castle_join.txt to this script.
-  * Legacy tool can be found [here](https://gist.github.com/RainThunder/e547462df8bfdcc3cc5af0786a74f6ee).
+  * Legacy tool (Python 2 only) can be found [here](https://gist.github.com/RainThunder/e547462df8bfdcc3cc5af0786a74f6ee).
 
 # See also
 * General Fire Emblem Fates ROM hacking documentation: https://github.com/RainThunder/fefates-tools/wiki

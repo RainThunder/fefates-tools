@@ -51,10 +51,12 @@ Example:
             file.write(cj.tobin()) # Write the modified data,
 """
 
-import cStringIO
+import codecs
+from collections import OrderedDict
 from struct import unpack, pack, pack_into
 
 import bin
+import basetypes
 
 class CastleJoin(bin.BinFile):
     """A class that represent data structure in castle_join.bin.
@@ -68,7 +70,7 @@ class CastleJoin(bin.BinFile):
         self.characters = CharacterList()
 
         if raw is None:
-            self._data = '\0' * 4
+            self._data = b'\0' * 4
         else:
             self.frombin(header, raw)
 
@@ -87,198 +89,67 @@ class CastleJoin(bin.BinFile):
         if 0x4 + 0x20 * unit_count != len(self._data):
             raise ValueError('Invalid file.')
 
-        label_dict = self.get_labels(encoding='unicode')
-        for index in xrange(unit_count):
-            offset = 0x4 + index * 0x20
-            temp = unpack('<8I', self._data[offset:offset + 0x20])
-            self.characters.append(Character(
-                pid=label_dict[temp[1]],
-                cids=[label_dict[ptr] for ptr in temp[2:5]],
-                building_ids=list(temp[5:8])
-            ))
+        self.characters = self.extractmultiple(CharacterList, 0x4, unit_count)
 
     def totext(self):
         """Export to text file. Index number will be removed."""
-        return 'PID\tCID_A\tCID_B\tCID_C\tBuilding 1\tBuilding 2\t' + \
-            'Building 3\n' + '\n'.join([str(c) for c in self.characters])
+        return u'Index\tPID\tCID_A\tCID_B\tCID_C\tBuilding 1\tBuilding 2\t' + \
+            u'Building 3\n' + u'\n'.join([c.tostring() for c in self.characters])
 
     def fromtext(self, text):
         """Load data from text."""
-        lines = text.split('\n')
-        for i in xrange(1, len(lines)):
-            cells = lines[i].split('\t')
-            if len(cells) < 7:
-                continue
-            for j in xrange(4, 7):
-                try:
-                    if cells[j].startswith('0x'):
-                        cells[j] = int(cells[j], 16)
-                    else:
-                        cells[j] = int(cells[j])
-                except ValueError:
-                    raise ValueError('Invalid number at line ' + str(i))
-            for j in xrange(0, 4):
-                cells[j] = cells[j].decode('utf-8')
-            self.characters.append(Character(pid=cells[0], cids=cells[1:4],
-                                   building_ids=cells[4:7]))
+        text = u'\n'.join(text.split(u'\n')[1:])
+        self.characters = CharacterList(text)
 
     def tobin(self):
         """Build a functional castle_join.bin."""
-        paths = ['A', 'B', 'C']
-
-        # Process all labels and construct label region.
-        # Also create pointer 1 groups for a properly formatted .bin file
-        label_offsets = {}                # Store label offsets
-        raw_labels = cStringIO.StringIO() # Store labels in Shift-JIS encoding
-        p1_groups = {}                    # Store pointer 1 groups
-                                          # All pointer 1 that point to the
-                                          # same label belong to a group
-        p1_count = 0
-        for i in xrange(len(self.characters)):
-            # PID label
-            label = self.characters[i].pid
-            label_offsets[label] = raw_labels.tell()
-            raw_labels.write(label.encode('shift-jis') + '\0')
-            p1_groups[label] = 0x8 + i * 0x20
-            p1_count += 1
-
-            # CID labels
-            for j in xrange(3):
-                path = paths[j]
-                if self.characters[i].cids[path] == u'NULL':
-                    continue
-                label = self.characters[i].cids[path]
-                if label not in label_offsets:
-                    label_offsets[label] = raw_labels.tell()
-                    raw_labels.write(label.encode('shift-jis') + '\0')
-                    p1_groups[label] = [0xC + i * 0x20 + j * 4]
-                else:
-                    p1_groups[label].append(0xC + i * 0x20 + j * 4)
-                p1_count += 1
-        self._labels = raw_labels.getvalue()
-
-        # Data and pointer region 1
-        label_offset = 0x4 + len(self.characters) * 0x20 + p1_count * 4
-        raw_data = cStringIO.StringIO()
-        raw_data.write(pack('<I', len(self.characters)))
-        self._p1_list = []
-        for i in xrange(len(self.characters)):
-            # Index
-            raw_data.write(pack('<I', i))
-
-            # Character label (PID)
-            label = self.characters[i].pid
-            raw_data.write(pack('<I', label_offset + label_offsets[label]))
-            self._p1_list.append(p1_groups[label])
-
-            # Chapter labels (CID)
-            for j in xrange(3):
-                path = paths[j]
-                label = self.characters[i].cids[path]
-                if label == u'NULL':
-                    raw_data.write(pack('<I', 0))
-                    continue
-                raw_data.write(pack('<I', label_offset + label_offsets[label]))
-                try:
-                    self._p1_list.extend(p1_groups[label])
-                    del p1_groups[label]
-                except KeyError:
-                    pass
-
-            # Building IDs
-            for id in self.characters[i].building_ids:
-                raw_data.write(pack('<I', id))
-
-        self._data = raw_data.getvalue()
+        super(CastleJoin, self).repack(self.characters, 0x4)
+        self._data = pack('<I', len(self.characters)) + self._data[0x4:]
         return super(CastleJoin, self).tobin()
 
 
-class ChapterLabelDict(dict):
-    """ChapterLabelDict"""
+class ChapterLabelDict(basetypes.RestrictedDict):
+    """A dict which store chapter labels in an elegant way."""
+    type = basetypes.Label
+    keys = [u'A', u'B', u'C']
+    size = type.size * len(keys)
+    fstring = type.fstring * len(keys)
+
     def __init__(self, *args, **kwargs):
-        if len(args) > 1:
-            raise TypeError('expected at most 1 arguments, got %d' % len(args))
-        dict.__init__(self, **kwargs)
-        if len(args) == 1:
-            if not isinstance(args[0], list):
-                raise TypeError('argument must be a list')
-            if len(args[0]) != 3:
-                raise TypeError('number of chapter labels must be 3')
-            self['A'] = args[0][0]
-            self['B'] = args[0][1]
-            self['C'] = args[0][2]
-
-    def __setitem__(self, key, label):
-        if key not in frozenset(['A', 'B', 'C']):
-            raise KeyError("key must be either 'A', 'B' or 'C'")
-        if label is None:
-            dict.__setitem__(self, key, u'NULL')
-        elif isinstance(label, str):
-            dict.__setitem__(self, key, unicode(label))
-        elif isinstance(label, unicode):
-            dict.__setitem__(self, key, label)
-        else:
-            raise TypeError('chapter label must be a string or None')
-
-    def __delitem__(self, key):
-        raise NotImplementedError()
+        """Initialize a ChapterLabelDict object."""
+        super(ChapterLabelDict, self).__init__(*args, **kwargs)
 
 
-class BuildingIDs(list):
+class BuildingIDs(basetypes.Array):
     """List of Building IDs."""
-    # All method that change the list size will throw an exception
+    type = basetypes.S32
+    length = 3
+    size = type.size * length
+    fstring = type.fstring * length
 
-    def __init__(self, *args):
-        if len(args) != 1:
-            raise TypeError('expected 1 arguments, got %d' % len(args))
-        if not isinstance(args[0], list):
-            raise TypeError('argument must be a list')
-        if len(args[0]) != 3:
-            raise ValueError('number of building ID must be 3')
-        for id in args[0]:
-            self.__checkid(id)
-        list.__init__(self, *args)
-
-    def __checkid(self, id):
-        if not isinstance(id, (int, long)):
-            raise TypeError('building ID must be an integer')
-
-    def __setitem__(self, index, id):
-        if index >= 3:
-            raise IndexError('list index out of range')
-        self.__checkid(id)
-        list.__setitem__(self, index, id)
-
-    def __delitem__(self, index):
-        raise NotImplementedError()
-
-    def append(self, id):
-        raise NotImplementedError()
-
-    def extend(self, building_ids):
-        raise NotImplementedError()
-
-    def insert(self, index, id):
-        raise NotImplementedError()
-
-    def pop(self, index):
-        raise NotImplementedError()
-
-    def remove(self, index, id):
-        raise NotImplementedError()
+    def __init__(self, *args, **kwargs):
+        """Initialize a BuildingIDs object."""
+        super(BuildingIDs, self).__init__(*args, **kwargs)
 
 
-class Character(object):
+class Character(basetypes.Row):
     """Character in castle_join.bin"""
-    __slots__ = ['_pid', '_cids', '_building_ids']
+    structure = OrderedDict([
+        ('index', basetypes.Structure(basetypes.U32, basetypes.Formats.STR)),
+        ('pid', basetypes.Structure(basetypes.Label, basetypes.Formats.STR)),
+        ('cids', basetypes.Structure(ChapterLabelDict, basetypes.Formats.STR)),
+        ('building_ids', basetypes.Structure(BuildingIDs, basetypes.Formats.HEX))
+    ])
 
-    def __init__(self, **kwargs):
+    def __init__(self, *args, **kwargs):
         """Initialize a Character object.
 
-        Keyword arguments:
+        Positional arguments:
         `data`: raw data, cannot be used with other arguments.
-        `pid`: character label / PID (unicode)
-        `cids`: list of chapter labels / CID (unicode)
+
+        Keyword arguments:
+        `pid`: character label / PID (str / unicode)
+        `cids`: list of chapter labels / CID (str / unicode)
         `building_ids`: building IDs (int)
         """
         valid_args = frozenset(['data', 'pid', 'cids', 'building_ids'])
@@ -286,97 +157,41 @@ class Character(object):
             if arg not in valid_args:
                 raise ValueError('Unsupported keyword argument: ' + arg)
 
-        if len(kwargs) == 0:
-            self._pid = None
-            self._cids = ChapterLabelDict()
-            self._building_ids = BuildingIDs([0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF])
+        if len(args) > 1:
+            raise TypeError('expected 1 arguments, got ' + len(args))
+        if len(args) == 0 and len(kwargs) == 0:
+            raise ValueError('character label cannot be empty')
 
-        if 'data' in kwargs:
-            self._pid, self._cids['A'], self._cids['B'], self._cids['C'] = \
-                kwargs['data'][1:5]
-            self._building_ids = BuildingIDs(kwargs['data'][5:8])
+        if len(args) == 1:
+            data = args[0]
         else:
+            data = []
             if 'pid' in kwargs:
-                self.pid = kwargs['pid']
+                data.append(kwargs['pid'])
             else:
                 raise ValueError('character label cannot be empty')
 
             # Chapter labels
             if 'cids' in kwargs:
-                self._cids = ChapterLabelDict(kwargs['cids'])
+                data.append(kwargs['cids'])
             else:
-                self._cids = ChapterLabelDict()
+                data.extend([u'NULL', u'NULL', u'NULL'])
 
             # Building IDs
             if 'building_ids' in kwargs:
-                self._building_ids = BuildingIDs(kwargs['building_ids'])
+                data.append(kwargs['building_ids'])
             else:
-                self._building_ids = BuildingIDs([0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF])
+                data.extend([0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF])
 
-    @property
-    def pid(self):
-        return self._pid
-
-    @pid.setter
-    def pid(self, label):
-        if isinstance(label, str):
-            self._pid = unicode(label)
-        elif isinstance(label, unicode):
-            self._pid = label
-        else:
-            raise TypeError('character label must be a string')
-
-    @property
-    def cids(self):
-        return self._cids
-
-    @property
-    def building_ids(self):
-        return self._building_ids
-
-    def get_data(self):
-        return (self._pid, self._cids['A'], self._cids['B'], self._cids['C'],
-                self._building_ids[0], self._building_ids[1], self._building_ids[2])
-
-    def __str__(self):
-        return '\t'.join(s.encode('utf-8') for s in [
-            self._pid,
-            self._cids['A'],
-            self._cids['B'],
-            self._cids['C'],
-            '0x' + format(self._building_ids[0], 'X'),
-            '0x' + format(self._building_ids[1], 'X'),
-            '0x' + format(self._building_ids[2], 'X')])
+        super(Character, self).__init__(data)
 
 
-class CharacterList(list):
+class CharacterList(basetypes.Table):
     """Represent a list of character."""
+    type = Character
 
-    def __init__(self, *args):
-        list.__init__(self, *args)
-
-    def __setitem__(self, index, character):
-        if not isinstance(character, Character):
-            raise TypeError('Character object is required')
-        list.__setitem__(self, index, character)
-
-    def append(self, character):
-        """Add a new character to the end of the list."""
-        if not isinstance(character, Character):
-            raise TypeError('Character object is required')
-        list.append(self, character)
-
-    def extend(self, character_list):
-        """Extend the list by appending all the items in the given list."""
-        if not isinstance(character_list, CharacterList):
-            raise TypeError('CharacterList object is required')
-        list.extend(self, character_list)
-
-    def insert(self, index, character):
-        """Insert an item at a given position."""
-        if not isinstance(character, Character):
-            raise TypeError('Character object is required')
-        list.insert(self, index, character)
+    def __init__(self, *args, **kwargs):
+        super(CharacterList, self).__init__(*args, **kwargs)
 
 
 def load_bin(path):
@@ -396,7 +211,7 @@ def load_text(path):
     Parameters:
     ``path``: Path to a bin file.
     """
-    with open(path, 'r') as file:
+    with codecs.open(path, 'r', 'utf-8') as file:
         text = file.read()
     cj = CastleJoin()
     cj.fromtext(text)
@@ -418,7 +233,7 @@ if __name__ == '__main__':
         outname = args.output
         if args.output is None:
             outname = 'castle_join.txt'
-        with open(outname, 'w') as file:
+        with codecs.open(outname, 'w', 'utf-8') as file:
             file.write(castle_join.totext())
         print('Data was extracted to ' + outname + '.')
 

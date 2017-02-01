@@ -50,9 +50,12 @@ will add two new items which had their IDs 400 and 401, respectively. IID_ABC
 and IID_DEF will be used as a label for those items.
 """
 
-
+from __future__ import print_function, unicode_literals
 import os
 import sys
+if sys.version_info[0] > 2:
+    unicode = str
+    xrange = range
 
 import gamedata
 
@@ -178,7 +181,7 @@ if __name__ == '__main__':
             else:
                 ids.append(int(data[0]))
         except ValueError:
-            print 'Data ID must be an integer.'
+            print('Data ID must be an integer.')
             exit()
         names.append(data[1])
 
@@ -191,7 +194,7 @@ if __name__ == '__main__':
 
     # Update some modules
     update_modules(data_type, ids, names)
-    
+
     # Fix some modules' offsets
     index = 0
     while MODULE_ORDER[index][0] != data_type:
@@ -205,6 +208,6 @@ if __name__ == '__main__':
             file.seek(0)
             file.writelines(lines)
         index += 1
-        
+
     # Output
-    print 'Added ' + str(len(ids)) + ' ' + data_type + '(s) to GameData.bin.'
+    print('Added ' + str(len(ids)) + ' ' + data_type + '(s) to GameData.bin.')

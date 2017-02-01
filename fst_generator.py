@@ -35,7 +35,11 @@ generated inside that folder.
 """
 
 import os
+import sys
 from struct import pack, unpack, pack_into
+if sys.version_info[0] > 2:
+    xrange = range
+    unicode = str
 
 try:
     import bin
@@ -54,22 +58,22 @@ class Fst(bin.BinFile):
         # Add file names to label region.
         offsets = []
         total_length = 0
-        self._labels = ''
         for filename in file_list:
             offsets.append(total_length)
             total_length += len(filename) + 1
-            self._labels += filename + '\0'
+        self._labels = b'\0'.join([f.encode('shift-jis') for f in file_list])\
+            + b'\0'
 
         # Data and pointer 1
         data_length = 4 + len(file_list) * 4 # = p1_offset
         label_offset = data_length + len(file_list) * 4
-        data = bytearray('\0' * data_length)
+        data = bytearray(b'\0' * data_length)
         self._p1_list = []
         pack_into('<I', data, 0, len(file_list))
         for i in xrange(len(file_list)):
             pack_into('<I', data, 0x4 + i * 4, label_offset + offsets[i])
             self._p1_list.append(0x4 + i * 4)
-        self._data = str(data)
+        self._data = bytes(data)
 
 
 def generate(path):
@@ -82,10 +86,10 @@ def generate(path):
             if filename == u'fst.bin':
                 continue
             if dirpaths != root_name:
-                filepath = (dirpaths.replace(root_name + os.sep, '').replace(os.sep, u'/') + u'/' + filename).encode('shift-jis')
+                label = dirpaths.replace(root_name + os.sep, '').replace(os.sep, u'/') + u'/' + filename
             else:
-                filepath = filename.encode('shift-jis')
-            file_list.append(filepath)
+                label = filename
+            file_list.append(label)
 
     # Construct the file/
     fst = Fst()
@@ -96,7 +100,7 @@ def generate(path):
 
 def generate_standalone(path):
     """Generate fst.bin file. No module import needed."""
-    labels = ''
+    labels = []
     name_offsets = []
     total_length = 0
     root_name = unicode(path)
@@ -105,15 +109,17 @@ def generate_standalone(path):
             if filename == u'fst.bin':
                 continue
             if dirpaths != root_name:
-                filepath = (dirpaths.replace(root_name + os.sep, '').replace(os.sep, u'/') + u'/' + filename).encode('shift-jis')
+                label = (dirpaths.replace(root_name + os.sep, '')\
+                    .replace(os.sep, u'/') + u'/' + filename)\
+                    .encode('shift-jis')
             else:
-                filepath = filename.encode('shift-jis')
+                label = filename.encode('shift-jis')
             name_offsets.append(total_length)
-            labels += filepath + '\0'
+            labels.append(label)
             total_length += len(filepath) + 1
 
     file_count = len(name_offsets)
-    label_offset = 4 + file_count * 8
+    label0_offset = 4 + file_count * 8
     with open(os.path.join(unicode(path), u'fst.bin'), 'wb') as fst_file:
         fst_file.write(
             # Header
@@ -123,13 +129,13 @@ def generate_standalone(path):
 
             # Data
             pack('<I', file_count) +
-            ''.join([pack('<I', label_offset + offset) for offset in name_offsets]) +
+            b''.join([pack('<I', label0_offset + offset) for offset in name_offsets]) +
 
             # Pointer 1
-            ''.join([pack('<I', ptr) for ptr in xrange(4, 4 + file_count * 4, 4)]) +
+            b''.join([pack('<I', ptr) for ptr in xrange(4, 4 + file_count * 4, 4)]) +
 
             # Labels
-            labels
+            b'\0'.join(labels) + b'\0'
         )
 
 
@@ -141,11 +147,11 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if not os.path.isdir(unicode(args.path)):
-        print args.path + ': No such directory.'
+        print(args.path + ': No such directory.')
         exit()
 
     if standalone:
         generate_standalone(args.path)
     else:
         generate(args.path)
-    print 'fst.bin generated.'
+    print('fst.bin generated.')

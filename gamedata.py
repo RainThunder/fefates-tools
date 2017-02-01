@@ -24,8 +24,13 @@
 #
 """A library for manipulating GameData.bin file in Fire Emblem Fates."""
 
-from struct import unpack, pack, pack_into
+from __future__ import print_function, unicode_literals
+import sys
 from collections import namedtuple
+from struct import unpack, pack, pack_into
+if sys.version_info[0] > 2:
+    unicode = str
+    xrange = range
 
 import bin
 
@@ -96,8 +101,6 @@ class GameData(bin.BinFile):
             raise ValueError('names must be a list.')
         if len(names) == 0:
             raise ValueError('names must not be empty.')
-        if isinstance(names[0], unicode):
-            name = name.encode('shift-jis')
 
         info = self.get_table_info(data_type)
         count = len(names)
@@ -108,12 +111,13 @@ class GameData(bin.BinFile):
         ptr_info = self.__ptr_info[data_type]                  # Get pointer info
         p1_diff = len(ptr_info) * count                   # Pointer 1 diff
         p2_diff = data_diff + p1_diff * 4 + count * 8     # Label offset diff
-        old_label_offset = self.get_label_offset()        # Old label offset
-        label_offset = old_label_offset + p2_diff         # New label offset
+        old_label0_offset = self.label0_offset            # Old label offset
+        label0_offset = old_label0_offset + p2_diff       # New label offset
 
         # Create new data
-        new_data = bytearray('\0' * data_diff)
-        new_labels = ''
+        new_data = bytearray(b'\0' * data_diff)
+        new_labels = []         # List of new labels, in Shift-JIS encoding
+        total_length = 0
         label_end_offset = len(self._labels)
         main_label_offsets = [] # Used for adding pointers to pointer region 2
 
@@ -121,11 +125,13 @@ class GameData(bin.BinFile):
             # Label and pointers
             main_label_offsets.append(label_end_offset)
             for j in xrange(len(ptr_info)):
-                label_ptr = label_offset + len(self._labels) + len(new_labels)
+                label_ptr = label0_offset + len(self._labels) + len(new_labels)
                 offset = info.size * i + ptr_info[j][0]
                 pack_into('<I', new_data, offset, label_ptr)
-                new_labels += ptr_info[j][1] + '_' + names[i] + '\0'
-            label_end_offset += len(new_labels) # Update
+                new_labels.append((ptr_info[j][1] + '_' + names[i])
+                                   .encode('shift-jis'))
+                total_length += len(new_labels[j]) + 1
+            label_end_offset += total_length # Update
 
             # Assign a new ID
             offset = info.size * i + info.id_offset
@@ -141,15 +147,15 @@ class GameData(bin.BinFile):
             if p1_ptr > end_offset:
                 self._p1_list[ptr_index] += data_diff
             ptr = unpack('<I', self._data[p1_ptr:p1_ptr + 4])[0]
-            if ptr > end_offset and ptr < old_label_offset:        # Sub-table
+            if ptr > end_offset and ptr < old_label0_offset:        # Sub-table
                 pack_into('<I', data, p1_ptr, ptr + data_diff)
-            elif ptr > old_label_offset:                           # Label
+            elif ptr > old_label0_offset:                           # Label
                 pack_into('<I', data, p1_ptr, ptr + p2_diff)
 
         # Append data
         pack_into('<H', data, info.count_offset, old_count + count)
-        self._data = str(data[:end_offset]) + str(new_data) + \
-            str(data[end_offset:])
+        self._data = bytes(data[:end_offset]) + bytes(new_data) + \
+            bytes(data[end_offset:])
 
         # Append pointer 1
         for i in xrange(count):
@@ -170,7 +176,7 @@ class GameData(bin.BinFile):
             self._p2_list.append((end_offset + info.size * i, main_label_offsets[i]))
 
         # Append labels
-        self._labels += new_labels
+        self._labels += b'\0'.join([l for l in new_labels]) + b'\0'
 
         # At this point, the file is already usable, but we would like to make
         # it properly just like the original.
@@ -190,4 +196,4 @@ def load_file(path):
 
 
 if __name__ == '__main__':
-    print 'This script is a library and does not mean to be used directly.'
+    print('This script is a library and does not mean to be used directly.')
