@@ -82,20 +82,24 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 ## Using the tools:
 * **fst_generator.py**: Drag and drop your folder that contains your DLC files to this script.
 * **arc.py**: Extract and repack .arc files.
-  * For Windows:
+  * For Windows: Because default Windows' Command Prompt doesn't support unicode file names (which is pretty common in Fire Emblem Fates), you have to either use arc.bat or download an alternative command line shell for Windows.
     * To extract an .arc file, drag and drop it to the arc.bat script.
     * To repack a folder, drag and drop the folder to the arc.bat script.
   * For other OSes:
     * Open the Terminal.
 	* Type `python arc.py file.arc` to extract a file named "file.arc".
 	* Type `python arc.py folder` to pack a folder named "folder" to an .arc file with the same name.
-* **gamedata_module.py**: `python gamedata_module.py [--option id name] ...`
+* **gamedata_module.py**:
+  * Usage: `python gamedata_module.py [--option id name | --character id name sp] ...`
   * Arguments:
 	* `option`: "chapter", "character", "class", "item" are available options.
 	* `id`: ID of the new data. Must be an integer.
 	* `name`: Name of the new data, which is used for label.
+	* `support`: (`--character` only) Number of support character. For simplicity, support ID for the new character will be the same as that character's `id`.
+  * Note: New character will have his / her own attack and defense stance table by default.
   * Example:
-    * `python gamedata_module.py --item 405 ABC --item 406 DEF`: Adding two items, which takes 405 and 406 as IDs and IID_ABC and IID_DEF as labels, respectively.
+    * `python gamedata_module.py --item 405 ABC --item 406 DEF`: Add two items, which takes 405 and 406 as IDs and IID_ABC and IID_DEF as labels, respectively.
+	* `python gamedata_module.py --character 400 ABC 47`: Add a new character who has support with 47 other characters.
 * **trim.py**: Drag and drop the padded files to this script, or if you prefer the command line: `python trim.py files [files ...]`.
 * **castle_join.py**: Drag and drop castle_join.bin / castle_join.txt to this script.
   * Legacy tool (Python 2 only) can be found [here](https://gist.github.com/RainThunder/e547462df8bfdcc3cc5af0786a74f6ee).

@@ -69,6 +69,10 @@ class Integer(long):
         """Output string."""
         return unicode(self)
 
+    @classmethod
+    def true_length(cls):
+        return 1
+
 
 class UnsignedInteger(Integer):
     """Unsigned integer."""
@@ -173,6 +177,10 @@ class Label(unicode):
         """Output JSON object."""
         return self
 
+    @classmethod
+    def true_length(cls):
+        return 1
+
 
 class Flags(object):
     """Generic flag list.
@@ -187,14 +195,18 @@ class Flags(object):
         `data`: raw flag data (bytes)
         """
         if not isinstance(data, bytes):
-            raise TypeError('')
+            raise TypeError('Input must be str / bytes type.')
         if len(data) * 8 != len(self.__class__.names):
             raise ValueError('length mismatched')
         flags = []
+        data = bytearray(data)
         for i in xrange(len(data) * 8):
             flags.append((data[i // 8] >> (i % 8)) & 0x1 == 0x1)
         for i in xrange(len(self.__class__.names)):
             setattr(self, self.__class__.names[i], flags[i])
+
+    def __len__(self):
+        return len(self.__class__.names)
 
     def __setattr__(self, name, value):
         if name not in self.__class__.names:
@@ -223,8 +235,13 @@ class Flags(object):
         return jsonobj
 
     def tostring(self):
+        """Output string."""
         return u'\t'.join([unicode(self.__dict__[a])
                           for a in self.__class__.names])
+
+    @classmethod
+    def true_length(cls):
+        return len(cls.names)
 
 
 ##############################################################################
@@ -302,6 +319,10 @@ class Array(list):
         """Output tab-delimited string."""
         return u'\t'.join([item.tostring() for item in self])
 
+    @classmethod
+    def true_length(cls):
+        return cls.length
+
 
 class RestrictedDict(dict):
     """A dictionary with fixed keys and type-restricted values.
@@ -376,6 +397,10 @@ class RestrictedDict(dict):
         """Output tab-delimited string."""
         return u'\t'.join([self[key].tostring() for key in self.__class__.keys])
 
+    @classmethod
+    def true_length(cls):
+        return len(cls.keys)
+
 
 ##############################################################################
 # Main data structures
@@ -386,47 +411,52 @@ class Row(object):
     This data structure support setting attribute in various ways:
     - row.name = 'ABC'
     - row['name'] = 'ABC'
-    - row[0] = 'ABC' (assume the first attribute is 'name')
+    - row[0] = 'ABC' (assume the first attribute is 'name'). This is also the
+    slowest way.
 
     Inheriting from this class is mandatory.
+
+    A `structure` must be a OrderedDict which contains:
+    - key: attribute (field) names
+    - value: a `Structure` object, which stores data type and format.
     """
     structure = None
-    attributes = [] # A list of all attributes
     size = 4
     fstring = 'I'
 
-    def __init__(self, data):
+    def __init__(self, data=None):
         """Initialize a new row.
 
-        A `structure` must be a OrderedDict which contains:
-        - key: attribute (field) names
-        - value: a Structure object
-
-        `data` is a list or tuple that follows the structure.
+        `data` is an iterable object that follows the structure.
         """
-        if isinstance(data, unicode):
-            self.fromstring(data)
+        st = self.__class__.structure
+        if data is None:
+            for attr in st:
+                self.__dict__[attr] = st[attr].type()
         else:
-            if len(data) != len(self.__class__.structure):
-                raise ValueError('data length does not match with structure ' +
-                                 'definition')
-            i = 0
-            for attr in self.__class__.structure:
-                self.__class__.attributes.append(attr)
-                t = self.__class__.structure[attr].type
-                if issubclass(t, (Row, Flags, Array, RestrictedDict)):
-                    self.__dict__[attr] = t(data[i])
-                else:
-                    self.__setattr__(attr, data[i])
-                i += 1
+            if len(data) == len(st):
+                i = 0
+                for attr in st:
+                    self.__dict__[attr] = st[attr].type(data[i])
+                    i += 1
+            elif len(data) > len(st):
+                self.shrink(data)
+            else:
+                raise ValueError('data length does not match ' +
+                                 'with the structure definition')
 
     def __getitem__(self, key):
         if isinstance(key, int):
-            key = self.__class__.attributes[key]
+            i = 0
+            for attr in self.__class__.structure:
+                if i == key:
+                    key = attr
+                i += 1
         self.__getattr__(self, key)
 
     def __iter__(self):
-        return iter(self.__class__.structure)
+        for attr in self.__class__.structure:
+            yield (attr, self.__getattr__(self, attr))
 
     def __len__(self):
         return len(self.__class__.structure)
@@ -436,49 +466,23 @@ class Row(object):
         try:
             t = self.__class__.structure[name].type
         except KeyError:
-            raise AttributeError("Row object has no attribute '" + name + "'")
+            raise AttributeError("This object has no attribute '" + name + "'")
         if issubclass(t, (Row, Flags, Array, RestrictedDict)):
-            raise AttributeError('can\'t set attribute')
+            raise AttributeError('can\'t set collection-type attribute')
         # Leave type checking to data type classes, then assign the new value
         object.__setattr__(self, name, t(value))
 
     def __setitem__(self, key, value):
         if isinstance(key, int):
-            key = self.__class__.attributes[key]
+            i = 0
+            for attr in self.__class__.structure:
+                if i == key:
+                    key = attr
+                i += 1
         self.__setattr__(key, value)
 
     def __str__(self):
         return str([str(self.__dict__[a]) for a in self.__class__.structure])
-
-    def fromstring(self, line):
-        """Load data from text. Text must be in unicode format."""
-        cells = line.split(u'\t')
-        j = 0
-        temp_data = []
-        for attr in self.__class__.structure:
-            st = self.__class__.structure[attr]
-            if issubclass(st.type, Array):
-                l = st.type.length
-                if st.format == Formats.HEX:
-                    temp_data.append([st.type.type(c, 16) for c in cells[j:j + l]])
-                else:
-                    temp_data.append([st.type.type(c) for c in cells[j:j + l]])
-            elif issubclass(st.type, RestrictedDict):
-                l = len(st.type.keys)
-                if st.format == Formats.HEX:
-                    temp_data.append([st.type.type(c, 16) for c in cells[j:j + l]])
-                else:
-                    temp_data.append([st.type.type(c) for c in cells[j:j + l]])
-            elif issubclass(st.type, Flags): # TODO
-                l = len(st.type.names)
-            else:
-                l = 1
-                if st.format == Formats.HEX:
-                    temp_data.append(st.type(cells[j], 16))
-                else:
-                    temp_data.append(st.type(cells[j]))
-            j += l
-        self.__init__(temp_data)
 
     def flatten(self):
         """Flatten the row."""
@@ -491,6 +495,21 @@ class Row(object):
                 temp_data.append(self.__dict__[attr])
         return temp_data
 
+    def shrink(self, row):
+        """Shrink the input into structure.
+
+        `row`: An iterable object (like list, tuple) which store data
+        """
+        j = 0
+        for attr in self.__class__.structure:
+            t = self.__class__.structure[attr].type
+            l = t.true_length()
+            if issubclass(t, (Row, Array, RestrictedDict, Flags)):
+                self.__dict__[attr] = t(row[j:j + l])
+            else:
+                self.__dict__[attr] = t(row[j])
+            j += l
+
     def tojsonobject(self):
         """Output JSON object."""
         jsonobj = OrderedDict()
@@ -499,7 +518,7 @@ class Row(object):
         return jsonobj
 
     def tostring(self):
-        """Output string."""
+        """Output tab-delimited string."""
         output = []
         for attr in self.__class__.structure:
             format = self.__class__.structure[attr].format
@@ -510,16 +529,37 @@ class Row(object):
         return u'\t'.join(output)
 
     @classmethod
-    def true_size(cls):
-        """"""
-        st = cls.structure
-        return sum([st[attr].type.size for attr in st])
+    def flatten_structure(cls, recursive=False):
+        """Get the list of types used in the row."""
+        fst = []
+        for attr in cls.structure:
+            st = cls.structure[attr] # A structure object
+            if issubclass(st.type, (Array, RestrictedDict, Flags)):
+                new_st = Structure(st.type.type, st.format)
+                fst.extend([new_st] * st.type.true_length())
+            elif issubclass(st.type, Row) and recursive:
+                fst.extend(st.type.flatten_structure())
+            else:
+                fst.append(st)
+        return fst
 
     @classmethod
     def true_fstring(cls):
-        """"""
+        """Get the format string of the row."""
         st = cls.structure
         return '<' + ''.join([st[attr].type.fstring for attr in st])
+
+    @classmethod
+    def true_length(cls):
+        """Get the true length of the row."""
+        return sum([cls.structure[attr].type.true_length()
+                    for attr in cls.structure])
+
+    @classmethod
+    def true_size(cls):
+        """Get the size of the row."""
+        st = cls.structure
+        return sum([st[attr].type.size for attr in st])
 
 
 class Formats(object):
@@ -533,7 +573,7 @@ class Structure(object):
     def __init__(self, type, format):
         if type not in (U8, S8, U16, S16, U32, S32, Label) and \
             not issubclass(type, (Flags, Row, Array, RestrictedDict)):
-            raise ValueError('invalid input format')
+            raise ValueError('invalid input type')
         object.__setattr__(self, 'type', type)
         object.__setattr__(self, 'format', format)
 
@@ -541,7 +581,8 @@ class Structure(object):
         raise AttributeError('can\'t set attribute')
 
     def __str__(self): # For debug
-        return str(type) + ' ' + str(format)
+        return type.__name__ + ' ' + str(format)
+
 
 class Table(list):
     """A generic data structure, contains multiple Row objects.
@@ -554,9 +595,7 @@ class Table(list):
         list.__init__(self, **kwargs)
         if len(args) > 0:
             if isinstance(args[0], unicode):
-                lines = args[0].split(u'\n')
-                for line in lines:
-                    self.append(self.__class__.type(line))
+                self.fromstring(args[0])
             else:
                 for item in args[0]:
                     self.append(self.__class__.type(item))
@@ -564,19 +603,21 @@ class Table(list):
     def __setitem__(self, index, item):
         # Set an item to a given position.
         if not isinstance(item, self.__class__.type):
-            raise TypeError(self.__class__.__name__ + ' object is required.')
+            raise TypeError(self.__class__.type.__name__ +
+                            ' object is required.')
         list.__setitem__(self, index, item)
 
     def append(self, item):
         """Add a new item to the end of the list."""
         if not isinstance(item, self.__class__.type):
-            raise TypeError(self.__class__.__name__ + ' object is required.')
+            raise TypeError(self.__class__.type.__name__ +
+                            ' object is required.')
         list.append(self, item)
 
     def extend(self, item_list):
         """Extend the list by appending all the items in the given list."""
         if not isinstance(item_list, self.__class__):
-            raise TypeError('Table object is required')
+            raise TypeError(self.__class__.__name__ + ' object is required')
         list.extend(self, item_list)
 
     def insert(self, index, item):
@@ -587,10 +628,25 @@ class Table(list):
         """Flatten the table."""
         return [r.flatten() for r in self]
 
+    def fromstring(self, text):
+        """Construct a table from tab-delimited text."""
+        rows = text.split(u'\n')
+        st = self.__class__.type.flatten_structure(recursive=True)
+        for row in rows:
+            cells = row.split(u'\t')
+            if len(cells) != len(st):
+                continue
+            for j in xrange(len(cells)):
+                if st[j].format == Formats.HEX:
+                    cells[j] = st[j].type(cells[j], 16)
+                else:
+                    cells[j] = st[j].type(cells[j])
+            self.append(self.__class__.type(cells))
+
     def tojsonobject(self):
         """Output JSON object."""
         return [r.tojsonobject() for r in self]
 
     def tostring(self):
-        """Output string."""
+        """Output tab-delimited string."""
         return u'\n'.join([r.tostring() for r in self])

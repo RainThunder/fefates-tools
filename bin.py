@@ -81,9 +81,6 @@ class BinFile(object):
         return 0x20 + len(self._data) + len(self._p1_list) * 4 + \
             len(self._p2_list) * 8 + len(self._labels)
 
-    def __repr__(self):
-        return self.raw_data
-
     @property
     def raw_data(self):
         """Return raw data, without the header."""
@@ -143,7 +140,7 @@ class BinFile(object):
         Parameters:
         ``encoding``: Encode the output using specified code page.
         """
-        label_dict = dict()
+        label_dict = {0: u'NULL'}
         data_length = len(self._data)
         for pointer1 in self._p1_list:
             ptr = unpack('<I', self._data[pointer1:pointer1 + 0x4])[0]
@@ -244,7 +241,7 @@ class BinFile(object):
     ##########################################################################
     # Table methods
     ##########################################################################
-    def extract(self, rowclass, offset, size=None, fstring=None, lbdict=None):
+    def extract(self, rowclass, offset):
         """Extract a row based on structure.
 
         `rowclass`: A subclass of basetypes.Row, represent data structure.
@@ -257,53 +254,24 @@ class BinFile(object):
             raise TypeError('expected Row class')
 
         # Calculate size and format strings
-        if size == None:
-            size = rowclass.true_size()
-        if fstring == None:
-            fstring = rowclass.true_fstring()
+        size = rowclass.true_size()
+        fstring = rowclass.true_fstring()
 
         # Unpack
-        cells = list(unpack(fstring, self._data[offset:offset + size]))
+        cells = unpack(fstring, self._data[offset:offset + size])
 
         # Process
-        i = 0
         temp_data = []
-        structure = rowclass.structure
-        for attr in structure:
-            t = structure[attr].type
-            if issubclass(t, basetypes.Row):
-                temp_data.append(self.extract(t, cells[i]))
-                i += 1
-
-            elif issubclass(t, basetypes.Array):
-                if t.type == basetypes.Label:
-                    for j in xrange(i, i + t.length):
-                        if lbdict is None:
-                            cells[j] = self.get_label(cells[j])
-                        else:
-                            cells[j] = lbdict[cells[j]]
-                temp_data.append(cells[i:i + t.length])
-                i += t.length
-
-            elif issubclass(t, basetypes.RestrictedDict):
-                if t.type == basetypes.Label:
-                    for j in xrange(i, i + len(t.keys)):
-                        if lbdict is None:
-                            cells[j] = self.get_label(cells[j])
-                        else:
-                            cells[j] = lbdict[cells[j]]
-                temp_data.append(cells[i:i + len(t.keys)])
-                i += len(t.keys)
-
-            elif t == basetypes.Label:
-                temp_data.append(self.get_label(cells[i]))
-                i += 1
-
+        st = rowclass.flatten_structure(recursive=False)
+        for j in xrange(len(st)):
+            if issubclass(st[j].type, basetypes.Row):
+                temp_data.append(self.extract(st[j].type, cells[j]))
+            elif st[j].type == basetypes.Label:
+                temp_data.append(self.get_label(cells[j]))
             else:
-                temp_data.append(cells[i])
-                i += 1
+                temp_data.append(cells[j])
 
-        return rowclass(temp_data)
+        return temp_data
 
     def extractmultiple(self, tableclass, offset, count):
         """Extract multiple rows.
@@ -313,16 +281,25 @@ class BinFile(object):
         `count`: Number of rows
         """
         if not issubclass(tableclass, basetypes.Table):
-            raise TypeError('expected Table class')
+            raise TypeError('expected Table class or its child')
         table = tableclass()
         rowclass = tableclass.type
-        structure = rowclass.structure
         size = rowclass.true_size()
         fstring = rowclass.true_fstring()
-        label_dict = self.get_labels()
+        st = rowclass.flatten_structure(recursive=False) # List of structure
+        label_dict = self.get_labels(encoding='unicode')
         for i in xrange(count):
-            table.append(self.extract(rowclass, offset, size, fstring,
-                                      label_dict))
+            # Same as the extract method
+            cells = unpack(fstring, self._data[offset:offset + size])
+            temp_data = []
+            for j in xrange(len(st)):
+                if issubclass(st[j].type, basetypes.Row):
+                    temp_data.extend(self.extract(st[j].type, cells[j]))
+                elif st[j].type == basetypes.Label:
+                    temp_data.append(label_dict[cells[j]])
+                else:
+                    temp_data.append(cells[j])
+            table.append(rowclass(temp_data))
             offset += size
         return table
 

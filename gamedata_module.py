@@ -146,13 +146,16 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     group = parser.add_mutually_exclusive_group()
-    group.add_argument('--item', action='append', nargs=2, help='add an item')
-    group.add_argument('--character', action='append', nargs=2, help='add ' +
-                        'a character without support')
+    group.add_argument('--item', action='append', nargs=2, help='add an item',
+                       metavar=('id', 'name'))
+    group.add_argument('--character', action='append', nargs=3,
+                       help='add a character with id, name and sp number of ' +
+                       'support characters. Attack / defense stance table ' +
+                       'will be added', metavar=('id', 'name', 'sp'))
     group.add_argument('--chapter', action='append', nargs=2, help='add a ' +
-                        'chapter')
+                        'chapter', metavar=('id', 'name'))
     group.add_argument('--class', action='append', dest='class_args',
-                        nargs=2, help='add a class')
+                        nargs=2, help='add a class', metavar=('id', 'name'))
     args = parser.parse_args()
 
     arg_list = None
@@ -187,7 +190,13 @@ if __name__ == '__main__':
 
     # Add new data to GameData.bin
     game_data = gamedata.load_file('GameData.bin')
-    game_data.append(data_type, ids, names)
+    if args.character is None:
+        game_data.append(data_type, ids, names)
+    else:
+        supports = []
+        for data in arg_list:
+            supports.append(int(data[2]))
+        game_data.append_character(ids, names, supports)
     game_data.format()
     with open('GameData.bin', 'wb') as file:
         file.write(game_data.tobin())
