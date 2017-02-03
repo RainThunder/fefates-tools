@@ -10,7 +10,7 @@ Because Nightmare only allows editing fixed-size data, you can't add any new stu
 
 # Requirements
 * A way to decrypt the game and extract the game's files. Currently, any 3DS with CFW or homebrew access is able to do this. For instructions, see below.
-* Nightmare: [here](http://serenesforest.net/forums/index.php?showtopic=26737) or [here](http://www.romhacking.net/utilities/610/). Nightmare 2 is recommended.
+* Nightmare: [thane98's Nightmare for Fire Emblem Fates](https://gbatemp.net/threads/release-fire-emblem-fates-hacking-tools.457799/), [Nightmare 1](http://serenesforest.net/forums/index.php?showtopic=26737) or [Nightmare 2](http://www.romhacking.net/utilities/610/).
 * [FEAT](https://github.com/SciresM/FEAT/releases), for decompressing .lz files.
 * [BatchLZ77](http://filetrip.net/nds-downloads/utilities/download-batchlz77-1-3-f11736.html) / [DSDecmp4](http://www.romhacking.net/utilities/789/) / [lzx](http://www.romhacking.net/utilities/826/) to recompress the edited file. I'm not sure if those tools work on other operating systems than Windows. lzx is open-source and written in C, so you might be able to compile it for other OSes.
 * If you want to run .py script, you need [Python](https://www.python.org/download). Both Python 2 and Python 3 are supported.
@@ -62,7 +62,7 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
   * Just drag and drop .lz file into FEAT window.
 * How to use the modules and tools:
   * For Nightmare modules, you need to open certain .bin file with its respective module file (.nmm). Please read **README.md** in each module's folder for more details.
-  * For tool usage, see [https://github.com/RainThunder/fefates-tools#using-the-tools](Using the tools)
+  * For tool usage, see [*Using the tools*](https://github.com/RainThunder/fefates-tools#using-the-tools)
 * After editing, drag and drop your modified file(s) to **trim.py**, then run **BatchLZ77** / **DSDecmp4** / **lzx** to recompress your edited file(s).
   * **DSDecmp4**: Type `DSDecmp4 -c lz11 file.bin` in the command line (file.bin is the name of the file that need to be compressed)
   * **lzx**: Type `lzx -evb file.bin` in the command line.
@@ -90,16 +90,18 @@ https://github.com/RainThunder/fefates-tools/archive/master.zip
 	* Type `python arc.py file.arc` to extract a file named "file.arc".
 	* Type `python arc.py folder` to pack a folder named "folder" to an .arc file with the same name.
 * **gamedata_module.py**:
-  * Usage: `python gamedata_module.py [--option id name | --character id name sp] ...`
+  * Usage: `python gamedata_module.py [--option id name | --character id name sp] ... [--support [i]]`
   * Arguments:
 	* `option`: "chapter", "character", "class", "item" are available options.
 	* `id`: ID of the new data. Must be an integer.
 	* `name`: Name of the new data, which is used for label.
-	* `support`: (`--character` only) Number of support character. For simplicity, support ID for the new character will be the same as that character's `id`.
+	* `sp`: (`--character` only) Number of support character. For simplicity, support ID for the new character will be the same as that character's `id`.
+	* `--support`, `i`: Generate support module for character at index `i`. If `--support` is used with `--character`, this tool will generate support module for the new characters (`i` will be ignored).
   * Note: New character will have his / her own attack and defense stance table by default.
   * Example:
     * `python gamedata_module.py --item 405 ABC --item 406 DEF`: Add two items, which takes 405 and 406 as IDs and IID_ABC and IID_DEF as labels, respectively.
-	* `python gamedata_module.py --character 400 ABC 47`: Add a new character who has support with 47 other characters.
+	* `python gamedata_module.py --character 400 ABC 47 --support`: Add a new character who has support with 47 other characters, and generate a support module for that character.
+	* `python gamedata_module.py --support 4`: Generate a support module for a character at index 4 in GameData.bin (in the original file, that character is Felicia).
 * **trim.py**: Drag and drop the padded files to this script, or if you prefer the command line: `python trim.py files [files ...]`.
 * **castle_join.py**: Drag and drop castle_join.bin / castle_join.txt to this script.
   * Legacy tool (Python 2 only) can be found [here](https://gist.github.com/RainThunder/e547462df8bfdcc3cc5af0786a74f6ee).
